@@ -2011,61 +2011,61 @@ var nav4 = 'Contact';
             },
             o = (n(367), n(14)),
             component = Object(o.a)(r, (function () {
-               var t = this,
-                  e = t._self._c;
-               return e("nav", {
-                  staticClass: "h-nav",
-                  class: {
-                     "-hover-nav": t.hover,
-                     "-active-nav": t.subIsActive("/services") || t.subIsActive("/#") || t.subIsActive("/about") || t.subIsActive("/contact")
-                  },
-                  on: {
-                     mouseleave: function (e) {
-                        t.hover = !1
-                     }
-                  }
-               }, [e("nuxt-link", {
-                staticClass: "-normilize",
-                attrs: {
-                   to: "/about"
-                },
-                nativeOn: {
-                   mouseover: function (e) {
-                      t.hover = !0
+                var t = this,
+                   e = t._self._c;
+                return e("nav", {
+                   staticClass: "h-nav",
+                   class: {
+                      "-hover-nav": t.hover,
+                      "-active-nav": t.subIsActive("/services") || t.subIsActive("/#") || t.subIsActive("/about") || t.subIsActive("/contact")
+                   },
+                   on: {
+                      mouseleave: function (e) {
+                         t.hover = !1
+                      }
                    }
-                }
-             }, [t._v(window.nav3)]), t._v(" "), e("nuxt-link", {
-                  staticClass: "-normilize",
-                  attrs: {
-                     to: "/#"
-                  },
-                  nativeOn: {
-                     mouseover: function (e) {
-                        t.hover = !0
-                     }
-                  }
-               }, [t._v(window.nav2)]), t._v(" "), e("nuxt-link", {
-                staticClass: "-normilize",
-                attrs: {
-                   to: "/services"
-                },
-                nativeOn: {
-                   mouseover: function (e) {
-                      t.hover = !0
+                }, [e("nuxt-link", {
+                 staticClass: "-normilize",
+                 attrs: {
+                    to: "/about"
+                 },
+                 nativeOn: {
+                    mouseover: function (e) {
+                       t.hover = !0
+                    }
+                 }
+              }, [t._v(window.nav3)]), t._v(" "), e("nuxt-link", {
+                   staticClass: "-normilize",
+                   attrs: {
+                      to: "/#"
+                   },
+                   nativeOn: {
+                      mouseover: function (e) {
+                         t.hover = !0
+                      }
                    }
-                }
-             }, [t._v(window.nav1)]), t._v(" "), e("nuxt-link", {
-                  staticClass: "-normilize",
-                  attrs: {
-                     to: "/contact"
-                  },
-                  nativeOn: {
-                     mouseover: function (e) {
-                        t.hover = !0
-                     }
-                  }
-               }, [t._v(window.nav4)])], 1)
-            }), [], !1, null, "83087134", null);
+                }, [t._v(window.nav2)]), t._v(" "), e("nuxt-link", {
+                 staticClass: "-normilize",
+                 attrs: {
+                    to: "/services"
+                 },
+                 nativeOn: {
+                    mouseover: function (e) {
+                       t.hover = !0
+                    }
+                 }
+              }, [t._v(window.nav1)]), t._v(" "), e("nuxt-link", {
+                   staticClass: "-normilize",
+                   attrs: {
+                      to: "/contact"
+                   },
+                   nativeOn: {
+                      mouseover: function (e) {
+                         t.hover = !0
+                      }
+                   }
+                }, [t._v(window.nav4)])], 1)
+             }), [], !1, null, "83087134", null);
          e.default = component.exports
       },
       408: function (t, e, n) {
@@ -2197,7 +2197,19 @@ var nav4 = 'Contact';
                      src: n(371),
                      alt: ""
                   }
-               })]), o._v(" "), c("span", [o._v("Home")])])], 1), o._v(" "), c("div", {
+               })]), o._v(" "), c("span", [o._v("Home")])])], 1), o._v(" "), c("nav", {
+                  staticClass: "m-menu_nav"
+               }, [c("div", [c("nuxt-link", {
+                  staticClass: "-h2 -m-h4 -normilize",
+                  attrs: {
+                     to: "/about"
+                  },
+                  nativeOn: {
+                     click: function (t) {
+                        return o.$emit("close")
+                     }
+                  }
+               }, [c("span", [o._v(window.nav3)])])], 1), o._v(" "), c("div", {
                   staticClass: "-include"
                }, [c("nuxt-link", {
                   staticClass: "-h2 -m-h4 -normilize",
@@ -2212,18 +2224,6 @@ var nav4 = 'Contact';
                }, [c("span", [o._v(window.nav2)]), c("span", {
                   staticClass: "-h5 -m-h6"
                }, [o._v(o._s(null === (t = o.data) || void 0 === t ? void 0 : t.works_count))])])], 1), o._v(" "), c("div", [c("nuxt-link", {
-                  staticClass: "-h2 -m-h4 -normilize",
-                  attrs: {
-                     to: "/about"
-                  },
-                  nativeOn: {
-                     click: function (t) {
-                        return o.$emit("close")
-                     }
-                  }
-               }, [c("span", [o._v(window.nav3)])])], 1), o._v(" "), c("nav", {
-                  staticClass: "m-menu_nav"
-               }, [c("div", [c("nuxt-link", {
                   staticClass: "-h2 -m-h4 -normilize",
                   attrs: {
                      to: "/services"
