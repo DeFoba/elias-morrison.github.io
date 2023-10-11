@@ -1208,7 +1208,7 @@
                           "description": window.dna_block_text,
                           "link_button": {
                             "title": window.dna_3,
-                            "url": "/work",
+                            "url": "/#",
                             "target": ""
                           }
                         }
@@ -1246,8 +1246,8 @@
 
           e.default = component.exports;
 
-          console.log(component)
-          console.log(c(669).default)
+         //  console.log(component)
+         //  console.log(c(669).default)
 
           installComponents(component, {
              WelcomeSection: c(669).default,
