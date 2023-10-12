@@ -296,14 +296,14 @@
                 }, [h("nuxt-link", {
                    staticClass: "-h4 -normilize",
                    attrs: {
-                      to: "/services"
+                      to: "/about"
                    },
                    nativeOn: {
                       mouseover: function (t) {
                          I.hover = !0
                       }
                    }
-                }, [I._v("Services")]), I._v(" "), h("nuxt-link", {
+                }, [I._v(window.js_text_prevent_override_about)]), I._v(" "), h("nuxt-link", {
                    staticClass: "-h4 -normilize",
                    attrs: {
                       to: "/#"
@@ -313,17 +313,17 @@
                          I.hover = !0
                       }
                    }
-                }, [I._v("Work")]), I._v(" "), h("nuxt-link", {
+                }, [I._v(window.js_text_prevent_override_work)]), I._v(" "), h("nuxt-link", {
                    staticClass: "-h4 -normilize",
                    attrs: {
-                      to: "/about"
+                      to: "/services"
                    },
                    nativeOn: {
                       mouseover: function (t) {
                          I.hover = !0
                       }
                    }
-                }, [I._v("About")]), I._v(" "), h("nuxt-link", {
+                }, [I._v(window.js_text_prevent_override_services)]), I._v(" "), h("nuxt-link", {
                    staticClass: "-h4 -normilize",
                    attrs: {
                       to: "/contact"
@@ -333,7 +333,7 @@
                          I.hover = !0
                       }
                    }
-                }, [I._v("Contact")])], 1)]), I._v(" "), h("div", {
+                }, [I._v(window.js_text_prevent_override_contact)])], 1)]), I._v(" "), h("div", {
                    staticClass: "f-soc -w"
                 }, [h("SoMeList", {
                    attrs: {
@@ -571,11 +571,11 @@
                    }
                 })]), t._v(" "), e("div", {
                    staticClass: "name -l -m-m"
-                }, [e("div", [e("span", [t._v("Creativity")]), t._v(" "), e("span", [t._v("Creativity")]), t._v(" "), e("span", [t._v("Creativity")]), t._v(" "), e("span", [t._v("Creativity")])])]), t._v(" "), e("div", {
+                }, [e("div", [e("span", [t._v(window.creativity_text_1)]), t._v(" "), e("span", [t._v(window.creativity_text_2)]), t._v(" "), e("span", [t._v(window.creativity_text_3)]), t._v(" "), e("span", [t._v(window.creativity_text_4)])])]), t._v(" "), e("div", {
                    staticClass: "name -r -m-m"
-                }, [e("div", [e("span", [t._v("Marketing")]), t._v(" "), e("span", [t._v("Marketing")]), t._v(" "), e("span", [t._v("Marketing")]), t._v(" "), e("span", [t._v("Marketing")])])]), t._v(" "), e("span", {
+                }, [e("div", [e("span", [t._v(window.market_text_1)]), t._v(" "), e("span", [t._v(window.market_text_2)]), t._v(" "), e("span", [t._v(window.market_text_3)]), t._v(" "), e("span", [t._v(window.market_text_4)])])]), t._v(" "), e("span", {
                    staticClass: "the-os"
-                }, [t._v("The WORLD")])])
+                }, [t._v(window.title_on_center)])])
              }], !1, null, "6367bc93", null);
           e.default = component.exports
        },
@@ -638,18 +638,18 @@
                    }
                 }, [z("div", {
                    staticClass: "c-services_title-row -h4"
-                }, [x._v(x._s(null === (t = x.data) || void 0 === t || null === (e = t.first_service) || void 0 === e || null === (r = e.title) || void 0 === r ? void 0 : r.first_line))]), x._v(" "), z("div", {
+                }, [x._v(x._s(null === (t = x.data) || void 0 === t || null === (e = t.first_service) || void 0 === e || null === (r = e.title) || void 0 === r ? void 0 : window.block_1_title_1))]), x._v(" "), z("div", { // <-----
                    staticClass: "c-services_title-row -h4 -indent"
                 }, [z("span", {
                    staticClass: "-i"
-                }, [x._v(x._s(null === (c = x.data) || void 0 === c || null === (n = c.first_service) || void 0 === n || null === (d = n.title) || void 0 === d ? void 0 : d.second_line))])])]), x._v(" "), z("div", {
+                }, [x._v(x._s(null === (c = x.data) || void 0 === c || null === (n = c.first_service) || void 0 === n || null === (d = n.title) || void 0 === d ? void 0 : window.block_1_subtitle_1))])])]), x._v(" "), z("div", { // <-----
                    staticClass: "c-services_description -a-to-top",
                    attrs: {
                       "data-scroll": ""
                    }
                 }, [z("span", {
                    staticClass: "rhombus"
-                }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (l = x.data) || void 0 === l || null === (v = l.first_service) || void 0 === v ? void 0 : v.description))])])])]), x._v(" "), z("div", {
+                }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (l = x.data) || void 0 === l || null === (v = l.first_service) || void 0 === v ? void 0 : window.block_1_description_1))])])])]), x._v(" "), z("div", { // <-----
                    staticClass: "c-services_block"
                 }, [z("div", {
                    staticClass: "c-services_title -a-to-top",
@@ -658,18 +658,18 @@
                    }
                 }, [z("div", {
                    staticClass: "c-services_title-row -h4"
-                }, [x._v(x._s(null === (f = x.data) || void 0 === f || null === (m = f.second_service) || void 0 === m || null === (I = m.title) || void 0 === I ? void 0 : I.first_line))]), x._v(" "), z("div", {
+                }, [x._v(x._s(null === (f = x.data) || void 0 === f || null === (m = f.second_service) || void 0 === m || null === (I = m.title) || void 0 === I ? void 0 : window.block_2_title_1))]), x._v(" "), z("div", {
                    staticClass: "c-services_title-row -h4 -indent"
                 }, [z("span", {
                    staticClass: "-i"
-                }, [x._v(x._s(null === (h = x.data) || void 0 === h || null === (_ = h.second_service) || void 0 === _ || null === (w = _.title) || void 0 === w ? void 0 : w.second_line))])])]), x._v(" "), z("div", {
+                }, [x._v(x._s(null === (h = x.data) || void 0 === h || null === (_ = h.second_service) || void 0 === _ || null === (w = _.title) || void 0 === w ? void 0 : window.block_2_subtitle_1))])])]), x._v(" "), z("div", {
                    staticClass: "c-services_description -a-to-top",
                    attrs: {
                       "data-scroll": ""
                    }
                 }, [z("span", {
                    staticClass: "rhombus"
-                }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (y = x.data) || void 0 === y || null === (M = y.second_service) || void 0 === M ? void 0 : M.description))])])])])]), z("div", {
+                }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (y = x.data) || void 0 === y || null === (M = y.second_service) || void 0 === M ? void 0 : window.block_2_description_1))])])])])]), z("div", {
                   staticClass: "c-services_container -w"
                }, [z("div", {
                   staticClass: "c-services_block"
@@ -680,18 +680,18 @@
                   }
                }, [z("div", {
                   staticClass: "c-services_title-row -h4"
-               }, [x._v(x._s(null === (t = x.data) || void 0 === t || null === (e = t.first_service) || void 0 === e || null === (r = e.title) || void 0 === r ? void 0 : r.first_line))]), x._v(" "), z("div", {
+               }, [x._v(x._s(null === (t = x.data) || void 0 === t || null === (e = t.first_service) || void 0 === e || null === (r = e.title) || void 0 === r ? void 0 : window.block_1_title_2))]), x._v(" "), z("div", {
                   staticClass: "c-services_title-row -h4 -indent"
                }, [z("span", {
                   staticClass: "-i"
-               }, [x._v(x._s(null === (c = x.data) || void 0 === c || null === (n = c.first_service) || void 0 === n || null === (d = n.title) || void 0 === d ? void 0 : d.second_line))])])]), x._v(" "), z("div", {
+               }, [x._v(x._s(null === (c = x.data) || void 0 === c || null === (n = c.first_service) || void 0 === n || null === (d = n.title) || void 0 === d ? void 0 : window.block_1_subtitle_2))])])]), x._v(" "), z("div", {
                   staticClass: "c-services_description -a-to-top",
                   attrs: {
                      "data-scroll": ""
                   }
                }, [z("span", {
                   staticClass: "rhombus"
-               }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (l = x.data) || void 0 === l || null === (v = l.first_service) || void 0 === v ? void 0 : v.description))])])])]), x._v(" "), z("div", {
+               }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (l = x.data) || void 0 === l || null === (v = l.first_service) || void 0 === v ? void 0 : window.block_1_description_2))])])])]), x._v(" "), z("div", {
                   staticClass: "c-services_block"
                }, [z("div", {
                   staticClass: "c-services_title -a-to-top",
@@ -700,18 +700,18 @@
                   }
                }, [z("div", {
                   staticClass: "c-services_title-row -h4"
-               }, [x._v(x._s(null === (f = x.data) || void 0 === f || null === (m = f.second_service) || void 0 === m || null === (I = m.title) || void 0 === I ? void 0 : I.first_line))]), x._v(" "), z("div", {
+               }, [x._v(x._s(null === (f = x.data) || void 0 === f || null === (m = f.second_service) || void 0 === m || null === (I = m.title) || void 0 === I ? void 0 : window.block_2_title_2))]), x._v(" "), z("div", {
                   staticClass: "c-services_title-row -h4 -indent"
                }, [z("span", {
                   staticClass: "-i"
-               }, [x._v(x._s(null === (h = x.data) || void 0 === h || null === (_ = h.second_service) || void 0 === _ || null === (w = _.title) || void 0 === w ? void 0 : w.second_line))])])]), x._v(" "), z("div", {
+               }, [x._v(x._s(null === (h = x.data) || void 0 === h || null === (_ = h.second_service) || void 0 === _ || null === (w = _.title) || void 0 === w ? void 0 : window.block_2_subtitle_2))])])]), x._v(" "), z("div", {
                   staticClass: "c-services_description -a-to-top",
                   attrs: {
                      "data-scroll": ""
                   }
                }, [z("span", {
                   staticClass: "rhombus"
-               }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (y = x.data) || void 0 === y || null === (M = y.second_service) || void 0 === M ? void 0 : M.description))])])])])]), z("div", {
+               }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (y = x.data) || void 0 === y || null === (M = y.second_service) || void 0 === M ? void 0 : window.block_2_description_2))])])])])]), z("div", {
                   staticClass: "c-services_container -w"
                }, [z("div", {
                   staticClass: "c-services_block"
@@ -722,18 +722,18 @@
                   }
                }, [z("div", {
                   staticClass: "c-services_title-row -h4"
-               }, [x._v(x._s(null === (t = x.data) || void 0 === t || null === (e = t.first_service) || void 0 === e || null === (r = e.title) || void 0 === r ? void 0 : r.first_line))]), x._v(" "), z("div", {
+               }, [x._v(x._s(null === (t = x.data) || void 0 === t || null === (e = t.first_service) || void 0 === e || null === (r = e.title) || void 0 === r ? void 0 : window.block_1_title_3))]), x._v(" "), z("div", {
                   staticClass: "c-services_title-row -h4 -indent"
                }, [z("span", {
                   staticClass: "-i"
-               }, [x._v(x._s(null === (c = x.data) || void 0 === c || null === (n = c.first_service) || void 0 === n || null === (d = n.title) || void 0 === d ? void 0 : d.second_line))])])]), x._v(" "), z("div", {
+               }, [x._v(x._s(null === (c = x.data) || void 0 === c || null === (n = c.first_service) || void 0 === n || null === (d = n.title) || void 0 === d ? void 0 : window.block_1_subtitle_3))])])]), x._v(" "), z("div", {
                   staticClass: "c-services_description -a-to-top",
                   attrs: {
                      "data-scroll": ""
                   }
                }, [z("span", {
                   staticClass: "rhombus"
-               }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (l = x.data) || void 0 === l || null === (v = l.first_service) || void 0 === v ? void 0 : v.description))])])])]), x._v(" "), z("div", {
+               }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (l = x.data) || void 0 === l || null === (v = l.first_service) || void 0 === v ? void 0 : window.block_1_description_3))])])])]), x._v(" "), z("div", {
                   staticClass: "c-services_block"
                }, [z("div", {
                   staticClass: "c-services_title -a-to-top",
@@ -742,18 +742,18 @@
                   }
                }, [z("div", {
                   staticClass: "c-services_title-row -h4"
-               }, [x._v(x._s(null === (f = x.data) || void 0 === f || null === (m = f.second_service) || void 0 === m || null === (I = m.title) || void 0 === I ? void 0 : I.first_line))]), x._v(" "), z("div", {
+               }, [x._v(x._s(null === (f = x.data) || void 0 === f || null === (m = f.second_service) || void 0 === m || null === (I = m.title) || void 0 === I ? void 0 : window.block_2_title_3))]), x._v(" "), z("div", {
                   staticClass: "c-services_title-row -h4 -indent"
                }, [z("span", {
                   staticClass: "-i"
-               }, [x._v(x._s(null === (h = x.data) || void 0 === h || null === (_ = h.second_service) || void 0 === _ || null === (w = _.title) || void 0 === w ? void 0 : w.second_line))])])]), x._v(" "), z("div", {
+               }, [x._v(x._s(null === (h = x.data) || void 0 === h || null === (_ = h.second_service) || void 0 === _ || null === (w = _.title) || void 0 === w ? void 0 : window.block_2_subtitle_3))])])]), x._v(" "), z("div", {
                   staticClass: "c-services_description -a-to-top",
                   attrs: {
                      "data-scroll": ""
                   }
                }, [z("span", {
                   staticClass: "rhombus"
-               }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (y = x.data) || void 0 === y || null === (M = y.second_service) || void 0 === M ? void 0 : M.description))])])])])])])
+               }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (y = x.data) || void 0 === y || null === (M = y.second_service) || void 0 === M ? void 0 : window.block_2_description_3))])])])])])])
              }), r, !1, null, "129ab5a2", null);
           e.default = component.exports
        },
@@ -873,7 +873,30 @@
                    }
                 }, [n("ServicesWelcome", {
                    attrs: {
-                      data: null === (t = c.data.value) || void 0 === t ? void 0 : t.welcome
+                      data: null === (t = c.data.value) || void 0 === t ? void 0 : {
+                        "text": [
+                          {
+                            "acf_fc_layout": "text",
+                            "text": window.information_title_1
+                          },
+                          {
+                            "acf_fc_layout": "italic_text",
+                            "italic_text": window.information_title_2
+                          },
+                          {
+                            "acf_fc_layout": "text",
+                            "text": window.information_title_3
+                          },
+                          {
+                            "acf_fc_layout": "italic_text",
+                            "italic_text": window.information_title_4
+                          },
+                          {
+                            "acf_fc_layout": "text",
+                            "text": window.information_title_5
+                          }
+                        ]
+                      }
                    }
                 })], 1), c._v(" "), n("LazyHydrate", {
                    attrs: {
