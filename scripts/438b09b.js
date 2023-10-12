@@ -669,7 +669,91 @@
                    }
                 }, [z("span", {
                    staticClass: "rhombus"
-                }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (y = x.data) || void 0 === y || null === (M = y.second_service) || void 0 === M ? void 0 : M.description))])])])])])])
+                }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (y = x.data) || void 0 === y || null === (M = y.second_service) || void 0 === M ? void 0 : M.description))])])])])]), z("div", {
+                  staticClass: "c-services_container -w"
+               }, [z("div", {
+                  staticClass: "c-services_block"
+               }, [z("div", {
+                  staticClass: "c-services_title -a-to-top",
+                  attrs: {
+                     "data-scroll": ""
+                  }
+               }, [z("div", {
+                  staticClass: "c-services_title-row -h4"
+               }, [x._v(x._s(null === (t = x.data) || void 0 === t || null === (e = t.first_service) || void 0 === e || null === (r = e.title) || void 0 === r ? void 0 : r.first_line))]), x._v(" "), z("div", {
+                  staticClass: "c-services_title-row -h4 -indent"
+               }, [z("span", {
+                  staticClass: "-i"
+               }, [x._v(x._s(null === (c = x.data) || void 0 === c || null === (n = c.first_service) || void 0 === n || null === (d = n.title) || void 0 === d ? void 0 : d.second_line))])])]), x._v(" "), z("div", {
+                  staticClass: "c-services_description -a-to-top",
+                  attrs: {
+                     "data-scroll": ""
+                  }
+               }, [z("span", {
+                  staticClass: "rhombus"
+               }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (l = x.data) || void 0 === l || null === (v = l.first_service) || void 0 === v ? void 0 : v.description))])])])]), x._v(" "), z("div", {
+                  staticClass: "c-services_block"
+               }, [z("div", {
+                  staticClass: "c-services_title -a-to-top",
+                  attrs: {
+                     "data-scroll": ""
+                  }
+               }, [z("div", {
+                  staticClass: "c-services_title-row -h4"
+               }, [x._v(x._s(null === (f = x.data) || void 0 === f || null === (m = f.second_service) || void 0 === m || null === (I = m.title) || void 0 === I ? void 0 : I.first_line))]), x._v(" "), z("div", {
+                  staticClass: "c-services_title-row -h4 -indent"
+               }, [z("span", {
+                  staticClass: "-i"
+               }, [x._v(x._s(null === (h = x.data) || void 0 === h || null === (_ = h.second_service) || void 0 === _ || null === (w = _.title) || void 0 === w ? void 0 : w.second_line))])])]), x._v(" "), z("div", {
+                  staticClass: "c-services_description -a-to-top",
+                  attrs: {
+                     "data-scroll": ""
+                  }
+               }, [z("span", {
+                  staticClass: "rhombus"
+               }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (y = x.data) || void 0 === y || null === (M = y.second_service) || void 0 === M ? void 0 : M.description))])])])])]), z("div", {
+                  staticClass: "c-services_container -w"
+               }, [z("div", {
+                  staticClass: "c-services_block"
+               }, [z("div", {
+                  staticClass: "c-services_title -a-to-top",
+                  attrs: {
+                     "data-scroll": ""
+                  }
+               }, [z("div", {
+                  staticClass: "c-services_title-row -h4"
+               }, [x._v(x._s(null === (t = x.data) || void 0 === t || null === (e = t.first_service) || void 0 === e || null === (r = e.title) || void 0 === r ? void 0 : r.first_line))]), x._v(" "), z("div", {
+                  staticClass: "c-services_title-row -h4 -indent"
+               }, [z("span", {
+                  staticClass: "-i"
+               }, [x._v(x._s(null === (c = x.data) || void 0 === c || null === (n = c.first_service) || void 0 === n || null === (d = n.title) || void 0 === d ? void 0 : d.second_line))])])]), x._v(" "), z("div", {
+                  staticClass: "c-services_description -a-to-top",
+                  attrs: {
+                     "data-scroll": ""
+                  }
+               }, [z("span", {
+                  staticClass: "rhombus"
+               }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (l = x.data) || void 0 === l || null === (v = l.first_service) || void 0 === v ? void 0 : v.description))])])])]), x._v(" "), z("div", {
+                  staticClass: "c-services_block"
+               }, [z("div", {
+                  staticClass: "c-services_title -a-to-top",
+                  attrs: {
+                     "data-scroll": ""
+                  }
+               }, [z("div", {
+                  staticClass: "c-services_title-row -h4"
+               }, [x._v(x._s(null === (f = x.data) || void 0 === f || null === (m = f.second_service) || void 0 === m || null === (I = m.title) || void 0 === I ? void 0 : I.first_line))]), x._v(" "), z("div", {
+                  staticClass: "c-services_title-row -h4 -indent"
+               }, [z("span", {
+                  staticClass: "-i"
+               }, [x._v(x._s(null === (h = x.data) || void 0 === h || null === (_ = h.second_service) || void 0 === _ || null === (w = _.title) || void 0 === w ? void 0 : w.second_line))])])]), x._v(" "), z("div", {
+                  staticClass: "c-services_description -a-to-top",
+                  attrs: {
+                     "data-scroll": ""
+                  }
+               }, [z("span", {
+                  staticClass: "rhombus"
+               }), x._v(" "), z("div", [z("p", [x._v(x._s(null === (y = x.data) || void 0 === y || null === (M = y.second_service) || void 0 === M ? void 0 : M.description))])])])])])])
              }), r, !1, null, "129ab5a2", null);
           e.default = component.exports
        },
