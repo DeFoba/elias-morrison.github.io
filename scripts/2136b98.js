@@ -291,7 +291,7 @@
                    return [w("p", {
                       key: i
                    }, [h._v(h._s(line))])]
-                }))], 2), h._v(" "), w("span", [h._v("© " + h._s(h.year))])]), h._v(" "), w("div", {
+                }))], 2), h._v(" "), w("span", [h._v("© " + h._s(window.ov_year))])]), h._v(" "), w("div", {
                    staticClass: "f-foot_mail"
                 }, [w("p", [h._v(h._s(null === (l = h.data) || void 0 === l || null === (d = l.footer) || void 0 === d ? void 0 : d.mail_text))]), h._v(" "), w("div", [w("span", [h._v(h._s(null === (f = h.data) || void 0 === f || null === (v = f.footer) || void 0 === v ? void 0 : v.mail_under_text))]), h._v(" "), h._m(1)]), h._v(" "), w("EmailButton", {
                    attrs: {
