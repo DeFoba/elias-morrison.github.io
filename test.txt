@@ -14,12 +14,12 @@
   <link rel="preload" href="../scripts/48a8168.js" as="script">
   <link rel="preload" href="../scripts/302de3f.js" as="script">
   <link rel="preload" href="../scripts/bab3f8b.js" as="script">
-  <!-- <link rel="preload" href="../scripts/a02cbc8.js" as="script"> -->
+  <link rel="preload" href="../scripts/a02cbc8.js" as="script">
   <link rel="preload" href="../scripts/c3168e8.js" as="script">
   <link rel="preload" href="../scripts/9433fa0.js" as="script">
   <link rel="preload" href="../scripts/f0d198e.js" as="script">
   <link rel="preload" href="../scripts/85f7732.js" as="script">
-  <!-- <link rel="preload" href="../scripts/2136b98.js" as="script"> -->
+  <link rel="preload" href="../scripts/2136b98.js" as="script">
   <style data-vue-ssr-id="4155e380:0 630115c8:0 bdbf6242:0 e9353860:0 06d48c6e:0 751aab8d:0 3f6d6f2c:0 e7f10800:0 6a060064:0 2f7c4744:0 0d4a27c2:0 1d07712e:0 6d4931b3:0 082aa885:0 276f418b:0 142ed704:0 0a521f4e:0 22d00305:0 051e2419:0 2efc21ea:0">
   .nuxt-progress {
   position: fixed;
@@ -213,17 +213,17 @@
               <div data-v-4a049f48="" data-scroll="" class="c-section_bg is-inview"><img data-v-4a049f48="" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9Ijc1NCIgdmlld0JveD0iMCAwIDEwNTAgNzU0IiB3aWR0aD0iMTA1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iNS40OTI5NTQlIiB4Mj0iODAuMzMzMzAyJSIgeTE9IjY2LjUzODAxOCUiIHkyPSIyOS4yMDI1ODclIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMzMGE4Y2MiLz48c3RvcCBvZmZzZXQ9Ii4zNTYyMTQ4MyIgc3RvcC1jb2xvcj0iIzE1MGY0MSIvPjxzdG9wIG9mZnNldD0iLjY1OTI4NTUyOSIgc3RvcC1jb2xvcj0iIzc2NmJkMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI4MGE3OCIvPjwvbGluZWFyR3JhZGllbnQ+PGZpbHRlciBpZD0iYiIgaGVpZ2h0PSIxNTYuMyUiIHdpZHRoPSIxMzYuMyUiIHg9Ii0xOC4yJSIgeT0iLTI4LjIlIj48ZmVHYXVzc2lhbkJsdXIgaW49IlNvdXJjZUdyYXBoaWMiIHN0ZERldmlhdGlvbj0iNTAiLz48L2ZpbHRlcj48cGF0aCBkPSJtMzY0Ljg3NDA4MSA2MDYuNzI3NjUyYy02Ni4zMDEwMzQtMTM2LjcyMTg3OC0zMTguMTk2NTY5My0xNTIuMzY3ODY3LTI0NC4xNTIzNDktMjU5LjQ4MjcxOSA3NC4wNDQyMjEtMTA3LjExNDg1MSA5OC45Njc2MDMtNzUuMTAwNzQ5IDI4Ni43Mzk4NzUtNzUuMTAwNzQ5czQ2Mi4xNzE0NDMtMjkxLjczNzUyNzggMzgwLjYyNjAxLTc1LjEwMDc1Yy04MS41NDU0MzIgMjE2LjYzNjc3OCAzNjguOTU1MDQzIDY3OS40NTY1NjYtNy41NDQ5NTkgMzE5Ljk1NjU2Ni0zNzYuNS0zNTkuNS0zNDkuMzY3NTQzIDIyNi40NDk1MjktNDE1LjY2ODU3NyA4OS43Mjc2NTJ6IiBmaWxsPSJ1cmwoI2EpIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgMTA0MC4wNDI2NTggMCkiLz48L3N2Zz4=" alt="svg+xml;base64,PHN2ZyBoZWlnaHQ9Ijc1NCIgdmlld0JveD0iMCAwIDEwNTAgNzU0IiB3aWR0aD0iMTA1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iNS40OTI5NTQlIiB4Mj0iODAuMzMzMzAyJSIgeTE9IjY2LjUzODAxOCUiIHkyPSIyOS4yMDI1ODclIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMzMGE4Y2MiLz48c3RvcCBvZmZzZXQ9Ii4zNTYyMTQ4MyIgc3RvcC1jb2xvcj0iIzE1MGY0MSIvPjxzdG9wIG9mZnNldD0iLjY1OTI4NTUyOSIgc3RvcC1jb2xvcj0iIzc2NmJkMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI4MGE3OCIvPjwvbGluZWFyR3JhZGllbnQ+PGZpbHRlciBpZD0iYiIgaGVpZ2h0PSIxNTYuMyUiIHdpZHRoPSIxMzYuMyUiIHg9Ii0xOC4yJSIgeT0iLTI4LjIlIj48ZmVHYXVzc2lhbkJsdXIgaW49IlNvdXJjZUdyYXBoaWMiIHN0ZERldmlhdGlvbj0iNTAiLz48L2ZpbHRlcj48cGF0aCBkPSJtMzY0Ljg3NDA4MSA2MDYuNzI3NjUyYy02Ni4zMDEwMzQtMTM2LjcyMTg3OC0zMTguMTk2NTY5My0xNTIuMzY3ODY3LTI0NC4xNTIzNDktMjU5LjQ4MjcxOSA3NC4wNDQyMjEtMTA3LjExNDg1MSA5OC45Njc2MDMtNzUuMTAwNzQ5IDI4Ni43Mzk4NzUtNzUuMTAwNzQ5czQ2Mi4xNzE0NDMtMjkxLjczNzUyNzggMzgwLjYyNjAxLTc1LjEwMDc1Yy04MS41NDU0MzIgMjE2LjYzNjc3OCAzNjguOTU1MDQzIDY3OS40NTY1NjYtNy41NDQ5NTkgMzE5Ljk1NjU2Ni0zNzYuNS0zNTkuNS0zNDkuMzY3NTQzIDIyNi40NDk1MjktNDE1LjY2ODU3NyA4OS43Mjc2NTJ6IiBmaWxsPSJ1cmwoI2EpIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgMTA0MC4wNDI2NTggMCkiLz48L3N2Zz4=" class="blur-move-b"> <img data-v-4a049f48="" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMzUiIHZpZXdCb3g9IjAgMCAxNDM4IDEwMzUiIHdpZHRoPSIxNDM4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI1LjQ5Mjk1NCUiIHgyPSI4MC4zMzMzMDIlIiB5MT0iNjcuNDk0NzUyJSIgeTI9IjI3Ljk5OTQ0NCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzMwYThjYyIvPjxzdG9wIG9mZnNldD0iLjM1NjIxNDgzIiBzdG9wLWNvbG9yPSIjMTUwZjQxIi8+PHN0b3Agb2Zmc2V0PSIuNjU5Mjg1NTI5IiBzdG9wLWNvbG9yPSIjNzY2YmQwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMjgwYTc4Ii8+PC9saW5lYXJHcmFkaWVudD48ZmlsdGVyIGlkPSJiIiBoZWlnaHQ9IjEzNy43JSIgd2lkdGg9IjEyNSUiIHg9Ii0xMi41JSIgeT0iLTE4LjglIj48ZmVHYXVzc2lhbkJsdXIgaW49IlNvdXJjZUdyYXBoaWMiIHN0ZERldmlhdGlvbj0iNTAiLz48L2ZpbHRlcj48cGF0aCBkPSJtNDY1LjQyMTk4MiA3NzUuNDg1MTUzYy04OS4xNDgwMTMtMTgzLjgzNTQ5Ny00MjcuODQ1Mzg3OC0yMDQuODczMDEtMzI4LjI4NTkyOS0zNDguODk5MDYgOTkuNTU5NDU5LTE0NC4wMjYwNSAxMzMuMDcxMzAzLTEwMC45ODAwNjIgMzg1LjU0ODg4NS0xMDAuOTgwMDYyIDI1Mi40Nzc1ODMgMCA2MjEuNDMzMjIyLTM5Mi4yNjg3MDI3IDUxMS43ODc2NzItMTAwLjk4MDA2Mi0xMDkuNjQ1NTQzIDI5MS4yODg2NCA2NDYuNDg1NzcgODE2LjkwMjgxMSA1Ny41ODgzMiA2NTkuNjA2OTQ0LTU4OC44OTc0NTQtMTU3LjI5NTg2Ni01MzcuNDkwOTM2IDc1LjA4NzczOC02MjYuNjM4OTQ4LTEwOC43NDc3NnoiIGZpbGw9InVybCgjYSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZmlsdGVyPSJ1cmwoI2IpIi8+PC9zdmc+" alt="svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMzUiIHZpZXdCb3g9IjAgMCAxNDM4IDEwMzUiIHdpZHRoPSIxNDM4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI1LjQ5Mjk1NCUiIHgyPSI4MC4zMzMzMDIlIiB5MT0iNjcuNDk0NzUyJSIgeTI9IjI3Ljk5OTQ0NCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzMwYThjYyIvPjxzdG9wIG9mZnNldD0iLjM1NjIxNDgzIiBzdG9wLWNvbG9yPSIjMTUwZjQxIi8+PHN0b3Agb2Zmc2V0PSIuNjU5Mjg1NTI5IiBzdG9wLWNvbG9yPSIjNzY2YmQwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMjgwYTc4Ii8+PC9saW5lYXJHcmFkaWVudD48ZmlsdGVyIGlkPSJiIiBoZWlnaHQ9IjEzNy43JSIgd2lkdGg9IjEyNSUiIHg9Ii0xMi41JSIgeT0iLTE4LjglIj48ZmVHYXVzc2lhbkJsdXIgaW49IlNvdXJjZUdyYXBoaWMiIHN0ZERldmlhdGlvbj0iNTAiLz48L2ZpbHRlcj48cGF0aCBkPSJtNDY1LjQyMTk4MiA3NzUuNDg1MTUzYy04OS4xNDgwMTMtMTgzLjgzNTQ5Ny00MjcuODQ1Mzg3OC0yMDQuODczMDEtMzI4LjI4NTkyOS0zNDguODk5MDYgOTkuNTU5NDU5LTE0NC4wMjYwNSAxMzMuMDcxMzAzLTEwMC45ODAwNjIgMzg1LjU0ODg4NS0xMDAuOTgwMDYyIDI1Mi40Nzc1ODMgMCA2MjEuNDMzMjIyLTM5Mi4yNjg3MDI3IDUxMS43ODc2NzItMTAwLjk4MDA2Mi0xMDkuNjQ1NTQzIDI5MS4yODg2NCA2NDYuNDg1NzcgODE2LjkwMjgxMSA1Ny41ODgzMiA2NTkuNjA2OTQ0LTU4OC44OTc0NTQtMTU3LjI5NTg2Ni01MzcuNDkwOTM2IDc1LjA4NzczOC02MjYuNjM4OTQ4LTEwOC43NDc3NnoiIGZpbGw9InVybCgjYSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZmlsdGVyPSJ1cmwoI2IpIi8+PC9zdmc+" class="blur-move-a"></div>
               <div data-v-4a049f48="" class="c-about-welcome_container -w">
                 <div data-v-4a049f48="" class="c-about-welcome_title-row">
-                  <h1 data-v-4a049f48="" data-scroll="" class="c-about-welcome_title is-inview"><span data-v-4a049f48="" class="-h2 -mid-h3 -m-h4" id="first_block_title_1">MERGING CREATIVITY</span></h1>
+                  <h1 data-v-4a049f48="" data-scroll="" class="c-about-welcome_title is-inview"><span data-v-4a049f48="" class="-h2 -mid-h3 -m-h4">MERGING CREATIVITY</span></h1>
                   <div data-v-4a049f48="" class="c-about-welcome_title-row">
-                    <h1 data-v-4a049f48="" data-scroll="" class="c-about-welcome_title is-inview"><span data-v-4a049f48="" class="-h2 -mid-h3 -m-h4" id="first_block_title_2">AND TECH USING SMART</span></h1>
+                    <h1 data-v-4a049f48="" data-scroll="" class="c-about-welcome_title is-inview"><span data-v-4a049f48="" class="-h2 -mid-h3 -m-h4">AND TECH USING SMART</span></h1>
                     <div data-v-4a049f48="" class="c-about-welcome_title-row">
-                      <h1 data-v-4a049f48="" data-scroll="" class="c-about-welcome_title is-inview"><span data-v-4a049f48="" class="-h2 -mid-h3 -m-h4" id="first_block_title_3">SYSTEMS</span></h1>
+                      <h1 data-v-4a049f48="" data-scroll="" class="c-about-welcome_title is-inview"><span data-v-4a049f48="" class="-h2 -mid-h3 -m-h4">SYSTEMS</span></h1>
                     </div>
                   </div>
                 </div>
                 <div data-v-4a049f48="" data-scroll="" class="c-about-welcome_subline -a-to-bottom is-inview">
-                  <p data-v-4a049f48="" id="first_block_description_1">We get it — sometimes you know what you need but you’re not sure how to get there without over indexing on resources.</p>
-                  <p data-v-4a049f48="" id="first_block_description_2">We can help with that.</p>
+                  <p data-v-4a049f48="">We get it — sometimes you know what you need but you’re not sure how to get there without over indexing on resources.</p>
+                  <p data-v-4a049f48="">We can help with that.</p>
                 </div>
                 <div data-v-4a049f48="" data-scroll="" class="scroll -m -a-to-top">
                   <span data-v-4a049f48="">Scroll</span>
@@ -241,15 +241,15 @@
               </div>
               <div data-v-39e987be="" class="c-amsterdam_container -w">
                 <div data-v-39e987be="" class="c-amsterdam_body">
-                  <p data-v-39e987be="" data-scroll="" class="-indent -h6 -a-to-top is-inview" id="amsterdam_desc_1">Founded in 2020, the WORLD is an Amsterdam-based, globally operating creative and marketing agency offering a full suite of services to help brands develop and grow. Our resources and clients are based worldwide. The fast-growing core team has 18 passionate professionals, and we work with a dedicated (and carefully selected) global community of ±40 talented professionals and experts based in the US, Argentina, the Netherlands, and all the way to the Philippines. This network spans the world and can accommodate any level of demand.</p>
-                  <p data-v-39e987be="" data-scroll="" class="-a-to-top is-inview" id="amsterdam_desc_2">Don’t let our size fool you. We’re small but mighty. Flexibility and scalability are our strengths. We follow industry trends while grounding our work in marketing and business fundamentals.</p>
+                  <p data-v-39e987be="" data-scroll="" class="-indent -h6 -a-to-top is-inview">Founded in 2020, the WORLD is an Amsterdam-based, globally operating creative and marketing agency offering a full suite of services to help brands develop and grow. Our resources and clients are based worldwide. The fast-growing core team has 18 passionate professionals, and we work with a dedicated (and carefully selected) global community of ±40 talented professionals and experts based in the US, Argentina, the Netherlands, and all the way to the Philippines. This network spans the world and can accommodate any level of demand.</p>
+                  <p data-v-39e987be="" data-scroll="" class="-a-to-top is-inview">Don’t let our size fool you. We’re small but mighty. Flexibility and scalability are our strengths. We follow industry trends while grounding our work in marketing and business fundamentals.</p>
                 </div>
                 <div data-v-39e987be="" class="c-amsterdam_footer">
                   <figure data-v-39e987be="" data-scroll="" data-scroll-speed="2" class="blur-image blur-narrow is-inview">
                     <img data-v-39e987be="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjAuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0MDAgNDAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MDAgNDAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6bm9uZTtzdHJva2U6dXJsKCNTVkdJRF8xXyk7c3Ryb2tlLXdpZHRoOjQ7fQo8L3N0eWxlPgo8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzFfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjI2OC4yMzY1IiB5MT0iLTEwNy43NjE1IiB4Mj0iMjY3LjIzODUiIHkyPSItMTA2Ljc2MzUiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoNDAwIDAgMCA0MDAgLTEwNjg5NSA0MzEwNSkiPgoJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6I0MzODBGRiIvPgoJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzY0QURGMjtzdG9wLW9wYWNpdHk6MCIvPgo8L2xpbmVhckdyYWRpZW50Pgo8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIyMDAiIGN5PSIyMDAiIHI9IjE5OCIvPgo8L3N2Zz4K" alt="svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjAuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0MDAgNDAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MDAgNDAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6bm9uZTtzdHJva2U6dXJsKCNTVkdJRF8xXyk7c3Ryb2tlLXdpZHRoOjQ7fQo8L3N0eWxlPgo8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzFfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjI2OC4yMzY1IiB5MT0iLTEwNy43NjE1IiB4Mj0iMjY3LjIzODUiIHkyPSItMTA2Ljc2MzUiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoNDAwIDAgMCA0MDAgLTEwNjg5NSA0MzEwNSkiPgoJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6I0MzODBGRiIvPgoJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzY0QURGMjtzdG9wLW9wYWNpdHk6MCIvPgo8L2xpbmVhckdyYWRpZW50Pgo8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIyMDAiIGN5PSIyMDAiIHI9IjE5OCIvPgo8L3N2Zz4K" class="-blur-1">
                   </figure>
-                  <p data-v-39e987be="" data-scroll="" class="-a-to-top is-inview" id="amsterdam_desc_3">Our team is located all over the world which means we can work across time zones and we’re constantly running (like an OS).</p>
-                  <p data-v-39e987be="" data-scroll="" class="-a-to-top is-inview" id="amsterdam_desc_4">Our scalability assures our clients that we can deliver what is needed in a timely way.</p>
+                  <p data-v-39e987be="" data-scroll="" class="-a-to-top is-inview">Our team is located all over the world which means we can work across time zones and we’re constantly running (like an OS).</p>
+                  <p data-v-39e987be="" data-scroll="" class="-a-to-top is-inview">Our scalability assures our clients that we can deliver what is needed in a timely way.</p>
                 </div>
               </div>
             </section>
@@ -262,20 +262,22 @@
               </figure>
               <div data-v-5d48e891="" class="c-about_container -w">
                 <div data-v-5d48e891="" data-scroll="" class="c-about_title -a-to-top">
-                  <div class="c-about_title-row -h4" id="behind_title_1">
-                    What's behind</div>
-                  <div class="c-about_title-row -h4 -indent" id="behind_title_2">the </div>
-                  <span class="-i" id="behind_title_3">name</span>
+                  <div class="c-about_title-row -h4">
+                    What's behind
+                  </div>
+                  <div class="c-about_title-row -h4 -indent">
+                    the <span class="-i">name</span>
+                  </div>
                 </div>
                 <div data-v-5d48e891="" class="c-about_body">
                   <div data-v-5d48e891="" data-scroll="" class="c-about_quote -a-to-top">
-                    <p data-v-5d48e891="" class="-indent -h6" id="quote_text">An operating system (OS) is a program that manages a computer’s resources, especially the allocation of those resources among other programs. Unlike most programs, which complete a task and terminate, an operating system runs indefinitely and terminates only when the computer is turned off.</p><a data-v-5d48e891="" href="https://www.britannica.com/technology/operating-system" target="_blank" class="c-about_quote-owner"><span data-v-5d48e891="" id="quote_author_text">© Britannica</span>
+                    <p data-v-5d48e891="" class="-indent -h6">An operating system (OS) is a program that manages a computer’s resources, especially the allocation of those resources among other programs. Unlike most programs, which complete a task and terminate, an operating system runs indefinitely and terminates only when the computer is turned off.</p><a data-v-5d48e891="" href="https://www.britannica.com/technology/operating-system" target="_blank" class="c-about_quote-owner"><span data-v-5d48e891="">© Britannica</span>
                     <figure data-v-5d48e891="" class="icon-arrow">
                       <img data-v-5d48e891="" src="../_index_files/icon-arrow-top-right.d09f690.svg" alt="icon-arrow-top-right">
                     </figure></a>
                   </div>
                   <div data-v-5d48e891="" data-scroll="" class="c-about_description -a-to-top">
-                    <p data-v-5d48e891="" id="behind_bottom_text">Ultimately, that’s what we do for our clients. We act as an extension of the marketing team by providing the infrastructure needed (or working within existing infrastructures) for them to successfully execute their projects. By producing assets and maintaining processes, we’re able to evolve continuously with our clients.</p>
+                    <p data-v-5d48e891="">Ultimately, that’s what we do for our clients. We act as an extension of the marketing team by providing the infrastructure needed (or working within existing infrastructures) for them to successfully execute their projects. By producing assets and maintaining processes, we’re able to evolve continuously with our clients.</p>
                   </div>
                 </div>
               </div>
@@ -292,13 +294,17 @@
               <div data-v-0d02eefe="" class="c-work-with_container -w">
                 <div data-v-0d02eefe="" class="c-work-with_block">
                   <div data-v-0d02eefe="" data-scroll="" class="c-work-with_title -a-to-top">
-                    <div data-v-0d02eefe="" class="c-work-with_title-row -h4" id="working_with_title_1">Who we’re</div>
-                    <div data-v-0d02eefe="" class="c-work-with_title-row -h4 -indent" id="working_with_title_2">working with</div>
+                    <div data-v-0d02eefe="" class="c-work-with_title-row -h4">
+                      Who we’re
+                    </div>
+                    <div data-v-0d02eefe="" class="c-work-with_title-row -h4 -indent">
+                      working with
+                    </div>
                   </div>
                   <div data-v-0d02eefe="" data-scroll="" class="c-work-with_description -a-to-top">
                     <div data-v-0d02eefe="">
-                      <p data-v-0d02eefe="" id="working_with_text_1">Our clients are comprised of multi-disciplinary teams with international reach. Brands we work with are industry leaders who step outside of the box. We also like to work across industries - from consumer tech to lifestyle and fashion.</p>
-                      <p data-v-0d02eefe="" id="working_with_text_2">We can work with start-ups to established brands and everything in between. Scalability and flexibility are two components that make up our foundation.</p>
+                      <p data-v-0d02eefe="">Our clients are comprised of multi-disciplinary teams with international reach. Brands we work with are industry leaders who step outside of the box. We also like to work across industries - from consumer tech to lifestyle and fashion.</p>
+                      <p data-v-0d02eefe="">We can work with start-ups to established brands and everything in between. Scalability and flexibility are two components that make up our foundation.</p>
                     </div>
                   </div>
                 </div>
@@ -308,17 +314,13 @@
           <figure data-v-4484db9a="" data-scroll="" data-scroll-speed="-9.5" data-scroll-position="top" data-scroll-offset="0,-100%" class="h-menu-blur is-inview">
             <img data-v-4484db9a="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjAuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxNDQgMTQ0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNDQgMTQ0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6bm9uZTtzdHJva2U6dXJsKCNTVkdJRF8xXyk7c3Ryb2tlLXdpZHRoOjQ7fQo8L3N0eWxlPgo8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzFfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9Ii00NS42MDgzIiB5MT0iMTkyLjYwODMiIHgyPSItNDYuNjA4MyIgeTI9IjE5MS42MDgzIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEyMCAwIDAgLTEyMCA1NjA1IDIzMTI1KSI+Cgk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojQzM4MEZGIi8+Cgk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojNjRBREYyIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjcyIiBjeT0iNzIiIHI9IjYwIi8+Cjwvc3ZnPgo=" alt="svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjAuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxNDQgMTQ0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNDQgMTQ0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6bm9uZTtzdHJva2U6dXJsKCNTVkdJRF8xXyk7c3Ryb2tlLXdpZHRoOjQ7fQo8L3N0eWxlPgo8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzFfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9Ii00NS42MDgzIiB5MT0iMTkyLjYwODMiIHgyPSItNDYuNjA4MyIgeTI9IjE5MS42MDgzIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEyMCAwIDAgLTEyMCA1NjA1IDIzMTI1KSI+Cgk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojQzM4MEZGIi8+Cgk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojNjRBREYyIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjcyIiBjeT0iNzIiIHI9IjYwIi8+Cjwvc3ZnPgo=" class="-blur-025">
           </figure>
-          <div id="logo_text">
-            <div id="logo_first">The</div>
-            <div id="logo_second">WORLD</div>
-          </div>
           <footer data-v-6f7ae3d8="" data-v-b1b85640="" class="page-footer">
             <figure data-v-6f7ae3d8="" data-scroll="" data-scroll-speed="-2" data-scroll-position="bottom" class="blur-image blur-middle">
               <img data-v-6f7ae3d8="" src="../_index_files/blur-600x600.08a7d9f.svg" alt="blur-600x600" class="-blur-1">
             </figure>
             <div data-v-6f7ae3d8="" class="f-head -w">
               <div data-v-6f7ae3d8="" class="f-head_logo">
-                <span data-v-6f7ae3d8="" data-scroll="" class="-a-to-top" id="">WORLD.</span>
+                <span data-v-6f7ae3d8="" data-scroll="" class="-a-to-top">WORLD.</span>
               </div>
               <nav data-v-6f7ae3d8="" class="f-head_nav -active-nav">
                 <a data-v-6f7ae3d8="" href="https://ellaria.world/services" aria-current="page" class="-h4 -normilize nuxt-link-exact-active nuxt-link-active">Services</a> <a data-v-6f7ae3d8="" href="https://ellaria.world/work" class="-h4 -normilize">Work</a> <a data-v-6f7ae3d8="" href="https://ellaria.world/about" class="-h4 -normilize">About</a> <a data-v-6f7ae3d8="" href="https://ellaria.world/contact" class="-h4 -normilize">Contact</a>
@@ -350,11 +352,11 @@
                 </p>
                </div>
                <span data-v-6f7ae3d8="" id="js_text_prevent_override_year">
-                2023
+                © 2023
                </span>
               </div>
               <div class="f-foot_mail" data-v-6f7ae3d8="" id="js_text_prevent_override_mail_text">
-               <p data-v-6f7ae3d8="" id="interested_text">
+               <p data-v-6f7ae3d8="">
                 Interested in activating The WORLD? Or want to join our international pool of subject matter experts?
                </p>
                <div data-v-6f7ae3d8="">
@@ -401,6 +403,9 @@
              </a>
             </nav>
           </div><span data-v-6e642a60="" class="h-logo_dot">.</span></a>
+        <nav data-v-83087134="" class="h-nav -active-nav">
+          <a data-v-83087134="" href="https://ellaria.world/services" aria-current="page" class="-normilize nuxt-link-exact-active nuxt-link-active">Services</a> <a data-v-83087134="" href="https://ellaria.world/work" class="-normilize">Work</a> <a data-v-83087134="" href="https://ellaria.world/about" class="-normilize">About</a> <a data-v-83087134="" href="https://ellaria.world/contact" class="-normilize">Contact</a>
+        </nav>
         <div data-v-6ad647ea="" class="h-menu -animate-menu">
           <div class="h-menu_icon" data-v-6ad647ea="">
             <div data-v-6ad647ea="">
@@ -420,26 +425,11 @@
     </div>
   </div>
   <script>
-    // Logo
-    var logo_first = document.getElementById("logo_first").textContent;
-    var logo_second = document.getElementById("logo_second").textContent;
-
-    // Buttons
-    var btn_services = document.getElementById("js_text_prevent_override_services").textContent; // Services
-    var btn_work = document.getElementById("js_text_prevent_override_work").textContent; // Work
-    var btn_about = document.getElementById("js_text_prevent_override_about").textContent; // About
-    var btn_contact = document.getElementById("js_text_prevent_override_contact").textContent; // Contact
-
     // Navigation
     var js_text_prevent_override_about = document.getElementById('js_text_prevent_override_about').textContent;
     var js_text_prevent_override_work = document.getElementById('js_text_prevent_override_work').textContent;
     var js_text_prevent_override_services = document.getElementById('js_text_prevent_override_services').textContent;
     var js_text_prevent_override_contact = document.getElementById('js_text_prevent_override_contact').textContent;
-
-    var nav1 = btn_services
-    var nav2 = btn_work
-    var nav3 = btn_about
-    var nav4 = btn_contact
 
     // Footer
     var ov_mail_text = document.getElementById("js_text_prevent_override_mail_text").textContent; // TEXT
@@ -447,46 +437,13 @@
     var ov_mail_mail = document.getElementById("js_text_prevent_override_mail_mail").textContent; // TEXT
     var ov_desc = document.getElementById("js_text_prevent_override_desc").textContent; // DESC
     var ov_info = document.getElementById("js_text_prevent_override_info").textContent; // INFO
-    var ov_year = document.getElementById("js_text_prevent_override_year").textContent; // INFO
-
-    var background_name = document.getElementById("background_name").textContent; // TEXT
-
-    var first_block_title_1 = document.getElementById("first_block_title_1").textContent; // TEXT
-    var first_block_title_2 = document.getElementById("first_block_title_2").textContent; // TEXT
-    var first_block_title_3 = document.getElementById("first_block_title_3").textContent; // TEXT
-
-    var first_block_description_1 = document.getElementById("first_block_description_1").textContent; // TEXT
-    var first_block_description_2 = document.getElementById("first_block_description_2").textContent; // TEXT
-
-    var amsterdam_desc_1 = document.getElementById("amsterdam_desc_1").textContent; // TEXT
-    var amsterdam_desc_2 = document.getElementById("amsterdam_desc_2").textContent; // TEXT
-    var amsterdam_desc_3 = document.getElementById("amsterdam_desc_3").textContent; // TEXT
-    var amsterdam_desc_4 = document.getElementById("amsterdam_desc_4").textContent; // TEXT
-
-    var behind_title_1 = document.getElementById("behind_title_1").textContent; // TEXT
-    var behind_title_2 = document.getElementById("behind_title_2").textContent; // TEXT
-    var behind_title_3 = document.getElementById("behind_title_3").textContent; // TEXT
-
-    var quote_text = document.getElementById("quote_text").textContent; // TEXT
-    var quote_author_text = document.getElementById("quote_author_text").textContent; // TEXT
-
-    var behind_bottom_text = document.getElementById("behind_bottom_text").textContent; // TEXT
-
-    var working_with_title_1 = document.getElementById("working_with_title_1").textContent; // TEXT
-    var working_with_title_2 = document.getElementById("working_with_title_2").textContent; // TEXT
-
-    var working_with_text_1 = document.getElementById("working_with_text_1").textContent; // TEXT
-    var working_with_text_2 = document.getElementById("working_with_text_2").textContent; // TEXT
-
-    var interested_text = document.getElementById("interested_text").textContent;
-
-
+    var ov_year = document.getElementById("js_text_prevent_override_info").textContent; // INFO
   </script>
   <script>
   window.__NUXT__ = (function (a, b, c, d, e, f, g, h, i) {
     c.footer = {
-      title: window.background_name, slogan: window.ov_desc, address: window.ov_info, mail_text: window.interested_text, mail_under_text: window.ov_mail_reach,
-    }; c.mail = window.ov_mail_mail; c.seo_meta = {
+      title: 'WORLD.', slogan: 'The WORLD is a Bruring Media company', address: 'Van Linschotenstraat 30\r\n1013 PM Amsterdam\r\nThe Netherlands', mail_text: 'Interested in activating The WORLD? Or want to join our international pool of subject matter experts?', mail_under_text: 'Reach out anytime',
+    }; c.mail = 'hello@ellaria.world'; c.seo_meta = {
       title: 'The WORLD — Creative and marketing services', title_template: '%s | The WORLD', description: 'We specialize in creative and marketing operations for your business. We are an extended member of your creative, marketing and production teams. See how we can help you.', image: 'https:\u002F\u002Fellaria.world\u002Fwp-content\u002Fuploads\u002Flink-preview.jpg',
     }; c.socials = [{ svg: '\u003Csvg version="1.1" xmlns="http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg" xmlns:xlink="http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve"\u003E\r\n        \u003Cpath fill="" d="M0,0v24h24V0H0z M7,20.5H3.6V9H7V20.5z M5.2,7.5C4,7.5,3,6.5,3,5.2S4,3,5.2,3s2.2,1,2.2,2.2\r\n          S6.5,7.5,5.2,7.5z M20.5,20.7h-3.5v-5.5c0-2-0.4-3-1.6-3c-1.7,0-2.4,1.2-2.4,3v5.5H9.6V9.1h3.3v1.6C13.4,9.9,14.5,9,16.3,9\r\n          c3.5,0,4.4,1.8,4.4,5.2v6.5H20.5L20.5,20.7z"\u002F\u003E\r\n      \u003C\u002Fsvg\u003E', link: { title: a, url: 'https:\u002F\u002Fwww.linkedin.com\u002Fcompany\u002Fellaria-world\u002F', target: d } }, { svg: '\u003Csvg version="1.1" xmlns="http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg" xmlns:xlink="http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve"\u003E\r\n        \u003Cpath fill="" d="M7,0.1C8.2,0,8.9,0,12,0s3.8,0,5,0.1c1.3,0.1,2.2,0.1,3,0.5C20.7,0.9,21.5,1.4,22,2\r\n          c0.8,0.6,1,1.3,1.4,2.1c0.3,0.8,0.4,1.7,0.6,2.9c0,1.4,0,2,0,5.1s0,3.8,0,5c-0.2,1.3-0.3,2.2-0.6,3c-0.3,0.8-0.8,1.5-1.4,2.1\r\n          c-0.8,0.8-1.3,1-2.1,1.4c-0.8,0.3-1.7,0.4-2.9,0.6c-1.3,0-1.9,0-5.1,0s-3.8,0-5,0c-1.3-0.2-2.2-0.3-3-0.6C3.3,23.1,2.7,22.7,2,22\r\n          c-0.8-0.6-1.1-1.3-1.4-2.1c-0.3-0.8-0.5-1.7-0.5-2.9C0,15.8,0,15.2,0,12s0-3.8,0.1-5c0.1-1.3,0.1-2.2,0.5-3C0.9,3.3,1.4,2.7,2,2\r\n          C2.7,1.2,3.3,0.9,4,0.5C5,0.3,5.9,0.1,7,0.1z M12,5.9c-3.5,0-6.1,2.9-6.1,6.1s2.9,6.2,6.1,6.2s6.2-2.9,6.2-6.2S15.5,5.9,12,5.9z\r\n          M12,16c-2.2,0-4-1.8-4-4s1.8-4,4-4s4,1.8,4,4S14.2,16,12,16z M19.8,5.5c0-0.8-0.8-1.3-1.5-1.3S17,4.8,17,5.5s0.6,1.4,1.3,1.4\r\n            C19.2,7,19.8,6.3,19.8,5.5z"\u002F\u003E\r\n      \u003C\u002Fsvg\u003E', link: { title: a, url: 'https:\u002F\u002Fwww.instagram.com\u002Fellaria.world\u002F', target: d } }]; c.works_count = '7'; return {
       layout: 'default',
