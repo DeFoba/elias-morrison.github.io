@@ -136,7 +136,7 @@
   <link as="script" href="scripts/48a8168.js" rel="preload"/>
   <link as="script" href="scripts/302de3f.js" rel="preload"/>
   <link as="script" href="scripts/bab3f8b.js" rel="preload"/>
-  <link as="script" href="scripts/a02cbc8.js" rel="preload"/>
+  <!-- <link as="script" href="scripts/a02cbc8.js" rel="preload"/> -->
   <link as="script" href="scripts/c3168e8.js" rel="preload"/>
   <link as="script" href="scripts/9433fa0.js" rel="preload"/>
   <link as="script" href="scripts/f0d198e.js" rel="preload"/>
@@ -885,6 +885,10 @@
          </a>
         </div>
        </div>
+       <div id="logo_text">
+        <div id="logo_first">The</div>
+        <div id="logo_second">WORLD</div>
+      </div>
        <div class="f-foot -w" data-scroll="" data-scroll-repeat="" data-v-6f7ae3d8="">
         <div class="f-foot_slogan" data-v-6f7ae3d8="">
          <span data-v-6f7ae3d8="" id="js_text_prevent_override_desc">
@@ -937,12 +941,12 @@
       </footer>
      </div>
      <a aria-current="page" class="h-logo -normilize nuxt-link-exact-active nuxt-link-active" data-v-6e642a60="" href="https://ellaria.world/">
-      <span class="h-logo_the" data-v-6e642a60="" id="">
+      <span class="h-logo_the" data-v-6e642a60="" id="the_main_logo_1">
        The
       </span>
       <div class="h-logo_white-wrap" data-v-6e642a60="">
        <div class="-o-h -os" data-v-6e642a60="">
-        <span data-v-6e642a60="">
+        <span data-v-6e642a60="" id="the_main_logo_2">
          WORLD
         </span>
        </div>
@@ -953,20 +957,6 @@
        .
       </span>
      </a>
-     <nav class="h-nav" data-v-83087134="">
-      <a class="-normilize" data-v-83087134="" href="https://ellaria.world/services" id="js_text_prevent_override_nav_1">
-       Services
-      </a>
-      <a class="-normilize" data-v-83087134="" href="https://ellaria.world/work" id="js_text_prevent_override_nav_2">
-       Work
-      </a>
-      <a class="-normilize" data-v-83087134="" href="https://ellaria.world/about" id="js_text_prevent_override_nav_3">
-       About
-      </a>
-      <a class="-normilize" data-v-83087134="" href="https://ellaria.world/contact" id="js_text_prevent_override_nav_4">
-       Contact
-      </a>
-     </nav>
      <div class="h-menu -animate-menu" data-v-6ad647ea="">
       <div class="h-menu_icon" data-v-6ad647ea="">
        <div data-v-6ad647ea="">
@@ -989,6 +979,10 @@
   </div>
 
   <script>
+    // Logo
+    var logo_first = document.getElementById("logo_first").textContent;
+    var logo_second = document.getElementById("logo_second").textContent;
+
     var welcome_0 = document.getElementById("js_text_prevent_override_welcome_TmdXe").textContent; // WELCOME
 var welcome_1 = document.getElementById("js_text_prevent_override_welcome_CgPrW").textContent; // TO
 var welcome_2 = document.getElementById("js_text_prevent_override_welcome_EuHFX").textContent; // ELLARIA WORLD...…
@@ -1074,12 +1068,15 @@ var background_name = document.getElementById("background_name").textContent; //
 
 var span_one_symb_1 = document.getElementById("span_one_symb_1").textContent; // TEXT
 var span_one_symb_2 = document.getElementById("span_one_symb_2").textContent; // TEXT
+var span_one_symb_3 = document.getElementById("span_one_symb_3").textContent; // TEXT
 
-var nav1 = document.getElementById("js_text_prevent_override_nav_1").textContent; // TEXT
-var nav2 = document.getElementById("js_text_prevent_override_nav_2").textContent; // TEXT
-var nav3 = document.getElementById("js_text_prevent_override_nav_3").textContent; // TEXT
-var nav4 = document.getElementById("js_text_prevent_override_nav_4").textContent; // TEXT
+var nav1 = btn_services; // TEXT
+var nav2 = btn_work; // TEXT
+var nav3 = btn_about; // TEXT
+var nav4 = btn_contact; // TEXT
 
+var the_main_logo_1 = document.getElementById("the_main_logo_1").textContent;
+var the_main_logo_2 = document.getElementById("the_main_logo_2").textContent;
 
 
 

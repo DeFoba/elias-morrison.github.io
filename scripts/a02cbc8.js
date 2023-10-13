@@ -2,10 +2,10 @@ var span_one_symb_1 = 'The';
 var span_one_symb_2 = 'ELLARIA';
 var span_one_symb_3 = 'WORLD';
 
-var nav1 = 'FAQ';
-var nav2 = 'Roadmap';
-var nav3 = 'About';
-var nav4 = 'Contact';
+// var nav1 = 'FAQ';
+// var nav2 = 'Roadmap';
+// var nav3 = 'About';
+// var nav4 = 'Contact';
 
 (window.webpackJsonp = window.webpackJsonp || []).push([
    [6], {
@@ -1904,11 +1904,11 @@ var nav4 = 'Contact';
                   staticClass: "s-logo"
                }, [e("span", {
                   staticClass: "s-logo_the"
-               }, [t._v("The")]), t._v(" "), e("div", {
+               }, [t._v(window.logo_first)]), t._v(" "), e("div", {
                   staticClass: "s-logo_white-wrap"
                }, [e("div", {
                   staticClass: "-o-h -os"
-               }, [e("span", [t._v("WORLD")])])]), t._v(" "), e("span", {
+               }, [e("span", [t._v(window.logo_second)])])]), t._v(" "), e("span", {
                   staticClass: "s-logo_dot"
                }, [t._v(".")])])
             }], !1, null, "e0e6a4b4", null);
@@ -1960,7 +1960,7 @@ var nav4 = 'Contact';
                   }
                }, [e("span", {
                   staticClass: "h-logo_the"
-               }, [t._v("The")]), t._v(" "), e("div", {
+               }, [t._v(window.logo_first)]), t._v(" "), e("div", {
                   staticClass: "h-logo_white-wrap"
                }, [e("Transition", {
                   attrs: {
@@ -1968,7 +1968,7 @@ var nav4 = 'Contact';
                   }
                }, [t.isStudios || t.isOperator ? t._e() : e("div", {
                   staticClass: "-o-h -os"
-               }, [e("span", [t._v("WORLD")])])]), t._v(" "), e("Transition", {
+               }, [e("span", [t._v(window.logo_second)])])]), t._v(" "), e("Transition", {
                   attrs: {
                      name: "-t-logo"
                   }

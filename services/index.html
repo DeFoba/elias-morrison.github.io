@@ -2,7 +2,7 @@
 <html lang="en" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D" class="has-scroll-init hmcvcbrqt idc0_348 special m-head" style="--vh: 9.59px;" data-direction="up">
 <head>
   <meta http-equiv="content-type" content="text/html;" charset="utf-8">
-  <title>Services | The WORLD</title>
+  <title id="main_title">Services | The WORLD</title>
   <meta data-n-head="ssr" charset="utf-8">
   <meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1">
   <meta data-n-head="ssr" name="format-detection" content="telephone=no">
@@ -16,7 +16,7 @@
   <link rel="preload" href="../scripts/48a8168.js" as="script">
   <link rel="preload" href="../scripts/302de3f.js" as="script">
   <link rel="preload" href="../scripts/bab3f8b.js" as="script">
-  <link rel="preload" href="../scripts/a02cbc8.js" as="script">
+  <!-- <link rel="preload" href="../scripts/a02cbc8.js" as="script"> -->
   <link rel="preload" href="../scripts/438b09b.js" as="script">
   <link rel="preload" href="../scripts/d7205d4.js" as="script">
   <style data-vue-ssr-id="4155e380:0 630115c8:0 bdbf6242:0 e9353860:0 06d48c6e:0 461dd3c1:0 6a9c3216:0 44dc3b2e:0 aadb17a2:0 276f418b:0 142ed704:0 0a521f4e:0 22d00305:0 051e2419:0 2efc21ea:0">
@@ -384,7 +384,13 @@
               </div>
              </div>
           </footer>
-        </div><a data-v-6e642a60="" href="https://ellaria.world/" class="h-logo -normilize nuxt-link-active"><span data-v-6e642a60="" class="h-logo_the">The</span>
+          <div id="logo_text">
+            <div id="logo_first">The</div>
+            <div id="logo_second">WORLD</div>
+          </div>
+        </div><a data-v-6e642a60="" href="https://ellaria.world/" class="h-logo -normilize nuxt-link-active">
+          <span class="h-logo_the" data-v-6e642a60="" id="the_main_logo_1">
+            The</span><span data-v-6e642a60="" id="the_main_logo_2">WORLD</span>
         <div data-v-6e642a60="" class="h-logo_white-wrap">
           <div data-v-6e642a60="" class="-o-h -os">
             <span data-v-6e642a60="" id="background_name">WD.</span>
@@ -404,9 +410,6 @@
            </a>
           </nav>
         </div><span data-v-6e642a60="" class="h-logo_dot">.</span></a>
-        <nav data-v-83087134="" class="h-nav -active-nav">
-          <a data-v-83087134="" href="https://ellaria.world/services" aria-current="page" class="-normilize nuxt-link-exact-active nuxt-link-active">Services</a> <a data-v-83087134="" href="https://ellaria.world/work" class="-normilize">Work</a> <a data-v-83087134="" href="https://ellaria.world/about" class="-normilize">About</a> <a data-v-83087134="" href="https://ellaria.world/contact" class="-normilize">Contact</a>
-        </nav>
         <div data-v-6ad647ea="" class="h-menu -animate-menu">
           <div class="h-menu_icon" data-v-6ad647ea="">
             <div data-v-6ad647ea="">
@@ -426,6 +429,14 @@
     </div>
   </div>
   <script>
+
+    // Logo
+    var logo_first = document.getElementById("logo_first").textContent;
+    var logo_second = document.getElementById("logo_second").textContent;
+
+    var main_title = document.getElementById("main_title").textContent; // TEXT
+
+
     // Title on top
     var information_title_1 = document.getElementById('information_title_1').textContent;
     var information_title_2 = document.getElementById('information_title_2').textContent;
@@ -448,8 +459,11 @@
     // The WORLD
     var title_on_center = document.getElementById('title_on_center').textContent;
 
+    var the_main_logo_1 = document.getElementById("the_main_logo_1").textContent;
+    var the_main_logo_2 = document.getElementById("the_main_logo_2").textContent;
+
     // Footer
-    // var background_name = 
+    var background_name = document.getElementById("background_name").textContent;
 
 
     // Container #1
@@ -489,14 +503,29 @@
     var ov_desc = document.getElementById("js_text_prevent_override_desc").textContent; // DESC
     var ov_info = document.getElementById("js_text_prevent_override_info").textContent; // INFO
     var ov_year = document.getElementById("js_text_prevent_override_info").textContent; // INFO
+
+    var btn_services = document.getElementById("js_text_prevent_override_services").textContent; // Services
+    var btn_work = document.getElementById("js_text_prevent_override_work").textContent; // Work
+    var btn_about = document.getElementById("js_text_prevent_override_about").textContent; // About
+    var btn_contact = document.getElementById("js_text_prevent_override_contact").textContent; // Contact
+
+    var nav1 = btn_services
+    var nav2 = btn_work
+    var nav3 = btn_about
+    var nav4 = btn_contact
+
+    var span_one_symb_1 = document.getElementById("span_one_symb_1").textContent; // TEXT
+    var span_one_symb_2 = document.getElementById("span_one_symb_2").textContent; // TEXT
+    var span_one_symb_3 = document.getElementById("span_one_symb_3").textContent; // TEXT
+
   </script>
   <script>
   window.__NUXT__ = (function (a, b, c, d, e, f, g, h, i, j, k) {
     f.footer = {
-      title: window.background_name.textContent, slogan: window.ov_desc, address: window.ov_info, mail_text: window.ov_mail_text, mail_under_text: window.ov_mail_reach,
+      title: window.background_name, slogan: window.ov_desc, address: window.ov_info, mail_text: window.ov_mail_text, mail_under_text: window.ov_mail_reach,
       // title: window.background_name.textContent, slogan: 'The WORLD is a Bruring Media company', address: 'Van Linschotenstraat 30\r\n1013 PM Amsterdam\r\nThe Netherlands', mail_text: 'Interested in activating The WORLD? Or want to join our international pool of subject matter experts?', mail_under_text: 'Reach out anytime',
     }; f.mail = window.ov_mail_mail; f.seo_meta = {
-      title: 'The WORLD — Creative and marketing services', title_template: '%s | The WORLD', description: 'We specialize in creative and marketing operations for your business. We are an extended member of your creative, marketing and production teams. See how we can help you.', image: 'https:\u002F\u002Fellaria.world\u002Fwp-content\u002Fuploads\u002Flink-preview.jpg',
+      title: window.main_title, title_template: '%s | The WORLD', description: 'We specialize in creative and marketing operations for your business. We are an extended member of your creative, marketing and production teams. See how we can help you.', image: 'https:\u002F\u002Fellaria.world\u002Fwp-content\u002Fuploads\u002Flink-preview.jpg',
     }; f.socials = [{ svg: '\u003Csvg version="1.1" xmlns="http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg" xmlns:xlink="http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve"\u003E\r\n        \u003Cpath fill="" d="M0,0v24h24V0H0z M7,20.5H3.6V9H7V20.5z M5.2,7.5C4,7.5,3,6.5,3,5.2S4,3,5.2,3s2.2,1,2.2,2.2\r\n          S6.5,7.5,5.2,7.5z M20.5,20.7h-3.5v-5.5c0-2-0.4-3-1.6-3c-1.7,0-2.4,1.2-2.4,3v5.5H9.6V9.1h3.3v1.6C13.4,9.9,14.5,9,16.3,9\r\n          c3.5,0,4.4,1.8,4.4,5.2v6.5H20.5L20.5,20.7z"\u002F\u003E\r\n      \u003C\u002Fsvg\u003E', link: { title: b, url: 'https:\u002F\u002Fwww.linkedin.com\u002Fcompany\u002Fellaria-world\u002F', target: g } }, { svg: '\u003Csvg version="1.1" xmlns="http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg" xmlns:xlink="http:\u002F\u002Fwww.w3.org\u002F1999\u002Fxlink" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve"\u003E\r\n        \u003Cpath fill="" d="M7,0.1C8.2,0,8.9,0,12,0s3.8,0,5,0.1c1.3,0.1,2.2,0.1,3,0.5C20.7,0.9,21.5,1.4,22,2\r\n          c0.8,0.6,1,1.3,1.4,2.1c0.3,0.8,0.4,1.7,0.6,2.9c0,1.4,0,2,0,5.1s0,3.8,0,5c-0.2,1.3-0.3,2.2-0.6,3c-0.3,0.8-0.8,1.5-1.4,2.1\r\n          c-0.8,0.8-1.3,1-2.1,1.4c-0.8,0.3-1.7,0.4-2.9,0.6c-1.3,0-1.9,0-5.1,0s-3.8,0-5,0c-1.3-0.2-2.2-0.3-3-0.6C3.3,23.1,2.7,22.7,2,22\r\n          c-0.8-0.6-1.1-1.3-1.4-2.1c-0.3-0.8-0.5-1.7-0.5-2.9C0,15.8,0,15.2,0,12s0-3.8,0.1-5c0.1-1.3,0.1-2.2,0.5-3C0.9,3.3,1.4,2.7,2,2\r\n          C2.7,1.2,3.3,0.9,4,0.5C5,0.3,5.9,0.1,7,0.1z M12,5.9c-3.5,0-6.1,2.9-6.1,6.1s2.9,6.2,6.1,6.2s6.2-2.9,6.2-6.2S15.5,5.9,12,5.9z\r\n          M12,16c-2.2,0-4-1.8-4-4s1.8-4,4-4s4,1.8,4,4S14.2,16,12,16z M19.8,5.5c0-0.8-0.8-1.3-1.5-1.3S17,4.8,17,5.5s0.6,1.4,1.3,1.4\r\n            C19.2,7,19.8,6.3,19.8,5.5z"\u002F\u003E\r\n      \u003C\u002Fsvg\u003E', link: { title: b, url: 'https:\u002F\u002Fwww.instagram.com\u002Fellaria.world\u002F', target: g } }]; f.works_count = '7'; return {
       layout: 'default',
       data: [{
