@@ -410,7 +410,11 @@
                    attrs: {
                       "data-scroll": ""
                    }
-                }, [v._v(v._s(null === (t = v.data) || void 0 === t ? void 0 : t.title))])]), v._v(" "), _("div", {
+                }, [v._v(v._s(null === (t = v.data) || void 0 === t ? void 0 : t.title))])]),
+                
+                
+                
+                v._v(" "), _("div", {
                    staticClass: "c-whatwedo_container -w"
                 }, [_("div", {
                    staticClass: "c-whatwedo_petal -a-to-top",
@@ -421,7 +425,14 @@
                    staticClass: "petal_inner -radius-tl-br"
                 }, [_("h5", [v._v(v._s(v.data.first_direction.title))]), v._v(" "), _("span", {
                    staticClass: "-gradient"
-                }, [v._v(v._s(null === (e = v.data) || void 0 === e || null === (c = e.first_direction) || void 0 === c ? void 0 : c.subtitle))])]), v._v(" "), _("div", {
+                }, [v._v(v._s(null === (e = v.data) || void 0 === e || null === (c = e.first_direction) || void 0 === c ? void 0 : c.subtitle))])]),
+                
+                v._v(" "), _("div", {
+                  staticClass: "logo_for_petal logo_for_petal_left"
+               }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.second_direction) || void 0 === m ? void 0 : ''))]),
+                
+                
+                v._v(" "), _("div", {
                    staticClass: "petal_caption"
                 }, [v._v(v._s(null === (n = v.data) || void 0 === n || null === (o = n.first_direction) || void 0 === o ? void 0 : o.description))])]), v._v(" "), _("div", {
                    staticClass: "c-whatwedo_petal -a-to-top",
@@ -434,7 +445,60 @@
                    staticClass: "-gradient"
                 }, [v._v(v._s(null === (r = v.data) || void 0 === r || null === (d = r.second_direction) || void 0 === d ? void 0 : d.subtitle))])]), v._v(" "), _("div", {
                    staticClass: "petal_caption"
-                }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.second_direction) || void 0 === m ? void 0 : m.description))])])])])
+                }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.second_direction) || void 0 === m ? void 0 : m.description))]),
+               
+               
+                v._v(" "), _("div", {
+                  staticClass: "logo_for_petal logo_for_petal_right"
+               }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.second_direction) || void 0 === m ? void 0 : ''))])
+            
+            ])]),
+                
+
+
+            v._v(" "), _("div", {
+               staticClass: "c-whatwedo_container -w"
+            }, [_("div", {
+               staticClass: "c-whatwedo_petal -a-to-top",
+               attrs: {
+                  "data-scroll": ""
+               }
+            }, [_("div", {
+               staticClass: "petal_inner -radius-tl-br"
+            }, [_("h5", [v._v(v._s(v.data.first_direction.title))]), v._v(" "), _("span", {
+               staticClass: "-gradient"
+            }, [v._v(v._s(null === (e = v.data) || void 0 === e || null === (c = e.first_direction) || void 0 === c ? void 0 : c.subtitle))])]),
+            
+            v._v(" "), _("div", {
+              staticClass: "logo_for_petal logo_for_petal_left"
+           }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.second_direction) || void 0 === m ? void 0 : ''))]),
+            
+            
+            v._v(" "), _("div", {
+               staticClass: "petal_caption"
+            }, [v._v(v._s(null === (n = v.data) || void 0 === n || null === (o = n.first_direction) || void 0 === o ? void 0 : o.description))])]), v._v(" "), _("div", {
+               staticClass: "c-whatwedo_petal -a-to-top",
+               attrs: {
+                  "data-scroll": ""
+               }
+            }, [_("div", {
+               staticClass: "petal_inner -radius-tr-bl"
+            }, [_("h5", [v._v(v._s(v.data.second_direction.title))]), v._v(" "), _("span", {
+               staticClass: "-gradient"
+            }, [v._v(v._s(null === (r = v.data) || void 0 === r || null === (d = r.second_direction) || void 0 === d ? void 0 : d.subtitle))])]), v._v(" "), _("div", {
+               staticClass: "petal_caption"
+            }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.second_direction) || void 0 === m ? void 0 : m.description))]),
+           
+           
+            v._v(" "), _("div", {
+              staticClass: "logo_for_petal logo_for_petal_right"
+           }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.second_direction) || void 0 === m ? void 0 : ''))])
+        
+        ])])
+            
+            
+            
+            ])
              }), [], !1, null, "32ccd3de", null);
           e.default = component.exports
        },
