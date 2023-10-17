@@ -425,7 +425,24 @@
                    staticClass: "petal_inner -radius-tl-br"
                 }, [_("h5", [v._v(v._s(v.data.first_direction.title))]), v._v(" "), _("span", {
                    staticClass: "-gradient"
-                }, [v._v(v._s(null === (e = v.data) || void 0 === e || null === (c = e.first_direction) || void 0 === c ? void 0 : c.subtitle))])]),
+                }, [v._v(v._s(null === (e = v.data) || void 0 === e || null === (c = e.first_direction) || void 0 === c ? void 0 : c.subtitle))]),
+               
+               
+                v._v(" "), _("a", {
+                  staticClass: "tg_btn telegramim_button telegramim_shadow telegramim_pulse",
+                  attrs: {
+                     'title': '',
+                     'target': '_blank',
+                     'href': "https://telegram.im/@ellaria_ai_bot",
+                     'style': 'color: #ffffff; -webkit-text-fill-color: #fff;'
+                  }
+               }, [_("i", {attrs: {}}), v._v(v._s(window.btn_world_1))])
+            
+            
+            ]),
+
+                
+                
                 
                 v._v(" "), _("div", {
                   staticClass: "logo_for_petal logo_for_petal_left"
@@ -443,9 +460,26 @@
                    staticClass: "petal_inner -radius-tr-bl"
                 }, [_("h5", [v._v(v._s(v.data.second_direction.title))]), v._v(" "), _("span", {
                    staticClass: "-gradient"
-                }, [v._v(v._s(null === (r = v.data) || void 0 === r || null === (d = r.second_direction) || void 0 === d ? void 0 : d.subtitle))])]), v._v(" "), _("div", {
+                }, [v._v(v._s(null === (r = v.data) || void 0 === r || null === (d = r.second_direction) || void 0 === d ? void 0 : d.subtitle))]),
+               
+
+
+
+                v._v(" "), _("a", {
+                  staticClass: "tg_btn_gray",
+                  attrs: {
+                     'title': '',
+                     'target': '_blank',
+                     'style': 'color: #ffffff; -webkit-text-fill-color: #fff;'
+                  }
+               }, [_("i", {attrs: {}}), v._v(v._s(window.btn_world_2))])
+
+
+
+               
+               ]), v._v(" "), _("div", {
                    staticClass: "petal_caption"
-                }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.second_direction) || void 0 === m ? void 0 : m.description))]),
+                }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.second_direction) || void 0 === m ? void 0 : m.description)),]),
                
                
                 v._v(" "), _("div", {
@@ -465,34 +499,59 @@
                }
             }, [_("div", {
                staticClass: "petal_inner -radius-tl-br"
-            }, [_("h5", [v._v(v._s(v.data.first_direction.title))]), v._v(" "), _("span", {
+            }, [_("h5", [v._v(v._s(v.data.third_direction.title))]), v._v(" "), _("span", {
                staticClass: "-gradient"
-            }, [v._v(v._s(null === (e = v.data) || void 0 === e || null === (c = e.first_direction) || void 0 === c ? void 0 : c.subtitle))])]),
+            }, [v._v(v._s(null === (e = v.data) || void 0 === e || null === (c = e.third_direction) || void 0 === c ? void 0 : c.subtitle))]),
+         
+            v._v(" "), _("a", {
+               staticClass: "tg_btn_gray",
+               attrs: {
+                  'title': '',
+                  'target': '_blank',
+                  'style': 'color: #ffffff; -webkit-text-fill-color: #fff;'
+               }
+            }, [_("i", {attrs: {}}), v._v(v._s(window.btn_world_3))])
+         
+         
+         ]),
             
             v._v(" "), _("div", {
               staticClass: "logo_for_petal logo_for_petal_left"
-           }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.second_direction) || void 0 === m ? void 0 : ''))]),
+           }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.third_direction) || void 0 === m ? void 0 : ''))]),
             
             
             v._v(" "), _("div", {
                staticClass: "petal_caption"
-            }, [v._v(v._s(null === (n = v.data) || void 0 === n || null === (o = n.first_direction) || void 0 === o ? void 0 : o.description))])]), v._v(" "), _("div", {
+            }, [v._v(v._s(null === (n = v.data) || void 0 === n || null === (o = n.third_direction) || void 0 === o ? void 0 : o.description))])]), v._v(" "), _("div", {
                staticClass: "c-whatwedo_petal -a-to-top",
                attrs: {
                   "data-scroll": ""
                }
             }, [_("div", {
                staticClass: "petal_inner -radius-tr-bl"
-            }, [_("h5", [v._v(v._s(v.data.second_direction.title))]), v._v(" "), _("span", {
+            }, [_("h5", [v._v(v._s(v.data.four_direction.title))]), v._v(" "), _("span", {
                staticClass: "-gradient"
-            }, [v._v(v._s(null === (r = v.data) || void 0 === r || null === (d = r.second_direction) || void 0 === d ? void 0 : d.subtitle))])]), v._v(" "), _("div", {
+            }, [v._v(v._s(null === (r = v.data) || void 0 === r || null === (d = r.four_direction) || void 0 === d ? void 0 : d.subtitle))]),
+         
+         
+            v._v(" "), _("a", {
+               staticClass: "tg_btn_gray",
+               attrs: {
+                  'title': '',
+                  'target': '_blank',
+                  'style': 'color: #ffffff; -webkit-text-fill-color: #fff;'
+               }
+            }, [_("i", {attrs: {}}), v._v(v._s(window.btn_world_4))])
+         
+         
+         ]), v._v(" "), _("div", {
                staticClass: "petal_caption"
-            }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.second_direction) || void 0 === m ? void 0 : m.description))]),
+            }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.four_direction) || void 0 === m ? void 0 : m.description))]),
            
            
             v._v(" "), _("div", {
               staticClass: "logo_for_petal logo_for_petal_right"
-           }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.second_direction) || void 0 === m ? void 0 : ''))])
+           }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.four_direction) || void 0 === m ? void 0 : ''))])
         
         ])])
             
@@ -600,7 +659,64 @@
                       src: c(417),
                       alt: ""
                    }
-                })])]), N._v(" "), D("div", [N._v(N._s(null === (Z = N.data) || void 0 === Z || null === (k = Z.second_direction) || void 0 === k ? void 0 : k.description))])], 1)])])
+                })])]), N._v(" "), D("div", [N._v(N._s(null === (Z = N.data) || void 0 === Z || null === (k = Z.second_direction) || void 0 === k ? void 0 : k.description))])], 1)]),
+               
+               
+                D("div", {
+                  staticClass: "c-studios-operator_container -w"
+               }, [D("div", {
+                  staticClass: "c-studios-operator_petal -a-to-top",
+                  attrs: {
+                     "data-scroll": ""
+                  }
+               }, [D("nuxt-link", {
+                  staticClass: "-normilize -radius-bl-tr",
+                  attrs: {
+                     to: null === (n = N.data) || void 0 === n || null === (o = n.third_direction) || void 0 === o ? void 0 : o.link
+                  }
+               }, [D("div", {
+                  staticClass: "petal_logo"
+               }, [D("div", {
+                  staticClass: "petal_logo-black-wrap"
+               }, [D("span", [N._v(N._s(null === (r = N.data) || void 0 === r || null === (d = r.third_direction) || void 0 === d || null === (l = d.title) || void 0 === l ? void 0 : l.first_line))])]), N._v(" "), D("div", {
+                  staticClass: "petal_logo-white-wrap"
+               }, [D("span", [N._v(N._s(null === (m = N.data) || void 0 === m || null === (v = m.third_direction) || void 0 === v || null === (_ = v.title) || void 0 === _ ? void 0 : _.second_line))])]), N._v(" "), D("span", [N._v(".")])]), N._v(" "), D("figure", {
+                  staticClass: "petal_arrow"
+               }, [D("img", {
+                  staticClass: "icon-arrow-top-right",
+                  attrs: {
+                     src: c(417),
+                     alt: ""
+                  }
+               })])]), N._v(" "), D("div", [N._v(N._s(null === (f = N.data) || void 0 === f || null === (w = f.third_direction) || void 0 === w ? void 0 : w.description))])], 1), N._v(" "), D("div", {
+                  staticClass: "c-studios-operator_petal -a-to-top",
+                  attrs: {
+                     "data-scroll": ""
+                  }
+               }, [D("nuxt-link", {
+                  staticClass: "-normilize -radius-tl-br",
+                  attrs: {
+                     to: null === (h = N.data) || void 0 === h || null === (C = h.four_direction) || void 0 === C ? void 0 : C.link
+                  }
+               }, [D("div", {
+                  staticClass: "petal_logo"
+               }, [D("div", {
+                  staticClass: "petal_logo-black-wrap"
+               }, [D("span", [N._v(N._s(null === (I = N.data) || void 0 === I || null === (y = I.four_direction) || void 0 === y || null === (x = y.title) || void 0 === x ? void 0 : x.first_line))])]), N._v(" "), D("div", {
+                  staticClass: "petal_logo-white-wrap"
+               }, [D("span", [N._v(N._s(null === (j = N.data) || void 0 === j || null === (M = j.four_direction) || void 0 === M || null === (z = M.title) || void 0 === z ? void 0 : z.second_line))])]), N._v(" "), D("span", [N._v(".")])]), N._v(" "), D("figure", {
+                  staticClass: "petal_arrow"
+               }, [D("img", {
+                  staticClass: "icon-arrow-top-right",
+                  attrs: {
+                     src: c(417),
+                     alt: ""
+                  }
+               })])]), N._v(" "), D("div", [N._v(N._s(null === (Z = N.data) || void 0 === Z || null === (k = Z.four_direction) || void 0 === k ? void 0 : k.description))])], 1)])
+               
+               
+               
+               ])
              }), n, !1, null, "4d0b4ff4", null);
           e.default = component.exports
        },
@@ -1215,7 +1331,17 @@
                           "title": window.whatwedo_btn2_1,
                           "subtitle": window.whatwedo_1,
                           "description": window.whatwedo_btn2_description
-                        }
+                        },
+                        "third_direction": {
+                           "title": window.whatwedo_btn1_1_2,
+                           "subtitle": window.whatwedo_0_2,
+                           "description": window.whatwedo_btn1_description_2
+                         },
+                         "four_direction": {
+                           "title": window.whatwedo_btn2_1_2,
+                           "subtitle": window.whatwedo_1_2,
+                           "description": window.whatwedo_btn2_description_2
+                         }
                      }
                    }
                 })], 1), m._v(" "), v("LazyHydrate", {
@@ -1242,7 +1368,23 @@
                           },
                           "link": "/services#operator",
                           "description": window.operator_4_desc
-                        }
+                        },
+                        "third_direction": {
+                           "title": {
+                             "first_line": " ",
+                             "second_line": window.operator_1_2
+                           },
+                           "link": "/services#studios",
+                           "description": window.operator_1_desc_2
+                         },
+                         "four_direction": {
+                           "title": {
+                             "first_line": " ",
+                             "second_line": window.operator_4_2
+                           },
+                           "link": "/services#operator",
+                           "description": window.operator_4_desc_2
+                         }
                       }
                    }
                 })], 1), m._v(" "), v("LazyHydrate", {
