@@ -445,7 +445,7 @@
                 
                 
                 v._v(" "), _("div", {
-                  staticClass: "logo_for_petal logo_for_petal_left"
+                  staticClass: "logo_for_petal logo_for_petal_left logo_for_petal_1"
                }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.second_direction) || void 0 === m ? void 0 : ''))]),
                 
                 
@@ -483,7 +483,7 @@
                
                
                 v._v(" "), _("div", {
-                  staticClass: "logo_for_petal logo_for_petal_right"
+                  staticClass: "logo_for_petal logo_for_petal_right logo_for_petal_2"
                }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.second_direction) || void 0 === m ? void 0 : ''))])
             
             ])]),
@@ -516,7 +516,7 @@
          ]),
             
             v._v(" "), _("div", {
-              staticClass: "logo_for_petal logo_for_petal_left"
+              staticClass: "logo_for_petal logo_for_petal_left logo_for_petal_3"
            }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.third_direction) || void 0 === m ? void 0 : ''))]),
             
             
@@ -550,7 +550,7 @@
            
            
             v._v(" "), _("div", {
-              staticClass: "logo_for_petal logo_for_petal_right"
+              staticClass: "logo_for_petal logo_for_petal_right logo_for_petal_4"
            }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.four_direction) || void 0 === m ? void 0 : ''))])
         
         ])])
