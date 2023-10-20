@@ -565,7 +565,7 @@
       }, [_('iframe', {
          staticClass: 'flooz_integration',
          attrs: {
-                  width: "30%",
+                  // width: "30%",
                   height: "720",
                   frameborder: "0",
                   allow: "clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *",
