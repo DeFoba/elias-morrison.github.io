@@ -551,9 +551,37 @@
            
             v._v(" "), _("div", {
               staticClass: "logo_for_petal logo_for_petal_right logo_for_petal_4"
-           }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.four_direction) || void 0 === m ? void 0 : ''))])
+           }, [v._v(v._s(null === (l = v.data) || void 0 === l || null === (m = l.four_direction) || void 0 === m ? void 0 : ''))]),
+
+           
         
-        ])])
+        ])]),
+
+        v._v(" "), _("div", {
+         staticClass: "c-whatwedo_container -w"
+      }, [_('iframe', {
+         staticClass: 'flooz_integration',
+         attrs: {
+                  width: "400",
+                  height: "720",
+                  frameborder: "0",
+                  allow: "clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *",
+                  src: "https://flooz.xyz/embed/trade?swapDisabled=false&swapLockToToken=false&onRampDisabled=false&onRampAsDefault=false&onRampTokenAddress=eth&stakeDisabled=true&network=eth&lightMode=false&primaryColor=%233f80a7&backgroundColor=transparent&roundedCorners=10&padding=20"
+               }
+      }, [v._v('hello')])
+         
+      //    _("iframe"), {
+      //    attrs: {
+      //       width: "400",
+      //       height: "720",
+      //       frameborder: "0",
+      //       allow: "clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *",
+      //       src: "https://flooz.xyz/embed/trade?swapDisabled=false&swapLockToToken=false&onRampDisabled=false&onRampAsDefault=false&onRampTokenAddress=eth&stakeDisabled=true&network=eth&lightMode=false&primaryColor=%233f80a7&backgroundColor=transparent&roundedCorners=10&padding=20"
+      //    }
+      // }, v._v(v._s(window.btn_world_3))
+   
+   
+   ]),
             
             
             
