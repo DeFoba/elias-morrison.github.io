@@ -558,17 +558,87 @@
         ])]),
 
         v._v(" "), _("div", {
-         staticClass: "c-whatwedo_container -w"
+         staticClass: "c-whatwedo_container -w c-whatwedo_swap",
+         attrs: {
+            style: "display: flex;justify-content:center;"
+         }
       }, [_('iframe', {
          staticClass: 'flooz_integration',
          attrs: {
-                  width: "400",
+                  width: "30%",
                   height: "720",
                   frameborder: "0",
                   allow: "clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *",
-                  src: "https://flooz.xyz/embed/trade?swapDisabled=false&swapLockToToken=false&onRampDisabled=false&onRampAsDefault=false&onRampTokenAddress=eth&stakeDisabled=true&network=eth&lightMode=false&primaryColor=%233f80a7&backgroundColor=transparent&roundedCorners=10&padding=20"
+                  src: "https://flooz.xyz/embed/trade?swapDisabled=false&swapLockToToken=false&onRampDisabled=false&onRampAsDefault=false&onRampTokenAddress=eth&stakeDisabled=true&network=eth&lightMode=false&primaryColor=%23C380FF&backgroundColor=transparent&roundedCorners=10&padding=20"
                }
-      }, [v._v('hello')])
+      }, [v._v('hello')]),
+
+      
+      _('div', {
+         staticClass: 'right_side_intefration'
+      }, [v._v(' '), 
+      
+      // _('div', {
+      //    staticClass: "subtitle"
+      // }, [v._v("Trade")]), v._v(' '),
+
+      _('h2', {
+         staticClass: 'heading heading_h2'
+      }, [v._v('Swap or Buy THE WORLD tokens now with Crypto or Card')]),
+
+      _('p', {
+         staticClass: 'paragraph-large'
+      }, [v._v("For your convenience now you can swap or purchase $"), _("b", {
+         staticClass: '-gradient',
+         attrs: {
+            style: 'text-shadow: 0 0 10px #C380FF;'
+         }
+      }, [v._v('THE WORLD')]), v._v(" directly by Card with our integrated Swap!")]),
+
+      _('p', {
+         attrs: {
+            style: 'color: #727272;'
+         }
+      }, [v._v('CA:'), v._v(' '), _('b', {
+         staticClass: '-gradient',
+         attrs: {
+            style: 'text-shadow: 0 0 10px #C380FF; -webkit-text-fill-color: rgba(0, 0, 0, 0);'
+         }
+      }, [v._v(' '), v._v('0146194186491629317638')])]),
+
+      _('div', {
+         staticClass: 'w-layout-grid'
+      },
+      
+      [
+         
+         v._v(" "), _('div', {
+         staticClass: 'w-layout-grid grid-button'
+      }, [v._v(' '), _('a', {
+         staticClass: 'button w-button',
+         attrs: {
+            href: '#',
+            style: '-webkit-background-clip: border-box; background-clip: 0; -webkit-text-fill-color: #000;  font-size: 1.3em;'
+         }
+      }, [v._v('Etherscan')])]),
+
+      v._v(" "), _('div', {
+         staticClass: 'w-layout-grid grid-button'
+      }, [v._v(' '), _('a', {
+         staticClass: 'button w-button',
+         attrs: {
+            href: '#',
+            style: '-webkit-background-clip: border-box; background-clip: 0; -webkit-text-fill-color: #000;  font-size: 1.3em;'
+         }
+      }, [v._v('Liquidity Lock')])])
+
+      ])
+
+   ])
+      
+      
+      
+
          
       //    _("iframe"), {
       //    attrs: {
