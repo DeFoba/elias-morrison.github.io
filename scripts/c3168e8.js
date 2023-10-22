@@ -560,7 +560,7 @@
         v._v(" "), _("div", {
          staticClass: "c-whatwedo_container -w c-whatwedo_swap",
          attrs: {
-            style: "display: flex;justify-content:center;"
+            style: "display: flex;justify-content:center;padding:5% 0;"
          }
       }, [_('iframe', {
          staticClass: 'flooz_integration',
@@ -584,27 +584,27 @@
 
       _('h2', {
          staticClass: 'heading heading_h2'
-      }, [v._v('Swap or Buy THE WORLD tokens now with Crypto or Card')]),
+      }, [v._v(window.swap_title)]), // 'Swap or Buy THE WORLD tokens now with Crypto or Card'
 
       _('p', {
          staticClass: 'paragraph-large'
-      }, [v._v("For your convenience now you can swap or purchase $"), _("b", {
+      }, [v._v(window.swap_description_1.split('<')[0]), _("b", { // "For your convenience now you can swap or purchase $"
          staticClass: '-gradient',
          attrs: {
             style: 'text-shadow: 0 0 10px #C380FF;'
          }
-      }, [v._v('THE WORLD')]), v._v(" directly by Card with our integrated Swap!")]),
+      }, [v._v(window.swap_description_2)]), v._v(window.swap_description_1.split('>')[2])]), // 'THE WORLD' // " directly by Card with our integrated Swap!"
 
       _('p', {
          attrs: {
             style: 'color: #727272;'
          }
-      }, [v._v('CA:'), v._v(' '), _('b', {
+      }, [v._v(window.swap_code_1.split('<')[0]), v._v(' '), _('b', { // 'CA:'
          staticClass: '-gradient',
          attrs: {
             style: 'text-shadow: 0 0 10px #C380FF; -webkit-text-fill-color: rgba(0, 0, 0, 0);'
          }
-      }, [v._v(' '), v._v('0146194186491629317638')])]),
+      }, [v._v(' '), v._v(window.swap_code_2)])]), // '0146194186491629317638'
 
       _('div', {
          staticClass: 'w-layout-grid'
@@ -620,7 +620,7 @@
             href: '#',
             style: '-webkit-background-clip: border-box; background-clip: 0; -webkit-text-fill-color: #000;  font-size: 1.3em;'
          }
-      }, [v._v('Etherscan')])]),
+      }, [v._v(window.swap_btn_1)])]), // 'Etherscan'
 
       v._v(" "), _('div', {
          staticClass: 'w-layout-grid grid-button'
@@ -630,7 +630,7 @@
             href: '#',
             style: '-webkit-background-clip: border-box; background-clip: 0; -webkit-text-fill-color: #000;  font-size: 1.3em;'
          }
-      }, [v._v('Liquidity Lock')])])
+      }, [v._v(window.swap_btn_2)])]) // 'Liquidity Lock'
 
       ])
 

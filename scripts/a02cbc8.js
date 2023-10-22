@@ -936,7 +936,7 @@ var span_one_symb_3 = 'WORLD';
                               }
                               return this.error({
                                  statusCode: 404,
-                                 message: "This page could not be found"
+                                 message: "This page could not be found",
                               }), t.abrupt("return", o());
                            case 80:
                               return t.next = 82, Promise.all(y.map(function () {
@@ -2594,6 +2594,11 @@ var span_one_symb_3 = 'WORLD';
                return e("h1", {
                   staticClass: "c-error_title"
                }, [e("div", {
+                  staticClass: "ERROR_BLOCK",
+                  attrs: {
+                     style: "position: absolute;left:0;top:0;width:100vw;height:100vh;background:#000;z-index:9999;animation: hide404 10s;"
+                  }
+               }, [t._v(" ")]), e("div", {
                   staticClass: "c-error_title-row"
                }, [e("span", {
                   staticClass: "-h2 -mid-h3 -m-h4"

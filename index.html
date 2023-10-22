@@ -228,8 +228,8 @@
       } */
 
     .flooz_integration {
-      margin: 10% 10%;
-      scale: 1.5;
+      /* margin: 10% 10%; */
+      scale: 1.3;
     }
 
     .heading {
@@ -239,11 +239,11 @@
     }
 
     .heading_h2 {
-      margin-top: 10%;
+      /* margin-top: 10%; */
       margin-bottom: 30px;
       color: #fff;
-      font-size: 66px;
-      line-height: 106%;
+      font-size: 240%;
+      line-height: 150%;
       font-weight: 600;
       letter-spacing: -1px;
     }
@@ -333,18 +333,31 @@
       width: 30%;
     }
 
-    @media (max-width: 1024px) {
-      .logo_for_petal {
-        width: 15vw;
-        height: 15vw;
-      }
+    .right_side_intefration {
+      scale: 1.3;
+      margin: 0 0 0 10%;
+    }
 
-      .c-whatwedo_swap {
-        flex-direction: column;
+
+    @media (max-width: 1865px) {
+      .right_side_intefration {
+        scale: 1.1;
       }
 
       .flooz_integration {
-        margin: 25% auto;
+        scale: 1.1;
+      }
+    }
+
+    @media (max-width: 1439px) {
+      .c-whatwedo_swap {
+        flex-direction: column;
+        padding: 0;
+      }
+
+      .flooz_integration {
+        margin: 5% auto 25% auto;
+        scale: 1.3;
       }
 
       .right_side_intefration {
@@ -364,12 +377,36 @@
       }
       
       .flooz_integration {
-        width: 100%;
+        width: 50%;
+      }
+
+      .heading_h2 {
+        margin: auto;
+      }
+
+      .right_side_intefration {
+        scale: 1.3;
+        margin: 0;
+      }
+    }
+
+    @media (max-width: 1024px) {
+      .logo_for_petal {
+        width: 15vw;
+        height: 15vw;
       }
     }
 
     .embedded-trade-page {
       max-width: 90% !important;
+    }
+
+    @keyframes hide404 {
+        0% {
+            background-color: #000;
+        } 100% {
+            display: none;
+        }
     }
  
   </style>
@@ -659,6 +696,22 @@
 
 
         </div>
+
+       <section class="c-section c-studios-operator" data-v-054eb4ae="" data-v-4d0b4ff4="">
+        <div data-v-32ccd3de="" class="right_side_intefration">
+          <h2 data-v-32ccd3de="" class="heading heading_h2" id="swap_title">Swap or Buy THE WORLD tokens now with Crypto or Card</h2>
+          <p data-v-32ccd3de="" class="paragraph-large" id="swap_description_1">For your convenience now you can swap or purchase $<b data-v-32ccd3de="" style="text-shadow: 0 0 10px #C380FF;" class="-gradient" id="swap_description_2">THE WORLD</b> directly by Card with our integrated Swap!</p>
+          <p data-v-32ccd3de="" style="color: #727272;" id="swap_code_1">CA: <b data-v-32ccd3de="" style="text-shadow: 0 0 10px #C380FF; -webkit-text-fill-color: rgba(0, 0, 0, 0);" class="-gradient" id="swap_code_2"> 0146194186491629317638</b></p>
+          <div data-v-32ccd3de="" class="w-layout-grid">
+            <div data-v-32ccd3de="" class="w-layout-grid grid-button">
+              <a data-v-32ccd3de="" href="#" style="-webkit-background-clip: border-box; background-clip: 0; -webkit-text-fill-color: #000;  font-size: 1.3em;" class="button w-button" id="swap_btn_1">Etherscan</a>
+            </div>
+            <div data-v-32ccd3de="" class="w-layout-grid grid-button">
+              <a data-v-32ccd3de="" href="#" style="-webkit-background-clip: border-box; background-clip: 0; -webkit-text-fill-color: #000;  font-size: 1.3em;" class="button w-button" id="swap_btn_2">Liquidity Lock</a>
+            </div>
+          </div>
+        </div>
+        </section>
 
 
         <div class="c-studios-operator_container -w" data-v-4d0b4ff4="">
@@ -1256,6 +1309,14 @@ var nav4 = btn_contact; // TEXT
 var the_main_logo_1 = document.getElementById("the_main_logo_1").textContent;
 var the_main_logo_2 = document.getElementById("the_main_logo_2").textContent;
 
+var swap_title = document.getElementById('swap_title').innerText;
+var swap_description_1 = document.getElementById('swap_description_1').innerHTML;
+var swap_description_2 = document.getElementById('swap_description_2').innerText;
+var swap_code_1 = document.getElementById('swap_code_1').innerHTML;
+var swap_code_2 = document.getElementById('swap_code_2').innerText;
+var swap_btn_1 = document.getElementById('swap_btn_1').innerText;
+var swap_btn_2 = document.getElementById('swap_btn_2').innerText;
+
 
 
   </script>
@@ -1365,6 +1426,12 @@ f.works_count = '7'; return {
   </script>
   <script defer="defer" src="scripts/a02cbc8.js">
   </script>
+  <!-- <script>
+    var styleElem = document.createElement('style');
+    styleElem.type = 'css/text';
+    styleElem.styleSheet.cssText = '.embedded-trade-page {max-width: 90% !important;}';
+    document.getElementsByClassName('flooz_integration')[0].document.head.appendChild(styleElem);
+  </script> -->
  </body>
 
 </html>
