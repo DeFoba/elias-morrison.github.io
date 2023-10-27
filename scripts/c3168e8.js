@@ -986,14 +986,20 @@
                 return e("div", {
                    staticClass: "c-clients_row-item -logo-last"
                 }, [e("span", {
-                   staticClass: "-h2 -mid-h3 -m-h5"
+                   staticClass: "-h2 -mid-h3 -m-h5", style: 'margin: auto 0;'
                 }, [t._v(window.clients_1)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
                    staticClass: 'logo_partners',
                    attrs: {
                       src: c(559),
                       alt: ""
                    }
-                })])])
+                })]),
+               
+               e('div', {staticClass: '-gap', attrs: {style: 'border: 0 !important;'}}), e("span", {
+                  staticClass: 'description_for_logo'
+               }, [t._v("Offering a decentralized platform for $ELLA's seamless liquidity and exchange processes.")])
+               
+               ])
              }, function () {
                 var t = this,
                    e = t._self._c;
@@ -1006,20 +1012,27 @@
                       "data-scroll-speed": "-0.2"
                    }
                 }, [e("div", {
-                   staticClass: "c-clients_row-item -col-4"
+                   staticClass: "c-clients_row-item -col-4",
+                   style: 'display:none;'
                 }), t._v(" "), e("div", {
                    staticClass: "-gap"
                 }), t._v(" "), e("div", {
                    staticClass: "c-clients_row-item -logo-first"
                 }, [e("span", {
-                   staticClass: "-h2 -mid-h3 -m-h5"
+                   staticClass: "-h2 -mid-h3 -m-h5", style: 'margin: auto 0;'
                 }, [t._v(window.clients_2)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
                    staticClass: 'logo_partners',
                    attrs: {
                       src: c(560),
                       alt: ""
                    }
-                })])])])
+                })])]),
+               
+                e('div', {staticClass: '-gap', attrs: {style: 'border: 0 !important;'}}), e("span", {
+                  staticClass: 'description_for_logo',
+               }, [t._v("Providing real-time analytics and insights, vital for understanding $ELLA's crypto trajectory.")])
+               
+               ])
              }, function () {
                 var t = this,
                    e = t._self._c;
@@ -1032,20 +1045,27 @@
                       "data-scroll-speed": "-0.3"
                    }
                 }, [e("div", {
-                   staticClass: "c-clients_row-item -col-3"
+                   staticClass: "c-clients_row-item -col-3",
+                   style: 'display:none;'
                 }), t._v(" "), e("div", {
                    staticClass: "-gap"
                 }), t._v(" "), e("div", {
                    staticClass: "c-clients_row-item -logo-last"
                 }, [e("span", {
-                   staticClass: "-h2 -mid-h3 -m-h5"
+                   staticClass: "-h2 -mid-h3 -m-h5", style: 'margin: auto 0;'
                 }, [t._v(window.clients_3)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
                    staticClass: 'logo_partners',
                    attrs: {
                       src: c(561),
                       alt: ""
                    }
-                })])])])
+                })])]),
+               
+                e('div', {staticClass: '-gap', attrs: {style: 'border: 0 !important;'}}), e("span", {
+                  staticClass: 'description_for_logo',
+               }, [t._v("Ensuring our users have transparent access to $ELLA's market dynamics and trends.")])
+               
+               ])
              }, function () {
                 var t = this,
                    e = t._self._c;
@@ -1058,20 +1078,28 @@
                       "data-scroll-speed": "-0.4"
                    }
                 }, [e("div", {
-                   staticClass: "c-clients_row-item -col-4"
+                   staticClass: "c-clients_row-item -col-4",
+                   style: 'display:none;'
                 }), t._v(" "), e("div", {
                    staticClass: "-gap"
                 }), t._v(" "), e("div", {
                    staticClass: "c-clients_row-item -logo-last"
                 }, [e("span", {
-                   staticClass: "-h2 -mid-h3 -m-h5"
+                   staticClass: "-h2 -mid-h3 -m-h5",
+                   style: 'white-space: nowrap;margin: auto 0;'
                 }, [t._v(window.clients_4)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
                    staticClass: 'logo_partners',
                    attrs: {
                       src: c(562),
                       alt: ""
                    }
-                })])])])
+                })])]),
+               
+                e('div', {staticClass: '-gap', attrs: {style: 'border: 0 !important;'}}), e("span", {
+                  staticClass: 'description_for_logo',
+               }, [t._v("Empowering Ellaria's presence on Telegram, facilitating encrypted and real-time user interactions.")])
+               
+               ])
              }, function () {
                 var t = this,
                    e = t._self._c;
@@ -1084,20 +1112,27 @@
                       "data-scroll-speed": "-0.5"
                    }
                 }, [e("div", {
-                   staticClass: "c-clients_row-item -col-4"
+                   staticClass: "c-clients_row-item -col-4",
+                   style: 'display:none;'
                 }), t._v(" "), e("div", {
                    staticClass: "-gap"
                 }), t._v(" "), e("div", {
                    staticClass: "c-clients_row-item -logo-first"
                 }, [e("span", {
-                   staticClass: "-h2 -mid-h3 -m-h5"
+                   staticClass: "-h2 -mid-h3 -m-h5", style: 'margin: auto 0;'
                 }, [t._v(window.clients_5)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
                    staticClass: 'logo_partners',
                    attrs: {
                       src: c(563),
                       alt: ""
                    }
-                })])])])
+                })])]),
+               
+                e('div', {staticClass: '-gap', attrs: {style: 'border: 0 !important;'}}), e("span", {
+                  staticClass: 'description_for_logo',
+               }, [t._v("Integrating seamless wallet services for $ELLA holders, ensuring secure transactions and storage.")])
+               
+               ])
              }, function () {
                 var t = this,
                    e = t._self._c;
@@ -1115,14 +1150,21 @@
                      style: 'margin: 0 auto;'
                    }
                 }, [e("span", {
-                   staticClass: "-h2 -mid-h3 -m-h5"
+                   staticClass: "-h2 -mid-h3 -m-h5", style: 'margin: auto 0;'
                 }, [t._v(window.clients_6)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
                    staticClass: 'logo_partners',
                    attrs: {
                       src: c(564),
                       alt: ""
                    }
-                })])]), t._v(" "), e("div", {
+                })]),
+               
+                e('div', {staticClass: '-gap', attrs: {style: 'border: 0 !important;'}}), e("span", {
+                  staticClass: 'description_for_logo',
+               }, [t._v("Augmenting Ellaria's capabilities with decentralized oracle services, enhancing smart contract functionalities for $ELLA.")])
+               
+               
+               ]), t._v(" "), e("div", {
                    staticClass: "-gap"
                 }), t._v(" ")])
              }, function () {
@@ -1233,17 +1275,23 @@
                }, [e("div", {
                    staticClass: "c-clients_row-item -col-5 -logo-first",
                    attrs: {
-                     style: 'margin: 0 30%;display:flex;margin-bottom:5%;margin-top: 0.5%;'
+                     style: '/* margin: 0 30%; */ display:flex;margin-bottom:5%;margin-top: 0.5%;width:auto;'
                    }
                 }, [e("span", {
-                   staticClass: "-h2 -mid-h3 -m-h5"
+                   staticClass: "-h2 -mid-h3 -m-h5", style: 'margin: auto 0;'
                 }, [t._v(window.clients_7)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
                    staticClass: 'logo_partners',
                    attrs: {
                       src: c(571),
                       alt: ""
                    }
-                })])])])
+                })])
+               
+               ]),
+               
+               e('div', {staticClass: '-gap', attrs: {style: 'border: 0 !important;'}}), e("span", {
+                 staticClass: 'description_for_logo',
+              }, [t._v("Test text for partners OPENAI.")])])
              }],
              o = {
                 name: "Clients",
