@@ -176,43 +176,43 @@
           t.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjAuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA4NDQgODQ0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA4NDQgODQ0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6bm9uZTtzdHJva2U6dXJsKCNPLUNvcHlfMV8pO3N0cm9rZS13aWR0aDo0O30KPC9zdHlsZT4KPGxpbmVhckdyYWRpZW50IGlkPSJPLUNvcHlfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMzA1LjU5NTIiIHkxPSI1NDAuNDA0OCIgeDI9IjMwNC41OTUyIiB5Mj0iNTM5LjQwNDgiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoODQwIDAgMCAtODQwIC0yNTU4NTggNDUzOTQyKSI+Cgk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojQzM4MEZGIi8+Cgk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojNjRBREYyO3N0b3Atb3BhY2l0eTowIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxjaXJjbGUgaWQ9Ik8tQ29weSIgY2xhc3M9InN0MCIgY3g9IjQyMiIgY3k9IjQyMiIgcj0iNDIwIi8+Cjwvc3ZnPgo="
        },
        559: function (t, e, c) {
-          t.exports = c.p + "../_index_files/filestage.f067a6d.svg"
+          t.exports = c.p + "../_index_files/partners/uniswap.png"
        },
        560: function (t, e, c) {
-          t.exports = c.p + "../_index_files/nextcloud.0ae5991.svg"
+          t.exports = c.p + "../_index_files/partners/dexscreener.png"
        },
        561: function (t, e, c) {
-          t.exports = c.p + "../_index_files/octanerender.66ae72c.svg"
+          t.exports = c.p + "../_index_files/partners/dextools.png"
        },
        562: function (t, e, c) {
-          t.exports = c.p + "../_index_files/lamp.ba60366.svg"
+          t.exports = c.p + "../_index_files/partners/telegram sdk.png"
        },
        563: function (t, e, c) {
-          t.exports = c.p + "../_index_files/linksys.65c4606.svg"
+          t.exports = c.p + "../_index_files/partners/metamask.png"
        },
        564: function (t, e, c) {
-          t.exports = c.p + "../_index_files/azure.00f5bee.svg"
+          t.exports = c.p + "../_index_files/partners/chainlink.png"
        },
        565: function (t, e, c) {
-          t.exports = c.p + "../_index_files/belkin.cc5f39f.svg"
+          t.exports = c.p + ""
        },
        566: function (t, e, c) {
-          t.exports = c.p + "../_index_files/amazon.29e8104.svg"
+          t.exports = c.p + ""
        },
        567: function (t, e, c) {
-          t.exports = c.p + "../_index_files/stackline.e571b0e.svg"
+          t.exports = c.p + ""
        },
        568: function (t, e, c) {
-          t.exports = c.p + "../_index_files/aws.a3cc3de.svg"
+          t.exports = c.p + ""
        },
        569: function (t, e, c) {
-          t.exports = c.p + "../_index_files/monday.908afd0.svg"
+          t.exports = c.p + ""
        },
        570: function (t, e, c) {
-          t.exports = c.p + "../_index_files/justrite.751a94e.svg"
+          t.exports = c.p + ""
        },
        571: function (t, e, c) {
-          t.exports = c.p + "../_index_files/make.929411c.svg"
+          t.exports = c.p + "../_index_files/partners/OPENAI.png"
        },
        572: function (t, e, c) {
           "use strict";
@@ -987,7 +987,8 @@
                    staticClass: "c-clients_row-item -logo-last"
                 }, [e("span", {
                    staticClass: "-h2 -mid-h3 -m-h5"
-                }, [t._v(window.clients_1)]), t._v(" "), e("div", [e("img", {
+                }, [t._v(window.clients_1)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
+                   staticClass: 'logo_partners',
                    attrs: {
                       src: c(559),
                       alt: ""
@@ -1012,7 +1013,8 @@
                    staticClass: "c-clients_row-item -logo-first"
                 }, [e("span", {
                    staticClass: "-h2 -mid-h3 -m-h5"
-                }, [t._v(window.clients_2)]), t._v(" "), e("div", [e("img", {
+                }, [t._v(window.clients_2)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
+                   staticClass: 'logo_partners',
                    attrs: {
                       src: c(560),
                       alt: ""
@@ -1037,7 +1039,8 @@
                    staticClass: "c-clients_row-item -logo-last"
                 }, [e("span", {
                    staticClass: "-h2 -mid-h3 -m-h5"
-                }, [t._v(window.clients_3)]), t._v(" "), e("div", [e("img", {
+                }, [t._v(window.clients_3)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
+                   staticClass: 'logo_partners',
                    attrs: {
                       src: c(561),
                       alt: ""
@@ -1062,7 +1065,8 @@
                    staticClass: "c-clients_row-item -logo-last"
                 }, [e("span", {
                    staticClass: "-h2 -mid-h3 -m-h5"
-                }, [t._v(window.clients_4)]), t._v(" "), e("div", [e("img", {
+                }, [t._v(window.clients_4)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
+                   staticClass: 'logo_partners',
                    attrs: {
                       src: c(562),
                       alt: ""
@@ -1087,7 +1091,8 @@
                    staticClass: "c-clients_row-item -logo-first"
                 }, [e("span", {
                    staticClass: "-h2 -mid-h3 -m-h5"
-                }, [t._v(window.clients_5)]), t._v(" "), e("div", [e("img", {
+                }, [t._v(window.clients_5)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
+                   staticClass: 'logo_partners',
                    attrs: {
                       src: c(563),
                       alt: ""
@@ -1105,26 +1110,21 @@
                       "data-scroll-speed": "-0.6"
                    }
                 }, [e("div", {
-                   staticClass: "c-clients_row-item -col-5 -logo-last"
+                   staticClass: "c-clients_row-item -logo-last",
+                   attrs: {
+                     style: 'margin: 0 auto;'
+                   }
                 }, [e("span", {
                    staticClass: "-h2 -mid-h3 -m-h5"
-                }, [t._v(window.clients_6)]), t._v(" "), e("div", [e("img", {
+                }, [t._v(window.clients_6)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
+                   staticClass: 'logo_partners',
                    attrs: {
                       src: c(564),
                       alt: ""
                    }
                 })])]), t._v(" "), e("div", {
                    staticClass: "-gap"
-                }), t._v(" "), e("div", {
-                   staticClass: "c-clients_row-item -logo-last"
-                }, [e("span", {
-                   staticClass: "-h2 -mid-h3 -m-h5"
-                }, [t._v(window.clients_7)]), t._v(" "), e("div", [e("img", {
-                   attrs: {
-                      src: c(565),
-                      alt: ""
-                   }
-                })])])])
+                }), t._v(" ")])
              }, function () {
                 var t = this,
                    e = t._self._c;
@@ -1140,7 +1140,8 @@
                    staticClass: "c-clients_row-item -col-5 -logo-last"
                 }, [e("span", {
                    staticClass: "-h2 -mid-h3 -m-h5"
-                }, [t._v(window.clients_8)]), t._v(" "), e("div", [e("img", {
+                }, [t._v(window.clients_8)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
+                   staticClass: 'logo_partners',
                    attrs: {
                       src: c(566),
                       alt: ""
@@ -1151,7 +1152,8 @@
                    staticClass: "c-clients_row-item -logo-last"
                 }, [e("span", {
                    staticClass: "-h2 -mid-h3 -m-h5"
-                }, [t._v(window.clients_9)]), t._v(" "), e("div", [e("img", {
+                }, [t._v(window.clients_9)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
+                   staticClass: 'logo_partners',
                    attrs: {
                       src: c(567),
                       alt: ""
@@ -1172,7 +1174,8 @@
                    staticClass: "c-clients_row-item -col-4 -logo-first"
                 }, [e("span", {
                    staticClass: "-h2 -mid-h3 -m-h5"
-                }, [t._v(window.clients_10)]), t._v(" "), e("div", [e("img", {
+                }, [t._v(window.clients_10)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
+                   staticClass: 'logo_partners',
                    attrs: {
                       src: c(568),
                       alt: ""
@@ -1183,7 +1186,8 @@
                    staticClass: "c-clients_row-item -logo-first"
                 }, [e("span", {
                    staticClass: "-h2 -mid-h3 -m-h5"
-                }, [t._v(window.clients_11)]), t._v(" "), e("div", [e("img", {
+                }, [t._v(window.clients_11)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
+                   staticClass: 'logo_partners',
                    attrs: {
                       src: c(569),
                       alt: ""
@@ -1208,7 +1212,8 @@
                    staticClass: "c-clients_row-item -logo-last"
                 }, [e("span", {
                    staticClass: "-h2 -mid-h3 -m-h5"
-                }, [t._v(window.clients_12)]), t._v(" "), e("div", [e("img", {
+                }, [t._v(window.clients_12)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
+                   staticClass: 'logo_partners',
                    attrs: {
                       src: c(570),
                       alt: ""
@@ -1218,15 +1223,27 @@
                 var t = this,
                    e = t._self._c;
                 return e("div", {
-                   staticClass: "c-clients_row-item -col-5 -logo-first"
+                  staticClass: "c-clients_row",
+                  attrs: {
+                     "data-scroll": "",
+                     "data-scroll-repeat": "",
+                     "data-scroll-offset": "5%, -20%",
+                     "data-scroll-speed": "-0.9"
+                  }
+               }, [e("div", {
+                   staticClass: "c-clients_row-item -col-5 -logo-first",
+                   attrs: {
+                     style: 'margin: 0 30%;display:flex;margin-bottom:5%;margin-top: 0.5%;'
+                   }
                 }, [e("span", {
                    staticClass: "-h2 -mid-h3 -m-h5"
-                }, [t._v(window.clients_13)]), t._v(" "), e("div", [e("img", {
+                }, [t._v(window.clients_7)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
+                   staticClass: 'logo_partners',
                    attrs: {
                       src: c(571),
                       alt: ""
                    }
-                })])])
+                })])])])
              }],
              o = {
                 name: "Clients",
@@ -1260,7 +1277,7 @@
                    staticClass: "-m"
                 }, [c._v(c._s(null === (t = c.data) || void 0 === t ? void 0 : t.title))])]), c._v(" "), n("div", {
                    staticClass: "-gap"
-                }), c._v(" "), c._m(1)]), c._v(" "), c._m(2), c._v(" "), c._m(3), c._v(" "), c._m(4), c._v(" "), c._m(5), c._v(" "), c._m(6), c._v(" "), c._m(7), c._v(" "), c._m(8), c._v(" "), c._m(9), c._v(" "), n("div", {
+                }), c._v(" "), c._m(1)]), c._v(" "), c._m(2), c._v(" "), c._m(3), c._v(" "), c._m(4), c._v(" "), c._m(5), c._v(" "), c._m(6), c._v(" "), c._m(10), c._v(" "), n("div", {
                    staticClass: "c-clients_row",
                    attrs: {
                       "data-scroll": "",
@@ -1272,7 +1289,7 @@
                    staticClass: "c-clients_row-item -col-2"
                 }), c._v(" "), n("div", {
                    staticClass: "-gap"
-                }), c._v(" "), c._m(10), c._v(" "), n("div", {
+                }), c._v(" "), n("div", {
                    staticClass: "-gap"
                 }), c._v(" "), n("div", {
                    staticClass: "c-clients_row-item c-clients_description"
