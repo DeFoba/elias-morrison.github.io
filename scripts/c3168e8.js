@@ -194,7 +194,7 @@
           t.exports = c.p + "../_index_files/partners/chainlink.png"
        },
        565: function (t, e, c) {
-          t.exports = c.p + ""
+          t.exports = c.p + "../_index_files/partners/OPENAI.png"
        },
        566: function (t, e, c) {
           t.exports = c.p + ""
@@ -1013,7 +1013,7 @@
                    }
                 }, [e("div", {
                    staticClass: "c-clients_row-item -col-4",
-                   style: 'display:none;'
+                  //  style: 'display:none;'
                 }), t._v(" "), e("div", {
                    staticClass: "-gap"
                 }), t._v(" "), e("div", {
@@ -1045,8 +1045,8 @@
                       "data-scroll-speed": "-0.3"
                    }
                 }, [e("div", {
-                   staticClass: "c-clients_row-item -col-3",
-                   style: 'display:none;'
+                   staticClass: "c-clients_row-item -col-5",
+                  //  style: 'display:none;'
                 }), t._v(" "), e("div", {
                    staticClass: "-gap"
                 }), t._v(" "), e("div", {
@@ -1079,7 +1079,7 @@
                    }
                 }, [e("div", {
                    staticClass: "c-clients_row-item -col-4",
-                   style: 'display:none;'
+                  //  style: 'display:none;'
                 }), t._v(" "), e("div", {
                    staticClass: "-gap"
                 }), t._v(" "), e("div", {
@@ -1105,6 +1105,7 @@
                    e = t._self._c;
                 return e("div", {
                    staticClass: "c-clients_row",
+                   style: 'margin-bottom: 2%;',
                    attrs: {
                       "data-scroll": "",
                       "data-scroll-repeat": "",
@@ -1112,8 +1113,7 @@
                       "data-scroll-speed": "-0.5"
                    }
                 }, [e("div", {
-                   staticClass: "c-clients_row-item -col-4",
-                   style: 'display:none;'
+                   staticClass: "c-clients_row-item -col-3",
                 }), t._v(" "), e("div", {
                    staticClass: "-gap"
                 }), t._v(" "), e("div", {
@@ -1144,10 +1144,18 @@
                       "data-scroll-offset": "5%, -20%",
                       "data-scroll-speed": "-0.6"
                    }
-                }, [e("div", {
+                }, [
+                  
+                  e("div", {
+                  staticClass: "c-clients_row-item -col-1",
+                  style: 'margin-left: 5%;'
+                 //  style: 'display:none;'
+               }), t._v(" "), 
+               
+               e("div", {
                    staticClass: "c-clients_row-item -logo-first",
                    attrs: {
-                     style: 'margin: 0 auto;'
+                     // style: 'margin: 0 auto;'
                    }
                 }, [e("span", {
                    staticClass: "-h2 -mid-h3 -m-h5 partners_text", style: 'margin: auto 0;'
@@ -1165,8 +1173,18 @@
                
                
                ]), t._v(" "), e("div", {
-                   staticClass: "-gap"
-                }), t._v(" ")])
+                   staticClass: "-gap", style: 'margin-left:7%;'
+                  }), t._v(" "), e("div", {
+                     staticClass: "c-clients_row-item -logo-first"
+                  }, [e("span", {
+                     staticClass: "-h2 -mid-h3 -m-h5"
+                  }, [t._v(window.clients_7)]), t._v(" "), e("div", {staticClass: 'border_logo_parents'}, [e("img", {
+                     staticClass: 'logo_partners',
+                     attrs: {
+                        src: c(565),
+                        alt: ""
+                     }
+                  })])])])
              }, function () {
                 var t = this,
                    e = t._self._c;
@@ -1273,6 +1291,9 @@
                      "data-scroll-speed": "-0.6"
                   }
                }, [e("div", {
+                  staticClass: "c-clients_row-item -col-3",
+                 //  style: 'display:none;'
+               }), t._v(" "), e("div", {
                    staticClass: "c-clients_row-item -col-5 -logo-last",
                    attrs: {
                      style: '/* margin: 0 30%; */ display:flex;margin-bottom:5%;margin-top: 0.5%;width:auto;'
@@ -1323,9 +1344,12 @@
                       "data-scroll-offset": "5%, -20%",
                       "data-scroll-speed": "-0.1"
                    }
-                }, [ n("div", {
+                }, [n("div", {
+                  staticClass: "c-clients_row-item -col-4",
+                 //  style: 'display:none;'
+               }), c._v(" "),  n("div", {
                    staticClass: "-gap"
-                }), c._v(" "), c._m(1)]), c._v(" "), c._m(2), c._v(" "), c._m(3), c._v(" "), c._m(4), c._v(" "), c._m(5), c._v(" "), c._m(6), c._v(" "), c._m(10), c._v(" "), n("div", {
+                }), c._v(" "), c._m(1)]), c._v(" "), c._m(2), c._v(" "), c._m(3), c._v(" "), c._m(4), c._v(" "), c._m(6), c._v(" "), c._m(5), c._v(" "), n("div", {
                    staticClass: "c-clients_row",
                    attrs: {
                       "data-scroll": "",
