@@ -684,7 +684,7 @@
                      'title': '',
                      'target': '_blank',
                      'href': window.under_welcome_btn.getAttribute("href"),
-                     'style': 'color: #ffffff; -webkit-text-fill-color: #fff; text-align: center; min-width: 300px; padding: 2vh; font-weight: bold; margin: 10vh auto 14vw auto;'
+                     'style': 'color: #ffffff; -webkit-text-fill-color: #fff; text-align: center; min-width: 300px; padding: 2vh; font-weight: bold; margin: 10vh auto 0 14vw;'
                   }
                }, [d._v(window.under_welcome_btn.textContent)]), 
                 
