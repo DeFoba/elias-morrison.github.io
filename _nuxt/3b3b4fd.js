@@ -155,7 +155,7 @@
             }));
             r(33), r(46), r(16), r(47);
             var meta = {
-                  title: "The WORLD — Creative and marketing services",
+                  title: "ELLARIA AI — Creative and marketing services",
                   description: "We specialize in creative operations. We act as an extended member of your creative, marketing and production teams. This allows you to scale, expand, improve and enhance your content.",
                   url: e.env.API_URL || "https://ellaria.world",
                   image: "/link-preview.jpg"

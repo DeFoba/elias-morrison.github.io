@@ -20,7 +20,7 @@
              }));
              c(33), c(46), c(16), c(47);
              var meta = {
-                   title: "The WORLD — Creative and marketing services",
+                   title: "ELLARIA AI — Creative and marketing services",
                    description: "We specialize in creative operations. We act as an extended member of your creative, marketing and production teams. This allows you to scale, expand, improve and enhance your content.",
                    url: t.env.API_URL || "https://ellaria.world",
                    image: "/link-preview.jpg"
@@ -433,7 +433,7 @@
                   attrs: {
                      'title': '',
                      'target': '_blank',
-                     'href': "https://telegram.im/@ellaria_ai_bot",
+                     'href': "https://telegram.me/ellaria_bot",
                      'style': 'color: #ffffff; -webkit-text-fill-color: #fff;'
                   }
                }, [_("i", {attrs: {}}), v._v(v._s(window.btn_world_1))])
@@ -584,7 +584,7 @@
 
       _('h2', {
          staticClass: 'heading heading_h2'
-      }, [v._v(window.swap_title)]), // 'Swap or Buy THE WORLD tokens now with Crypto or Card'
+      }, [v._v(window.swap_title)]), // 'Swap or Buy ELLARIA AI tokens now with Crypto or Card'
 
       _('p', {
          staticClass: 'paragraph-large'
@@ -593,7 +593,7 @@
          attrs: {
             style: 'text-shadow: 0 0 10px #C380FF;'
          }
-      }, [v._v(window.swap_description_2)]), v._v(window.swap_description_1.split('>')[2])]), // 'THE WORLD' // " directly by Card with our integrated Swap!"
+      }, [v._v(window.swap_description_2)]), v._v(window.swap_description_1.split('>')[2])]), // 'ELLARIA AI' // " directly by Card with our integrated Swap!"
 
       _('p', {
          attrs: {
@@ -617,7 +617,7 @@
       }, [v._v(' '), _('a', {
          staticClass: 'button w-button',
          attrs: {
-            href: '#',
+            href: ob_swap_btn_1,
             style: '-webkit-background-clip: border-box; background-clip: 0; -webkit-text-fill-color: #000;  font-size: 1.3em;'
          }
       }, [v._v(window.swap_btn_1)])]), // 'Etherscan'
@@ -627,7 +627,7 @@
       }, [v._v(' '), _('a', {
          staticClass: 'button w-button',
          attrs: {
-            href: '#',
+            href: ob_swap_btn_2,
             style: '-webkit-background-clip: border-box; background-clip: 0; -webkit-text-fill-color: #000;  font-size: 1.3em;'
          }
       }, [v._v(window.swap_btn_2)])]) // 'Liquidity Lock'
@@ -896,7 +896,7 @@
                    staticClass: "circle -last"
                 }), z._v(" "), Z("div", {
                    staticClass: "-m"
-                }, [z._v("01")]), z._v(" "), Z("span", [z._v(z._s(null === (t = z.data) || void 0 === t || null === (e = t.list) || void 0 === e || null === (c = e[0]) || void 0 === c ? void 0 : c.text))])])]), z._v(" "), Z("div", {
+                }, [z._v("2023 Q4: Ellaria's Inaugural Voyage")]), z._v(" "), Z("span", [z._v(z._s(null === (t = z.data) || void 0 === t || null === (e = t.list) || void 0 === e || null === (c = e[0]) || void 0 === c ? void 0 : c.text))])])]), z._v(" "), Z("div", {
                    staticClass: "c-dna_item -radius-bl-tr",
                    attrs: {
                       "data-scroll": ""
@@ -909,7 +909,7 @@
                    staticClass: "circle -last"
                 }), z._v(" "), Z("div", {
                    staticClass: "-m"
-                }, [z._v("02")]), z._v(" "), Z("span", [z._v(z._s(null === (n = z.data) || void 0 === n || null === (o = n.list) || void 0 === o || null === (r = o[1]) || void 0 === r ? void 0 : r.text))])])]), z._v(" "), Z("div", {
+                }, [z._v("2024 Q1: Expanding Ellaria's Family")]), z._v(" "), Z("span", [z._v(z._s(null === (n = z.data) || void 0 === n || null === (o = n.list) || void 0 === o || null === (r = o[1]) || void 0 === r ? void 0 : r.text))])])]), z._v(" "), Z("div", {
                    staticClass: "c-dna_item -radius-bl-tr",
                    attrs: {
                       "data-scroll": ""
@@ -922,7 +922,7 @@
                    staticClass: "circle -last"
                 }), z._v(" "), Z("div", {
                    staticClass: "-m"
-                }, [z._v("03")]), z._v(" "), Z("span", [z._v(z._s(null === (d = z.data) || void 0 === d || null === (l = d.list) || void 0 === l || null === (m = l[2]) || void 0 === m ? void 0 : m.text))])]), z._v(" "), Z("div", {
+                }, [z._v("2024 Q2: Global Expansion & Customization")]), z._v(" "), Z("span", [z._v(z._s(null === (d = z.data) || void 0 === d || null === (l = d.list) || void 0 === l || null === (m = l[2]) || void 0 === m ? void 0 : m.text))])]), z._v(" "), Z("div", {
                    staticClass: "-a-to-top",
                    attrs: {
                       "data-scroll": ""
@@ -1468,10 +1468,15 @@
                    }
                 }, [v("WelcomeSection", {
                    attrs: {
-                      data: null === (t = m.data.value) || void 0 === t ? void 0 : {title: window.welcome_0 + '\n' + window.welcome_1 + '\n' + window.welcome_2,
-                    theses: window.welcome_3 }// t.welcome_section
+                      data: null === (t = m.data.value) || void 0 === t ? void 0 : {title: window.welcome_0 + '\n' + window.welcome_1 + '\n' + window.welcome_2, 
+                    theses: window.welcome_3}// t.welcome_section
                    }
-                })], 1), m._v(" "), v("LazyHydrate", {
+                })], 1),
+                
+               //  v("span", {staticClass: "-gradient"}, [m._v("22222")]),
+                
+                
+                m._v(" "), v("LazyHydrate", {
                    attrs: {
                       "when-visible": ""
                    }
@@ -1495,7 +1500,7 @@
                         "static_text": window.marquee_0.replace(window.marquee_1.replace(/\s+/g, ''), ''),
                         "link": {
                           "title": window.marquee_1,
-                          "url": "/services/",
+                          "url": "/faq",
                           "target": ""
                         },
                         "marquee_text": window.marquee_2 // .replace('\n', ' ') + ' '
@@ -1545,7 +1550,7 @@
                             "first_line": " ",
                             "second_line": window.operator_1
                           },
-                          "link": "/services#studios",
+                          "link": "#",
                           "description": window.operator_1_desc
                         },
                         "second_direction": {
@@ -1553,7 +1558,7 @@
                             "first_line": " ",
                             "second_line": window.operator_4
                           },
-                          "link": "/services#operator",
+                          "link": "#",
                           "description": window.operator_4_desc
                         },
                         "third_direction": {
@@ -1561,7 +1566,7 @@
                              "first_line": " ",
                              "second_line": window.operator_1_2
                            },
-                           "link": "/services#studios",
+                           "link": "#",
                            "description": window.operator_1_desc_2
                          },
                          "four_direction": {
@@ -1569,7 +1574,7 @@
                              "first_line": " ",
                              "second_line": window.operator_4_2
                            },
-                           "link": "/services#operator",
+                           "link": "#",
                            "description": window.operator_4_desc_2
                          }
                       }
@@ -1601,7 +1606,7 @@
                           "description": window.dna_block_text,
                           "link_button": {
                             "title": window.dna_3,
-                            "url": "/#",
+                            "url": "/about",
                             "target": ""
                           }
                         }

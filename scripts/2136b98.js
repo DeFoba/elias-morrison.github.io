@@ -224,7 +224,7 @@
                    staticClass: "f-head_nav",
                    class: {
                       "-hover-nav": h.hover,
-                      "-active-nav": h.subIsActive("/services") || h.subIsActive("/#") || h.subIsActive("/about") || h.subIsActive("/contact")
+                      "-active-nav": h.subIsActive(window.btn_services.href) || h.subIsActive(window.btn_work.href) || h.subIsActive(window.btn_about.href) || h.subIsActive(window.btn_contact.href)
                    },
                    on: {
                       mouseleave: function (e) {
@@ -234,14 +234,18 @@
                 }, [w("nuxt-link", {
                     staticClass: "-h4 -normilize",
                     attrs: {
-                       to: "/about"
+                       to: window.btn_about.href
                     },
                     nativeOn: {
                        mouseover: function (e) {
                           h.hover = !0
                        }
                     }
-                 }, [h._v(window.btn_about)]), h._v(" "), w("nuxt-link", {
+                 }, [h._v(window.btn_about)]), 
+                 
+                 
+                 
+                 h._v(" "), w("nuxt-link", {
                     staticClass: "-h4 -normilize",
                     attrs: {
                        to: "/#"
@@ -251,7 +255,10 @@
                           h.hover = !0
                        }
                     }
-                 }, [h._v(window.btn_work)]), h._v(" "), w("nuxt-link", {
+                 }, [h._v(window.btn_work)]), 
+                 
+                 
+                 h._v(" "), w("nuxt-link", {
                    staticClass: "-h4 -normilize",
                    attrs: {
                       to: "/services"
@@ -261,7 +268,10 @@
                          h.hover = !0
                       }
                    }
-                }, [h._v(window.btn_services)]), h._v(" "), w("nuxt-link", {
+                }, 
+                
+                
+                [h._v(window.btn_services)]), h._v(" "), w("nuxt-link", {
                    staticClass: "-h4 -normilize",
                    attrs: {
                       to: "/contact"
@@ -664,7 +674,23 @@
                    }, [d._v(d._s(line))]) : f("span", {
                       staticClass: "-mid-h2 -m-h3 -include"
                    }, [d._v(d._s(line)), d._m(0, !0)])])
-                })), 0), d._v(" "), f("div", {
+                })), 0),
+                
+                
+                
+                f("a", {
+                  staticClass: "tg_btn telegramim_button telegramim_shadow telegramim_pulse mobile_check",
+                  attrs: {
+                     'title': '',
+                     'target': '_blank',
+                     'href': window.under_welcome_btn.getAttribute("href"),
+                     'style': 'color: #ffffff; -webkit-text-fill-color: #fff; text-align: center; min-width: 300px; padding: 2vh; font-weight: bold; margin: 10vh auto 14vw auto;'
+                  }
+               }, [d._v(window.under_welcome_btn.textContent)]), 
+                
+                
+                
+                d._v(" "), f("div", {
                    staticClass: "c-welcome_description"
                 }, [f("div", {
                    staticClass: "c-welcome_description-body -a-to-top",

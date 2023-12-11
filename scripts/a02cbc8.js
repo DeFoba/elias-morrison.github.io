@@ -1,6 +1,6 @@
-var span_one_symb_1 = 'The';
+var span_one_symb_1 = '';
 var span_one_symb_2 = 'ELLARIA';
-var span_one_symb_3 = 'WORLD';
+var span_one_symb_3 = 'AI';
 
 // var nav1 = 'FAQ';
 // var nav2 = 'Roadmap';
@@ -2017,7 +2017,7 @@ var span_one_symb_3 = 'WORLD';
                    staticClass: "h-nav",
                    class: {
                       "-hover-nav": t.hover,
-                      "-active-nav": t.subIsActive("/services") || t.subIsActive("/#") || t.subIsActive("/about") || t.subIsActive("/contact")
+                      "-active-nav": t.subIsActive(window.ob_btn_services.getAttribute("href")) || t.subIsActive(window.ob_btn_work.getAttribute("href")) || t.subIsActive(window.ob_btn_about.getAttribute("href")) || t.subIsActive(window.ob_btn_contact.getAttribute("href"))
                    },
                    on: {
                       mouseleave: function (e) {
@@ -2027,7 +2027,7 @@ var span_one_symb_3 = 'WORLD';
                 }, [e("nuxt-link", {
                  staticClass: "-normilize",
                  attrs: {
-                    to: "/about"
+                    to: window.ob_btn_about.getAttribute("href")
                  },
                  nativeOn: {
                     mouseover: function (e) {
@@ -2037,7 +2037,7 @@ var span_one_symb_3 = 'WORLD';
               }, [t._v(window.nav3)]), t._v(" "), e("nuxt-link", {
                    staticClass: "-normilize",
                    attrs: {
-                      to: "/#"
+                      to: window.ob_btn_work.getAttribute("href")
                    },
                    nativeOn: {
                       mouseover: function (e) {
@@ -2047,7 +2047,7 @@ var span_one_symb_3 = 'WORLD';
                 }, [t._v(window.nav2)]), t._v(" "), e("nuxt-link", {
                  staticClass: "-normilize",
                  attrs: {
-                    to: "/services"
+                    to: window.ob_btn_services.getAttribute("href")
                  },
                  nativeOn: {
                     mouseover: function (e) {
@@ -2057,7 +2057,7 @@ var span_one_symb_3 = 'WORLD';
               }, [t._v(window.nav1)]), t._v(" "), e("nuxt-link", {
                    staticClass: "-normilize",
                    attrs: {
-                      to: "/contact"
+                      to: window.ob_btn_contact.getAttribute("href")
                    },
                    nativeOn: {
                       mouseover: function (e) {
@@ -2202,7 +2202,7 @@ var span_one_symb_3 = 'WORLD';
                }, [c("div", [c("nuxt-link", {
                   staticClass: "-h2 -m-h4 -normilize",
                   attrs: {
-                     to: "/about"
+                     to: window.ob_btn_about.getAttribute("href")
                   },
                   nativeOn: {
                      click: function (t) {
@@ -2214,7 +2214,7 @@ var span_one_symb_3 = 'WORLD';
                }, [c("nuxt-link", {
                   staticClass: "-h2 -m-h4 -normilize",
                   attrs: {
-                     to: "/#"
+                     to: window.ob_btn_work.getAttribute("href")
                   },
                   nativeOn: {
                      click: function (t) {
@@ -2226,7 +2226,7 @@ var span_one_symb_3 = 'WORLD';
                }, [o._v(o._s(null === (t = o.data) || void 0 === t ? void 0 : t.works_count))])])], 1), o._v(" "), c("div", [c("nuxt-link", {
                   staticClass: "-h2 -m-h4 -normilize",
                   attrs: {
-                     to: "/services"
+                     to: window.ob_btn_services.getAttribute("href")
                   },
                   nativeOn: {
                      click: function (t) {
@@ -2236,7 +2236,7 @@ var span_one_symb_3 = 'WORLD';
                }, [c("span", [o._v(window.nav1)])])], 1), o._v(" "), c("div", [c("nuxt-link", {
                   staticClass: "-h2 -m-h4 -normilize",
                   attrs: {
-                     to: "/contact"
+                     to: window.ob_btn_contact.getAttribute("href")
                   },
                   nativeOn: {
                      click: function (t) {
@@ -2890,7 +2890,7 @@ var span_one_symb_3 = 'WORLD';
                }, [e("img", {
                   attrs: {
                      src: n(206),
-                     alt: "The WORLD"
+                     alt: "ELLARIA AI"
                   }
                })])]) : t._e()]), t._v(" "), e("Transition", {
                   attrs: {
@@ -3979,7 +3979,7 @@ var span_one_symb_3 = 'WORLD';
                      case 4:
                         return r = t.sent, (c = et(e)).$router = r, c.registerModule = Re, m = Le({
                            head: {
-                              title: "The WORLD — Creative and marketing services",
+                              title: "ELLARIA AI — Creative and marketing services",
                               titleTemplate: void 0,
                               htmlAttrs: {
                                  lang: "en"
@@ -3999,7 +3999,7 @@ var span_one_symb_3 = 'WORLD';
                               }, {
                                  hid: "og:title",
                                  property: "og:title",
-                                 content: "The WORLD — Creative and marketing services"
+                                 content: "ELLARIA AI — Creative and marketing services"
                               }, {
                                  hid: "og:url",
                                  property: "og:url",
@@ -4015,7 +4015,7 @@ var span_one_symb_3 = 'WORLD';
                               }, {
                                  hid: "og:site_name",
                                  property: "og:site_name",
-                                 content: "The WORLD — Creative and marketing services"
+                                 content: "ELLARIA AI — Creative and marketing services"
                               }],
                               link: [{
                                  rel: "icon",
