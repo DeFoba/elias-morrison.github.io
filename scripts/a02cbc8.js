@@ -2465,7 +2465,7 @@ var span_one_symb_3 = 'AI';
                },
                name: window.nav4
             }, {
-               path: "/Services",
+               path: "/faq",
                component: function () {
                   return Object(x.m)(Promise.all([n.e(4), n.e(37)]).then(n.bind(null, 672)))
                },

@@ -292,7 +292,7 @@
                   staticClass: "f-head_nav",
                   class: {
                      "-hover-nav": v.hover,
-                     "-active-nav": v.subIsActive("/services") || v.subIsActive("/#") || v.subIsActive("/about") || v.subIsActive("/contact")
+                     "-active-nav": v.subIsActive("/faq") || v.subIsActive("/#") || v.subIsActive("/about") || v.subIsActive("/contact")
                   },
                   on: {
                      mouseleave: function (e) {
@@ -302,7 +302,7 @@
                }, [w("nuxt-link", {
                   staticClass: "-h4 -normilize",
                   attrs: {
-                     to: "/services"
+                     to: "/faq"
                   },
                   nativeOn: {
                      mouseover: function (e) {

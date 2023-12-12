@@ -286,7 +286,7 @@
                    staticClass: "f-head_nav",
                    class: {
                       "-hover-nav": I.hover,
-                      "-active-nav": I.subIsActive("/services") || I.subIsActive("/#") || I.subIsActive("/about") || I.subIsActive("/contact")
+                      "-active-nav": I.subIsActive("/faq") || I.subIsActive("/#") || I.subIsActive("/about") || I.subIsActive("/contact")
                    },
                    on: {
                       mouseleave: function (t) {
@@ -316,7 +316,7 @@
                 }, [I._v(window.js_text_prevent_override_work)]), I._v(" "), h("nuxt-link", {
                    staticClass: "-h4 -normilize",
                    attrs: {
-                      to: "/services"
+                      to: "/faq"
                    },
                    nativeOn: {
                       mouseover: function (t) {
