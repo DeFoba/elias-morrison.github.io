@@ -3166,7 +3166,7 @@
                           "text": window.quote_text,
                           "link": {
                             "title": window.quote_author_text,
-                            "url": "https://www.britannica.com/technology/operating-system",
+                            "url": "https://ellaria.world",
                             "target": "_blank"
                           }
                         },

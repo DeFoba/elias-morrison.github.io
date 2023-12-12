@@ -234,7 +234,7 @@
                 }, [w("nuxt-link", {
                     staticClass: "-h4 -normilize",
                     attrs: {
-                       to: window.btn_about.href
+                       to: window.ob_btn_about.getAttribute('href')
                     },
                     nativeOn: {
                        mouseover: function (e) {
@@ -248,7 +248,7 @@
                  h._v(" "), w("nuxt-link", {
                     staticClass: "-h4 -normilize",
                     attrs: {
-                       to: "/#"
+                       to: window.ob_btn_work.getAttribute('href')
                     },
                     nativeOn: {
                        mouseover: function (e) {
@@ -261,7 +261,7 @@
                  h._v(" "), w("nuxt-link", {
                    staticClass: "-h4 -normilize",
                    attrs: {
-                      to: "/services"
+                      to: window.ob_btn_services.getAttribute('href')
                    },
                    nativeOn: {
                       mouseover: function (e) {
@@ -274,7 +274,7 @@
                 [h._v(window.btn_services)]), h._v(" "), w("nuxt-link", {
                    staticClass: "-h4 -normilize",
                    attrs: {
-                      to: "/contact"
+                      to: window.ob_btn_contact.getAttribute('href')
                    },
                    nativeOn: {
                       mouseover: function (e) {
