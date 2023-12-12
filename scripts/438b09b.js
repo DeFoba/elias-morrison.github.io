@@ -286,7 +286,7 @@
                   staticClass: "f-head_nav",
                   class: {
                      "-hover-nav": I.hover,
-                     "-active-nav": I.subIsActive("/faq") || I.subIsActive("/#") || I.subIsActive("/about") || I.subIsActive("/contact")
+                     "-active-nav": I.subIsActive(window.ob_btn_about.getAttribute('href')) || I.subIsActive(window.ob_btn_work.getAttribute('href')) || I.subIsActive(window.ob_btn_services.getAttribute('href')) || I.subIsActive(window.ob_btn_contact.getAttribute('href'))
                   },
                   on: {
                      mouseleave: function (t) {
@@ -296,44 +296,44 @@
                }, [h("nuxt-link", {
                   staticClass: "-h4 -normilize",
                   attrs: {
-                     to: "/about"
+                     to: window.ob_btn_about.getAttribute('href')
                   },
                   nativeOn: {
                      mouseover: function (t) {
                         I.hover = !0
                      }
                   }
-               }, [I._v(window.js_text_prevent_override_about)]), I._v(" "), h("nuxt-link", {
+               }, [I._v(window.btn_about)]), I._v(" "), h("nuxt-link", {
                   staticClass: "-h4 -normilize",
                   attrs: {
-                     to: "/#"
+                     to: window.ob_btn_work.getAttribute('href')
                   },
                   nativeOn: {
                      mouseover: function (t) {
                         I.hover = !0
                      }
                   }
-               }, [I._v(window.js_text_prevent_override_work)]), I._v(" "), h("nuxt-link", {
+               }, [I._v(window.btn_work)]), I._v(" "), h("nuxt-link", {
                   staticClass: "-h4 -normilize",
                   attrs: {
-                     to: "/faq"
+                     to: window.ob_btn_services.getAttribute('href')
                   },
                   nativeOn: {
                      mouseover: function (t) {
                         I.hover = !0
                      }
                   }
-               }, [I._v(window.js_text_prevent_override_services)]), I._v(" "), h("nuxt-link", {
+               }, [I._v(window.btn_services)]), I._v(" "), h("nuxt-link", {
                   staticClass: "-h4 -normilize",
                   attrs: {
-                     to: "/contact"
+                     to: window.ob_btn_contact.getAttribute('href')
                   },
                   nativeOn: {
                      mouseover: function (t) {
                         I.hover = !0
                      }
                   }
-               }, [I._v(window.js_text_prevent_override_contact)])], 1)]), I._v(" "), h("div", {
+               }, [I._v(window.btn_contact)])], 1)]), I._v(" "), h("div", {
                   staticClass: "f-soc -w"
                }, [h("SoMeList", {
                   attrs: {

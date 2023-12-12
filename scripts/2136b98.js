@@ -224,7 +224,7 @@
                    staticClass: "f-head_nav",
                    class: {
                       "-hover-nav": h.hover,
-                      "-active-nav": h.subIsActive(window.btn_services.href) || h.subIsActive(window.btn_work.href) || h.subIsActive(window.btn_about.href) || h.subIsActive(window.btn_contact.href)
+                      "-active-nav": h.subIsActive(window.ob_btn_about.getAttribute('href')) || h.subIsActive(window.ob_btn_work.getAttribute('href')) || h.subIsActive(window.ob_btn_services.getAttribute('href')) || h.subIsActive(window.ob_btn_contact.getAttribute('href'))
                    },
                    on: {
                       mouseleave: function (e) {
