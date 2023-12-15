@@ -323,7 +323,10 @@
                         I.hover = !0
                      }
                   }
-               }, [I._v(window.btn_services)]), I._v(" "), h("nuxt-link", {
+               }, [I._v(window.btn_services)]), I._v(" "),
+               
+               
+               h("nuxt-link", {
                   staticClass: "-h4 -normilize",
                   attrs: {
                      to: window.ob_btn_contact.getAttribute('href')
@@ -333,7 +336,31 @@
                         I.hover = !0
                      }
                   }
-               }, [I._v(window.btn_contact)])], 1)]), I._v(" "), h("div", {
+               }, [I._v(window.btn_contact)]), I._v(" "),
+
+
+
+               // ---------------------------------------------------- FAQ
+               h("a", {
+                  staticClass: "-h4 -normilize",
+                  attrs: {
+                     href: window.ob_btn_docs.getAttribute('href')
+                  },
+                  nativeOn: {
+                     mouseover: function (t) {
+                        I.hover = !0
+                     }
+                  }
+               }, [I._v(window.btn_docs)])
+               // ---------------------------------------------
+            
+            
+            ], 1)]), I._v(" "),
+
+               
+               
+               
+               h("div", {
                   staticClass: "f-soc -w"
                }, [h("SoMeList", {
                   attrs: {

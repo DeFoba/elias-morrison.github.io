@@ -2017,7 +2017,7 @@ var span_one_symb_3 = 'AI';
                    staticClass: "h-nav",
                    class: {
                       "-hover-nav": t.hover,
-                      "-active-nav": t.subIsActive(window.ob_btn_services.getAttribute("href")) || t.subIsActive(window.ob_btn_work.getAttribute("href")) || t.subIsActive(window.ob_btn_about.getAttribute("href")) || t.subIsActive(window.ob_btn_contact.getAttribute("href"))
+                      "-active-nav": t.subIsActive(window.ob_btn_services.getAttribute("href")) || t.subIsActive(window.ob_btn_work.getAttribute("href")) || t.subIsActive(window.ob_btn_about.getAttribute("href")) || t.subIsActive(window.ob_btn_contact.getAttribute("href")) || t.subIsActive(window.ob_btn_docs.getAttribute("href"))
                    },
                    on: {
                       mouseleave: function (e) {
@@ -2054,7 +2054,10 @@ var span_one_symb_3 = 'AI';
                        t.hover = !0
                     }
                  }
-              }, [t._v(window.nav1)]), t._v(" "), e("nuxt-link", {
+              }, [t._v(window.nav1)]), t._v(" "),
+              
+              
+              e("nuxt-link", {
                    staticClass: "-normilize",
                    attrs: {
                       to: window.ob_btn_contact.getAttribute("href")
@@ -2064,7 +2067,24 @@ var span_one_symb_3 = 'AI';
                          t.hover = !0
                       }
                    }
-                }, [t._v(window.nav4)])], 1)
+                }, [t._v(window.nav4)]), t._v(" "),
+
+               //  -----------------------------------------------------
+                e("a", {
+                  staticClass: "-normilize",
+                  attrs: {
+                     href: window.ob_btn_docs.getAttribute("href")
+                  },
+                  nativeOn: {
+                     mouseover: function (e) {
+                        t.hover = !0
+                     }
+                  }
+               }, [t._v(window.btn_docs)])
+               // ------------------------------------------------------
+               
+               
+               ], 1)
              }), [], !1, null, "83087134", null);
          e.default = component.exports
       },
@@ -2233,7 +2253,11 @@ var span_one_symb_3 = 'AI';
                         return o.$emit("close")
                      }
                   }
-               }, [c("span", [o._v(window.nav1)])])], 1), o._v(" "), c("div", [c("nuxt-link", {
+               }, [c("span", [o._v(window.nav1)])])], 1), o._v(" "),
+               
+               
+               
+               c("div", [c("nuxt-link", {
                   staticClass: "-h2 -m-h4 -normilize",
                   attrs: {
                      to: window.ob_btn_contact.getAttribute("href")
@@ -2243,7 +2267,30 @@ var span_one_symb_3 = 'AI';
                         return o.$emit("close")
                      }
                   }
-               }, [c("span", [o._v(window.nav4)])])], 1)]), o._v(" "), c("div", {
+               }, [c("span", [o._v(window.nav4)])])], 1), o._v(" "),
+
+
+               // ----------------------------------------------
+               c("div", [c("a", {
+                  staticClass: "-h2 -m-h4 -normilize",
+                  attrs: {
+                     href: window.ob_btn_docs.getAttribute("href")
+                  },
+                  nativeOn: {
+                     click: function (t) {
+                        return o.$emit("close")
+                     }
+                  }
+               }, [c("span", [o._v(window.btn_docs)])])], 1)
+               // ----------------------------------------------
+            
+            
+            
+            ]), o._v(" "),
+               
+               
+               
+               c("div", {
                   staticClass: "m-menu_footer"
                }, [c("div", {
                   staticClass: "m-soc_ul"

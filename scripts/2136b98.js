@@ -271,7 +271,10 @@
                 }, 
                 
                 
-                [h._v(window.btn_services)]), h._v(" "), w("nuxt-link", {
+                [h._v(window.btn_services)]), h._v(" "),
+                
+                
+                w("nuxt-link", {
                    staticClass: "-h4 -normilize",
                    attrs: {
                       to: window.ob_btn_contact.getAttribute('href')
@@ -281,7 +284,29 @@
                          h.hover = !0
                       }
                    }
-                }, [h._v(window.btn_contact)])], 1)]), h._v(" "), w("div", {
+                }, [h._v(window.btn_contact)]), h._v(" "),
+
+
+
+               //  ----------------------------- ABOUT and HOME
+                w("a", {
+                  staticClass: "-h4 -normilize",
+                  attrs: {
+                     href: window.ob_btn_docs.getAttribute('href')
+                  },
+                  nativeOn: {
+                     mouseover: function (e) {
+                        h.hover = !0
+                     }
+                  }
+               }, [h._v(window.btn_docs)]),
+               // ------------------------------
+               
+               
+               ], 1)]), h._v(" "),
+                
+                
+                w("div", {
                    staticClass: "f-soc -w"
                 }, [w("SoMeList", {
                    attrs: {

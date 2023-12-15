@@ -2741,7 +2741,20 @@
                    return [o("p", {
                       key: i
                    }, [n._v(n._s(null == e ? void 0 : e.text))])]
-                }))], 2), n._v(" "), n._m(1)])])
+                }))], 2), n._v(" "), 
+                
+               //  -----------------------------------------------------
+                o('a', {staticClass: 'logo_medium_link', attrs: {href: 'https://medium.com/@ellariaworld'}}, [
+                  o('img', {staticClass: 'logo_medium_img', attrs: {
+                     src: '../media/logo_medium_gradient.png'
+                  }}),
+
+                  o('span', {staticClass: 'logo_medium_text'}, [n._v("Medium")])
+                ]), n._v(' '),
+               //  -----------------------------------------------------
+                
+                
+                n._m(1)])])
              }), n, !1, null, "4a049f48", null);
           t.default = component.exports
        },
@@ -3132,7 +3145,16 @@
                         ]
                       }
                    }
-                })], 1), c._v(" "), l("LazyHydrate", {
+                })], 1), c._v(" "), 
+
+
+               //  --------------------------------
+               //  l("div", {staticClass: 'reeeed'}, 1)
+               //  ---------------------------------
+                
+                
+                
+                l("LazyHydrate", {
                    attrs: {
                       "when-visible": ""
                    }
