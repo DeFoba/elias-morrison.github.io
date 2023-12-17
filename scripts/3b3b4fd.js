@@ -2749,7 +2749,11 @@
                      src: '../media/logo_medium_gradient.png'
                   }}),
 
-                  o('span', {staticClass: 'logo_medium_text'}, [n._v("Medium")])
+                  o('span', {staticClass: 'logo_medium_text'}, [n._v("Medium")]),
+
+                  o('figure', {staticClass: 'icon-arrow'}, [
+                     o('img', {attrs: {src: '../_index_files/icon-arrow-top-right.d09f690.svg', alt: ''}})
+                  ])
                 ]), n._v(' '),
                //  -----------------------------------------------------
                 
