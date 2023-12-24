@@ -313,10 +313,10 @@
                         I.hover = !0
                      }
                   }
-               }, [I._v(window.btn_work)]), I._v(" "), h("nuxt-link", {
+               }, [I._v(window.btn_work)]), I._v(" "), h("a", {
                   staticClass: "-h4 -normilize",
                   attrs: {
-                     to: window.ob_btn_services.getAttribute('href')
+                     href: window.ob_btn_services.getAttribute('href')
                   },
                   nativeOn: {
                      mouseover: function (t) {

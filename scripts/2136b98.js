@@ -258,10 +258,10 @@
                  }, [h._v(window.btn_work)]), 
                  
                  
-                 h._v(" "), w("nuxt-link", {
+                 h._v(" "), w("a", {
                    staticClass: "-h4 -normilize",
                    attrs: {
-                      to: window.ob_btn_services.getAttribute('href')
+                      href: window.ob_btn_services.getAttribute('href')
                    },
                    nativeOn: {
                       mouseover: function (e) {

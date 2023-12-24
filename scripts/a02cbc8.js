@@ -2044,10 +2044,10 @@ var span_one_symb_3 = 'AI';
                          t.hover = !0
                       }
                    }
-                }, [t._v(window.nav2)]), t._v(" "), e("nuxt-link", {
+                }, [t._v(window.nav2)]), t._v(" "), e("a", {
                  staticClass: "-normilize",
                  attrs: {
-                    to: window.ob_btn_services.getAttribute("href")
+                    href: window.ob_btn_services.getAttribute("href")
                  },
                  nativeOn: {
                     mouseover: function (e) {
@@ -2243,10 +2243,10 @@ var span_one_symb_3 = 'AI';
                   }
                }, [c("span", [o._v(window.nav2)]), c("span", {
                   staticClass: "-h5 -m-h6"
-               }, [o._v(o._s(null === (t = o.data) || void 0 === t ? void 0 : t.works_count))])])], 1), o._v(" "), c("div", [c("nuxt-link", {
+               }, [o._v(o._s(null === (t = o.data) || void 0 === t ? void 0 : t.works_count))])])], 1), o._v(" "), c("div", [c("a", {
                   staticClass: "-h2 -m-h4 -normilize",
                   attrs: {
-                     to: window.ob_btn_services.getAttribute("href")
+                     href: window.ob_btn_services.getAttribute("href")
                   },
                   nativeOn: {
                      click: function (t) {

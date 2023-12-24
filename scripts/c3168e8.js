@@ -557,101 +557,107 @@
         
         ])]),
 
-        v._v(" "), _("div", {
-         staticClass: "c-whatwedo_container -w c-whatwedo_swap",
-         attrs: {
-            style: "display: flex;justify-content:center;padding:5% 0;"
-         }
-      }, [_('iframe', {
-         staticClass: 'flooz_integration',
-         attrs: {
-                  // width: "30%",
-                  height: "720",
-                  frameborder: "0",
-                  allow: "clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *",
-                  src: "https://flooz.xyz/embed/trade?swapDisabled=false&swapLockToToken=false&onRampDisabled=false&onRampAsDefault=false&onRampTokenAddress=eth&stakeDisabled=true&network=eth&lightMode=false&primaryColor=%23C380FF&backgroundColor=transparent&roundedCorners=10&padding=20"
-               }
-      }, [v._v('hello')]),
+      //   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+   //      v._v(" "), _("div", {
+   //       staticClass: "c-whatwedo_container -w c-whatwedo_swap",
+   //       attrs: {
+   //          style: "display: flex;justify-content:center;padding:5% 0;"
+   //       }
+   //    }, [_('iframe', {
+   //       staticClass: 'flooz_integration',
+   //       attrs: {
+   //                // width: "30%",
+   //                height: "720",
+   //                frameborder: "0",
+   //                allow: "clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *",
+   //                src: "https://flooz.xyz/embed/trade?swapDisabled=false&swapLockToToken=false&onRampDisabled=false&onRampAsDefault=false&onRampTokenAddress=eth&stakeDisabled=true&network=eth&lightMode=false&primaryColor=%23C380FF&backgroundColor=transparent&roundedCorners=10&padding=20"
+   //             }
+   //    }, [v._v('hello')]),
 
       
-      _('div', {
-         staticClass: 'right_side_intefration'
-      }, [v._v(' '), 
+   //    _('div', {
+   //       staticClass: 'right_side_intefration'
+   //    }, [v._v(' '), 
       
-      // _('div', {
-      //    staticClass: "subtitle"
-      // }, [v._v("Trade")]), v._v(' '),
+   //    // _('div', {
+   //    //    staticClass: "subtitle"
+   //    // }, [v._v("Trade")]), v._v(' '),
 
-      _('h2', {
-         staticClass: 'heading heading_h2'
-      }, [v._v(window.swap_title)]), // 'Swap or Buy ELLARIA AI tokens now with Crypto or Card'
+   //    _('h2', {
+   //       staticClass: 'heading heading_h2'
+   //    }, [v._v(window.swap_title)]), // 'Swap or Buy ELLARIA AI tokens now with Crypto or Card'
 
-      _('p', {
-         staticClass: 'paragraph-large'
-      }, [v._v(window.swap_description_1.split('<')[0]), _("b", { // "For your convenience now you can swap or purchase $"
-         staticClass: '-gradient',
-         attrs: {
-            style: 'text-shadow: 0 0 10px #C380FF;'
-         }
-      }, [v._v(window.swap_description_2)]), v._v(window.swap_description_1.split('>')[2])]), // 'ELLARIA AI' // " directly by Card with our integrated Swap!"
+   //    _('p', {
+   //       staticClass: 'paragraph-large'
+   //    }, [v._v(window.swap_description_1.split('<')[0]), _("b", { // "For your convenience now you can swap or purchase $"
+   //       staticClass: '-gradient',
+   //       attrs: {
+   //          style: 'text-shadow: 0 0 10px #C380FF;'
+   //       }
+   //    }, [v._v(window.swap_description_2)]), v._v(window.swap_description_1.split('>')[2])]), // 'ELLARIA AI' // " directly by Card with our integrated Swap!"
 
-      _('p', {
-         attrs: {
-            style: 'color: #727272;'
-         }
-      }, [v._v(window.swap_code_1.split('<')[0]), v._v(' '), _('b', { // 'CA:'
-         staticClass: '-gradient',
-         attrs: {
-            style: 'text-shadow: 0 0 10px #C380FF; -webkit-text-fill-color: rgba(0, 0, 0, 0);'
-         }
-      }, [v._v(' '), v._v(window.swap_code_2)])]), // '0146194186491629317638'
+   //    _('p', {
+   //       attrs: {
+   //          style: 'color: #727272;'
+   //       }
+   //    }, [v._v(window.swap_code_1.split('<')[0]), v._v(' '), _('b', { // 'CA:'
+   //       staticClass: '-gradient',
+   //       attrs: {
+   //          style: 'text-shadow: 0 0 10px #C380FF; -webkit-text-fill-color: rgba(0, 0, 0, 0);'
+   //       }
+   //    }, [v._v(' '), v._v(window.swap_code_2)])]), // '0146194186491629317638'
 
-      _('div', {
-         staticClass: 'w-layout-grid'
-      },
+   //    _('div', {
+   //       staticClass: 'w-layout-grid'
+   //    },
       
-      [
+   //    [
          
-         v._v(" "), _('div', {
-         staticClass: 'w-layout-grid grid-button'
-      }, [v._v(' '), _('a', {
-         staticClass: 'button w-button',
-         attrs: {
-            href: ob_swap_btn_1,
-            style: '-webkit-background-clip: border-box; background-clip: 0; -webkit-text-fill-color: #000;  font-size: 1.3em;'
-         }
-      }, [v._v(window.swap_btn_1)])]), // 'Etherscan'
+   //       v._v(" "), _('div', {
+   //       staticClass: 'w-layout-grid grid-button'
+   //    }, [v._v(' '), _('a', {
+   //       staticClass: 'button w-button',
+   //       attrs: {
+   //          href: ob_swap_btn_1,
+   //          style: '-webkit-background-clip: border-box; background-clip: 0; -webkit-text-fill-color: #000;  font-size: 1.3em;'
+   //       }
+   //    }, [v._v(window.swap_btn_1)])]), // 'Etherscan'
 
-      v._v(" "), _('div', {
-         staticClass: 'w-layout-grid grid-button'
-      }, [v._v(' '), _('a', {
-         staticClass: 'button w-button',
-         attrs: {
-            href: ob_swap_btn_2,
-            style: '-webkit-background-clip: border-box; background-clip: 0; -webkit-text-fill-color: #000;  font-size: 1.3em;'
-         }
-      }, [v._v(window.swap_btn_2)])]) // 'Liquidity Lock'
+   //    v._v(" "), _('div', {
+   //       staticClass: 'w-layout-grid grid-button'
+   //    }, [v._v(' '), _('a', {
+   //       staticClass: 'button w-button',
+   //       attrs: {
+   //          href: ob_swap_btn_2,
+   //          style: '-webkit-background-clip: border-box; background-clip: 0; -webkit-text-fill-color: #000;  font-size: 1.3em;'
+   //       }
+   //    }, [v._v(window.swap_btn_2)])]) // 'Liquidity Lock'
 
-      ])
+   //    ])
 
-   ])
+   // ])
+
       
       
       
 
          
-      //    _("iframe"), {
-      //    attrs: {
-      //       width: "400",
-      //       height: "720",
-      //       frameborder: "0",
-      //       allow: "clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *",
-      //       src: "https://flooz.xyz/embed/trade?swapDisabled=false&swapLockToToken=false&onRampDisabled=false&onRampAsDefault=false&onRampTokenAddress=eth&stakeDisabled=true&network=eth&lightMode=false&primaryColor=%233f80a7&backgroundColor=transparent&roundedCorners=10&padding=20"
-      //    }
-      // }, v._v(v._s(window.btn_world_3))
+   //    //    _("iframe"), {
+   //    //    attrs: {
+   //    //       width: "400",
+   //    //       height: "720",
+   //    //       frameborder: "0",
+   //    //       allow: "clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *",
+   //    //       src: "https://flooz.xyz/embed/trade?swapDisabled=false&swapLockToToken=false&onRampDisabled=false&onRampAsDefault=false&onRampTokenAddress=eth&stakeDisabled=true&network=eth&lightMode=false&primaryColor=%233f80a7&backgroundColor=transparent&roundedCorners=10&padding=20"
+   //    //    }
+   //    // }, v._v(v._s(window.btn_world_3))
    
    
-   ]),
+   // ]),
+
+   // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
             
             
             
