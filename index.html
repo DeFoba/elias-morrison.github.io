@@ -4,6 +4,39 @@
   <title id="main_title">
     Ellaria World - Your AI Universe
   </title>
+  <script>
+    let global_time = new Date('06/20/2024 12:00:00').getTime();
+    let date_now = new Date().getTime();
+
+    function get_correct_value(value) {
+      if (value < 10) {
+        return '0' + String(value);
+      } else {
+        return String(value)
+      }
+    }
+
+
+    let time_distance = global_time - date_now;
+
+    let days = Math.floor(time_distance / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((time_distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((time_distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((time_distance % (1000 * 60)) / 1000);
+
+    var time_seconds = '00';
+    var time_minutes = '00';
+    var time_hours = '00';
+    var time_days = '00';
+
+    try {
+      time_seconds = get_correct_value(seconds);
+      time_minutes = get_correct_value(minutes);
+      time_hours = get_correct_value(hours);
+      time_days = get_correct_value(days);
+    } catch {}
+
+  </script>
   <meta content="ELLARIA WORLD is innovative platform that seamlessly combines artificial intelligence and decentralized web technology. Experience cutting-edge conversations and decentralized interactions for a truly transformative digital experience." data-hid="description" data-n-head="ssr" name="description"/>
   <meta content="ELLARIA AI — AI and marketing services" data-hid="og:title" data-n-head="ssr" property="og:title"/>
   <meta content="https:/ellaria.world/" data-hid="og:url" data-n-head="ssr" property="og:url"/>
@@ -25,6 +58,7 @@
   <link as="script" href="scripts/f0d198e.js" rel="preload"/>
   <link as="script" href="scripts/85f7732.js" rel="preload"/>
   <link as="script" href="scripts/2136b98.js" rel="preload"/>
+  
   <style data-vue-ssr-id="4155e380:0 630115c8:0 bdbf6242:0 e9353860:0 06d48c6e:0 751aab8d:0 3f6d6f2c:0 e7f10800:0 6a060064:0 2f7c4744:0 0d4a27c2:0 1d07712e:0 6d4931b3:0 082aa885:0 276f418b:0 142ed704:0 0a521f4e:0 22d00305:0 051e2419:0 2efc21ea:0">
    .nuxt-progress {
   position: fixed;
@@ -451,10 +485,115 @@
       /* font-size: 2rem; */
     }
   </style>
+
+  <style>
+    .timer_main_block {
+      border: 3px solid #fff;
+      width: 35%;
+      position: absolute;
+      right: 4vw;
+      top: 45%;
+      transform: translateY(-50%);
+      padding: 2%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    @media (max-width: 1383px) {
+      .timer_main_block {
+        top: auto;
+        right: auto;
+        bottom: 20%;
+        left: 5%;
+        transform: translateY(20%);
+      }
+    }
+
+    @media (max-width: 1024px) {
+      .timer_1 {
+        display: none;
+      }
+
+      .timer_2 {
+        display: block;
+        bottom: auto;
+        position: relative;
+        left: auto;
+        /* transform: translateX(-12%); */
+        margin: 1% auto 10% auto;
+        width: 50%;
+      }
+
+      .manifest_style {
+        margin-bottom: 10% !important;
+      }
+    }
+
+    @media (max-width: 615px) {
+      .timer_2 {
+        width: 90%;
+      }
+    }
+
+    .timer_block {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      color: #c380ff;
+      font-size: 2em;
+    }
+
+    .timer_el_block {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+
+    .timer_el {
+      /* font-size: 2.1em; */
+    }
+
+    .timer_el_text {
+      color: #fff;
+      font-size: 50%;
+    }
+
+    .timer_down_text {
+      margin-top: 5%;
+      font-size: 100%;
+      line-height: 1.2;
+    }
+
+    .timer_empty {
+      height: 4vh;
+    }
+
+    .timer_form_block{
+      background-color: rgba(0, 0, 0, 0.3);
+      border: 2px solid #fff;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      margin-top: 2%;
+      padding: 1%;
+      border-radius: 1vh;
+    }
+
+    .timer_form_entry {
+      width: 100%;
+    }
+
+    .timer_form_send {
+      background-color: #c380ff;
+      border-radius: 1vh;
+      padding: 1% 5%;
+      cursor: pointer;
+    }
+  </style>
+
  </head>
  <body>
   <div id="__nuxt">
-   <!-- -->
+    <!-- -->
    <div id="__layout">
     <div class="layout">
      <!-- -->
@@ -1425,6 +1564,56 @@ f.works_count = '7'; return {
     styleElem.styleSheet.cssText = '.embedded-trade-page {max-width: 90% !important;}';
     document.getElementsByClassName('flooz_integration')[0].document.head.appendChild(styleElem);
   </script> -->
+  <script>
+    setInterval(() => {
+      try {
+        el_days = document.getElementById('timer_days');
+        el_hours = document.getElementById('timer_hours');
+        el_minutes = document.getElementById('timer_minutes');
+        el_seconds = document.getElementById('timer_seconds');
+        
+        el_days2 = document.getElementById('timer_days2');
+        el_hours2 = document.getElementById('timer_hours2');
+        el_minutes2 = document.getElementById('timer_minutes2');
+        el_seconds2 = document.getElementById('timer_seconds2');
+
+        if (Number(el_seconds.innerText) > 0) {
+          el_seconds.innerText = get_correct_value(Number(el_seconds.innerText) - 1);
+
+        } else {
+          if (Number(el_minutes.innerText) > 0 || Number(el_hours.innerText) > 0 || Number(el_days.innerText) > 0) {
+              el_seconds.innerText = '60';
+          }
+
+          if (Number(el_minutes.innerText) > 0) {
+            el_minutes.innerText = get_correct_value(Number(el_minutes.innerText) - 1);
+
+          } else {
+            if (Number(el_hours.innerText) > 0 || Number(el_days.innerText) > 0) {
+              el_minutes.innerText = '60';
+            }
+
+            if (Number(el_hours.innerText) > 0) {
+              el_hours.innerText = get_correct_value(Number(el_hours.innerText) - 1);
+
+            } else {
+              if (Number(el_days.innerText) > 0) {
+                el_hours.innerText = '24';
+              }
+
+              if (Number(el_days.innerText) > 0) {
+                el_days.innerText = get_correct_value(Number(el_days.innerText) - 1);
+              }
+            }
+          }
+        }
+        el_days2.innerHTML = el_days.innerHTML;
+        el_hours2.innerHTML = el_hours.innerHTML;
+        el_minutes2.innerHTML = el_minutes.innerHTML;
+        el_seconds2.innerHTML = el_seconds.innerHTML;
+      } catch {};
+    }, 1000)
+  </script>
  </body>
 
 </html>

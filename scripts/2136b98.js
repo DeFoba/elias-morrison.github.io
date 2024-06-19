@@ -703,15 +703,51 @@
                 
                 
                 
-                f("a", {
-                  staticClass: "tg_btn telegramim_button telegramim_shadow telegramim_pulse mobile_check",
-                  attrs: {
-                     'title': '',
-                     'target': '_blank',
-                     'href': window.under_welcome_btn.getAttribute("href"),
-                     'style': 'color: #ffffff; -webkit-text-fill-color: #fff; text-align: center; min-width: 300px; padding: 2vh; font-weight: bold; margin: 10vh auto 0 14vw;'
-                  }
-               }, [d._v(window.under_welcome_btn.textContent)]), 
+               //  f("a", {
+               //    staticClass: "tg_btn telegramim_button telegramim_shadow telegramim_pulse mobile_check",
+               //    attrs: {
+               //       'title': '',
+               //       'target': '_blank',
+               //       'href': window.under_welcome_btn.getAttribute("href"),
+               //       'style': 'color: #ffffff; -webkit-text-fill-color: #fff; text-align: center; min-width: 300px; padding: 2vh; font-weight: bold; margin: 10vh auto 0 14vw;'
+               //    }
+               // }, [d._v(window.under_welcome_btn.textContent)]), 
+
+
+               // f("div", {staticClass: 'HELLO'}),
+
+               f("div", {
+                  staticClass: "timer_main_block timer_1"
+               }, [
+                  f("h5", {staticClass: 'timer_title'}, [d._v("PRESALE STARTS IN:")]),
+                  f("div", {staticClass: "timer_block"}, [
+                     f("div", {staticClass: "timer_el_block"}, [f("span", {staticClass: "timer_el", attrs: {"id": "timer_days"}}, [d._v(window.time_days)]), f("span", {staticClass: "timer_el_text"}, [d._v("DAYS")])]),
+                     d._v(":"),
+                     f("div", {staticClass: "timer_el_block"}, [f("span", {staticClass: "timer_el", attrs: {"id": "timer_hours"}}, [d._v(window.time_hours)]), f("span", {staticClass: "timer_el_text"}, [d._v("HOURS")])]),
+                     d._v(":"),
+                     f("div", {staticClass: "timer_el_block"}, [f("span", {staticClass: "timer_el", attrs: {"id": "timer_minutes"}}, [d._v(window.time_minutes)]), f("span", {staticClass: "timer_el_text"}, [d._v("MINUTES")])]),
+                     d._v(":"),
+                     f("div", {staticClass: "timer_el_block"}, [f("span", {staticClass: "timer_el", attrs: {"id": "timer_seconds"}}, [d._v(window.time_seconds)]), f("span", {staticClass: "timer_el_text"}, [d._v("SECONDS")])]),
+                  ]),
+                  f("div", {staticClass: 'timer_empty'}, [d._v(" ")]),
+                  f("h5", {staticClass: 'timer_text timer_down_text'}, [
+                     f("a", {staticClass: 'timer_link', attrs: {'href': '#'}}, [d._v("SIGN UP")]),
+                     d._v(" for our newsletter to receive a notification once the presale is live and a "),
+                     f("a", {staticClass: 'timer_link', attrs: {'href': '#'}}, [d._v("10% DISCOUNT!")]),
+                  ]),
+                  f("form", {
+                     staticClass: "timer_form_main",
+                     attrs: {
+                        'action': "#"
+                     }}, [
+                        f("div", {staticClass: 'timer_form_block'}, [
+                           f('input', {staticClass: 'timer_form_entry', attrs: {'type': 'email', 'placeholder': 'Enter Email Address'}}),
+                           f('input', {staticClass: 'timer_form_send', attrs: {'type': 'submit', 'value': 'SUBSCRIBE'}})
+                        ])
+                     ]
+                  )
+
+               ]), 
                 
                 
                 

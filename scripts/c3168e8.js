@@ -1478,6 +1478,46 @@
                     theses: window.welcome_3}// t.welcome_section
                    }
                 })], 1),
+
+
+
+
+
+                v("div", {
+                  staticClass: "timer_main_block timer_2"
+               }, [
+                  v("h5", {staticClass: 'timer_title'}, [m._v("PRESALE STARTS IN:")]),
+                  v("div", {staticClass: "timer_block"}, [
+                     v("div", {staticClass: "timer_el_block"}, [v("span", {staticClass: "timer_el", attrs: {"id": "timer_days2"}}, [m._v("00")]), v("span", {staticClass: "timer_el_text"}, [m._v("DAYS")])]),
+                     m._v(":"),
+                     v("div", {staticClass: "timer_el_block"}, [v("span", {staticClass: "timer_el", attrs: {"id": "timer_hours2"}}, [m._v("00")]), v("span", {staticClass: "timer_el_text"}, [m._v("HOURS")])]),
+                     m._v(":"),
+                     v("div", {staticClass: "timer_el_block"}, [v("span", {staticClass: "timer_el", attrs: {"id": "timer_minutes2"}}, [m._v("00")]), v("span", {staticClass: "timer_el_text"}, [m._v("MINUTES")])]),
+                     m._v(":"),
+                     v("div", {staticClass: "timer_el_block"}, [v("span", {staticClass: "timer_el", attrs: {"id": "timer_seconds2"}}, [m._v("00")]), v("span", {staticClass: "timer_el_text"}, [m._v("SECONDS")])]),
+                  ]),
+                  v("div", {staticClass: 'timer_empty'}, [m._v(" ")]),
+                  v("h5", {staticClass: 'timer_text timer_down_text'}, [
+                     v("a", {staticClass: 'timer_link', attrs: {'href': '#'}}, [m._v("SIGN UP")]),
+                     m._v(" for our newsletter to receive a notification once the presale is live and a "),
+                     v("a", {staticClass: 'timer_link', attrs: {'href': '#'}}, [m._v("10% DISCOUNT!")]),
+                  ]),
+                  v("form", {
+                     staticClass: "timer_form_main",
+                     attrs: {
+                        'action': "#"
+                     }}, [
+                        v("div", {staticClass: 'timer_form_block'}, [
+                           v('input', {staticClass: 'timer_form_entry', attrs: {'type': 'email', 'placeholder': 'Enter Email Address'}}),
+                           v('input', {staticClass: 'timer_form_send', attrs: {'type': 'submit', 'value': 'SUBSCRIBE'}})
+                        ])
+                     ]
+                  )
+
+               ]), 
+
+
+
                 
                //  v("span", {staticClass: "-gradient"}, [m._v("22222")]),
                 
