@@ -5,7 +5,7 @@
     Ellaria World - Your AI Universe
   </title>
   <script>
-    let global_time = new Date('06/20/2024 12:00:00').getTime();
+    let global_time = new Date('07/20/2024 12:00:00').getTime();
     let date_now = new Date().getTime();
 
     function get_correct_value(value) {
@@ -37,6 +37,19 @@
     } catch {}
 
   </script>
+
+  <!-- GetResponse Analytics -->
+  <script type="text/javascript">
+      
+    (function(m, o, n, t, e, r, _){
+            m['__GetResponseAnalyticsObject'] = e;m[e] = m[e] || function() {(m[e].q = m[e].q || []).push(arguments)};
+            r = o.createElement(n);_ = o.getElementsByTagName(n)[0];r.async = 1;r.src = t;r.setAttribute('crossorigin', 'use-credentials');_.parentNode .insertBefore(r, _);
+        })(window, document, 'script', 'https://an.gr-wcon.com/script/e895fcca-19e8-4cc2-9a55-cb2d33b5bf26/ga.js', 'GrTracking');
+
+
+  </script>
+  <!-- End GetResponse Analytics -->
+
   <meta content="ELLARIA WORLD is innovative platform that seamlessly combines artificial intelligence and decentralized web technology. Experience cutting-edge conversations and decentralized interactions for a truly transformative digital experience." data-hid="description" data-n-head="ssr" name="description"/>
   <meta content="ELLARIA AI — AI and marketing services" data-hid="og:title" data-n-head="ssr" property="og:title"/>
   <meta content="https:/ellaria.world/" data-hid="og:url" data-n-head="ssr" property="og:url"/>
@@ -492,10 +505,18 @@
       width: 35%;
       position: absolute;
       right: 4vw;
-      top: 45%;
+      top: 41%;
       transform: translateY(-50%);
       padding: 2%;
       background: rgba(0, 0, 0, 0.5);
+    }
+
+    .timer_down_text {
+      margin-bottom: 3%;
+    }
+
+    .timer_2 {
+      display: none;
     }
 
     @media (max-width: 1383px) {

@@ -1507,10 +1507,18 @@
                      attrs: {
                         'action': "#"
                      }}, [
-                        v("div", {staticClass: 'timer_form_block'}, [
-                           v('input', {staticClass: 'timer_form_entry', attrs: {'type': 'email', 'placeholder': 'Enter Email Address'}}),
-                           v('input', {staticClass: 'timer_form_send', attrs: {'type': 'submit', 'value': 'SUBSCRIBE'}})
-                        ])
+                        v('getresponse-form', {
+                           staticClass: 'form_block',
+                           attrs: {
+                              "form-id": "e15da53e-87de-4949-8d82-38b015464daa",
+                              "e": "0"
+                           }
+                        }),
+
+                        // v("div", {staticClass: 'timer_form_block'}, [
+                        //    v('input', {staticClass: 'timer_form_entry', attrs: {'type': 'email', 'placeholder': 'Enter Email Address'}}),
+                        //    v('input', {staticClass: 'timer_form_send', attrs: {'type': 'submit', 'value': 'SUBSCRIBE'}})
+                        // ])
                      ]
                   )
 

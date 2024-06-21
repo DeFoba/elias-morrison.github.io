@@ -740,10 +740,19 @@
                      attrs: {
                         'action': "#"
                      }}, [
-                        f("div", {staticClass: 'timer_form_block'}, [
-                           f('input', {staticClass: 'timer_form_entry', attrs: {'type': 'email', 'placeholder': 'Enter Email Address'}}),
-                           f('input', {staticClass: 'timer_form_send', attrs: {'type': 'submit', 'value': 'SUBSCRIBE'}})
-                        ])
+                        f('getresponse-form', {
+                           staticClass: 'form_block',
+                           attrs: {
+                                 "form-id": "e15da53e-87de-4949-8d82-38b015464daa",
+                                 "e": "0"
+                              }
+                           }),
+
+                        // f("div", {staticClass: 'timer_form_block'}, [
+                           
+                        //    f('input', {staticClass: 'timer_form_entry', attrs: {'type': 'email', 'placeholder': 'Enter Email Address'}}),
+                        //    f('input', {staticClass: 'timer_form_send', attrs: {'type': 'submit', 'value': 'SUBSCRIBE'}})
+                        // ])
                      ]
                   )
 
