@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <link rel="stylesheet" href="css/style2.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="/fav-32x32.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STAKING | ELLARIA AI</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.6.9/ethers.umd.min.js"></script>
+  <style>
+    .stake-item {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div data-v-4a049f48="" data-scroll="" class="c-section_bg is-inview">
+    <img data-v-4a049f48="" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9Ijc1NCIgdmlld0JveD0iMCAwIDEwNTAgNzU0IiB3aWR0aD0iMTA1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iNS40OTI5NTQlIiB4Mj0iODAuMzMzMzAyJSIgeTE9IjY2LjUzODAxOCUiIHkyPSIyOS4yMDI1ODclIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMzMGE4Y2MiLz48c3RvcCBvZmZzZXQ9Ii4zNTYyMTQ4MyIgc3RvcC1jb2xvcj0iIzE1MGY0MSIvPjxzdG9wIG9mZnNldD0iLjY1OTI4NTUyOSIgc3RvcC1jb2xvcj0iIzc2NmJkMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI4MGE3OCIvPjwvbGluZWFyR3JhZGllbnQ+PGZpbHRlciBpZD0iYiIgaGVpZ2h0PSIxNTYuMyUiIHdpZHRoPSIxMzYuMyUiIHg9Ii0xOC4yJSIgeT0iLTI4LjIlIj48ZmVHYXVzc2lhbkJsdXIgaW49IlNvdXJjZUdyYXBoaWMiIHN0ZERldmlhdGlvbj0iNTAiLz48L2ZpbHRlcj48cGF0aCBkPSJtMzY0Ljg3NDA4MSA2MDYuNzI3NjUyYy02Ni4zMDEwMzQtMTM2LjcyMTg3OC0zMTguMTk2NTY5My0xNTIuMzY3ODY3LTI0NC4xNTIzNDktMjU5LjQ4MjcxOSA3NC4wNDQyMjEtMTA3LjExNDg1MSA5OC45Njc2MDMtNzUuMTAwNzQ5IDI4Ni43Mzk4NzUtNzUuMTAwNzQ5czQ2Mi4xNzE0NDMtMjkxLjczNzUyNzggMzgwLjYyNjAxLTc1LjEwMDc1Yy04MS41NDU0MzIgMjE2LjYzNjc3OCAzNjguOTU1MDQzIDY3OS40NTY1NjYtNy41NDQ5NTkgMzE5Ljk1NjU2Ni0zNzYuNS0zNTkuNS0zNDkuMzY3NTQzIDIyNi40NDk1MjktNDE1LjY2ODU3NyA4OS43Mjc2NTJ6IiBmaWxsPSJ1cmwoI2EpIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgMTA0MC4wNDI2NTggMCkiLz48L3N2Zz4=" alt="" class="blur-move-a">
+    <img data-v-4a049f48="" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMzUiIHZpZXdCb3g9IjAgMCAxNDM4IDEwMzUiIHdpZHRoPSIxNDM4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI1LjQ5Mjk1NCUiIHgyPSI4MC4zMzMzMDIlIiB5MT0iNjcuNDk0NzUyJSIgeTI9IjI3Ljk5OTQ0NCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzMwYThjYyIvPjxzdG9wIG9mZnNldD0iLjM1NjIxNDgzIiBzdG9wLWNvbG9yPSIjMTUwZjQxIi8+PHN0b3Agb2Zmc2V0PSIuNjU5Mjg1NTI5IiBzdG9wLWNvbG9yPSIjNzY2YmQwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMjgwYTc4Ii8+PC9saW5lYXJHcmFkaWVudD48ZmlsdGVyIGlkPSJiIiBoZWlnaHQ9IjEzNy43JSIgd2lkdGg9IjEyNSUiIHg9Ii0xMi41JSIgeT0iLTE4LjglIj48ZmVHYXVzc2lhbkJsdXIgaW49IlNvdXJjZUdyYXBoaWMiIHN0ZERldmlhdGlvbj0iNTAiLz48L2ZpbHRlcj48cGF0aCBkPSJtNDY1LjQyMTk4MiA3NzUuNDg1MTUzYy04OS4xNDgwMTMtMTgzLjgzNTQ5Ny00MjcuODQ1Mzg3OC0yMDQuODczMDEtMzI4LjI4NTkyOS0zNDguODk5MDYgOTkuNTU5NDU5LTE0NC4wMjYwNSAxMzMuMDcxMzAzLTEwMC45ODAwNjIgMzg1LjU0ODg4NS0xMDAuOTgwMDYyIDI1Mi40Nzc1ODMgMCA2MjEuNDMzMjIyLTM5Mi4yNjg3MDI3IDUxMS43ODc2NzItMTAwLjk4MDA2Mi0xMDkuNjQ1NTQzIDI5MS4yODg2NCA2NDYuNDg1NzcgODE2LjkwMjgxMSA1Ny41ODgzMiA2NTkuNjA2OTQ0LTU4OC44OTc0NTQtMTU3LjI5NTg2Ni01MzcuNDkwOTM2IDc1LjA4NzczOC02MjYuNjM4OTQ4LTEwOC43NDc3NnoiIGZpbGw9InVybCgjYSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZmlsdGVyPSJ1cmwoI2IpIi8+PC9zdmc+" alt="" class="blur-move-b">
+    <span data-v-4a049f48="" class="bg_block"></span>
+  </div>
+
+  <div id="header">
+
+    <a id="logo" href="/">
+      <div class="logo_block">
+        <div class="logo_background">
+          <div id="logo_first" class="logo_text">ELLARIA</div><div id="logo_second" class="logo_text">AI</div>
+        </div>
+          <div id="logo_third" class="logo_text">.</div>
+          <div class="logo_discount">
+            <div id="logo_four" class="gradient">STAKING</div>
+          </div>
+      </div>
+    </a>
+
+    <ul id="menu">
+      <!-- <li class="menu_nav"><a href="#">About</a></li> -->
+      <li class="menu_nav"><a href="#" target="_blank">FAQ</a></li>
+      <!-- <li class="menu_nav"><a href="#">Whitepaper</a></li>
+      <li class="menu_nav"><a href="#">Chart</a></li>
+      <li class="menu_nav"><a href="#">Docs</a></li> -->
+    </ul>
+  </div>
+
+  <div id="content">
+    <div id="maincontainer">
+
+      <div id="container_logo">
+        <div id="container_logo_image"></div>
+      </div>
+
+      <!-- <div id="title_side">
+
+      </div> -->
+
+      <h1 id="title_side">Lyrica Staking <span class="color_text">DApp</span></h1>
+
+      <div id="main_side">
+        <div id="wallet">
+          <button id="connectWallet">Connect Wallet</button>
+          <p id="account" style="display: none;"></p>
+        </div>
+
+        <div id="stake">
+          <h2 class="first_subtitle">Stake Tokens</h2>
+          <input type="number" id="amount" class="stake_input" placeholder="Amount to stake">
+          <select id="lockPeriod" class="stake_input_btn">
+            <option value="7">7 days</option>
+            <option value="14">14 days</option>
+            <option value="21">21 days</option>
+            <option value="30">30 days</option>
+          </select>
+          <button id="approveTokens" class="stake_input_btn">Approve Tokens</button>
+          <button id="stakeTokens" style="display: none;" class="stake_input_btn">Stake</button>
+        </div>
+
+        <div id="stakes">
+          <h2>Your Stakes</h2>
+          <div id="stakeList">
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- <div class="gradient-swap"></div> -->
+
+  <h2 class="tables_main_title">Staking Plans</h2>
+
+  <div id="tables">
+
+    <div class="table" id="table1">
+      <div class="table_title">7Days</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+    </div>
+
+    <div class="table" id="table2">
+      <div class="table_title">7Days</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+    </div>
+
+    <div class="table" id="table2">
+      <div class="table_title">7Days</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+    </div>
+
+    <div class="table" id="table2">
+      <div class="table_title">7Days</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+      <div class="table_content">5% profit in Eth (min x tokens)</div>
+    </div>
+
+  </div>
+  
+
+  <script>
+    const sepoliaChainId = '0xaa36a7'; // Chain ID для сети Sepolia
+    const stakingContractAddress = "0x626AC0709606d21B248ceEd25Ee46494353719c4"; // Замените на адрес вашего контракта
+    const tokenContractAddress = "0x4b303A25e37d2BAB5ffF1707ae6aADEEe83Fc242"; // Замените на адрес вашего токена
+    const stakingContractABI = [
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "lockPeriodInDays",
+            "type": "uint256"
+          }
+        ],
+        "name": "stakeTokens",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "withdrawReward",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          }
+        ],
+        "name": "getStakes",
+        "outputs": [
+          {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "amount",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "startTime",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "lockPeriod",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct StakingContract.Stake[]",
+            "name": "",
+            "type": "tuple[]"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]; // Добавьте ABI вашего контракта
+    const tokenABI = [
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "_spender",
+            "type": "address"
+          },
+          {
+            "name": "_value",
+            "type": "uint256"
+          }
+        ],
+        "name": "approve",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "type": "function"
+      }
+    ]; // Добавьте ABI вашего токена
+
+    let provider;
+    let signer;
+    let stakingContract;
+    let tokenContract;
+
+    const switchToSepolia = async () => {
+      try {
+        await window.ethereum.request({
+          method: 'wallet_switchEthereumChain',
+          params: [{ chainId: sepoliaChainId }],
+        });
+      } catch (switchError) {
+        // Этот код означает, что сеть не добавлена в MetaMask
+        if (switchError.code === 4902) {
+          try {
+            await window.ethereum.request({
+              method: 'wallet_addEthereumChain',
+              params: [
+                {
+                  chainId: sepoliaChainId,
+                  chainName: 'Sepolia Test Network',
+                  rpcUrls: ['https://rpc.sepolia.org'] /* Замените на правильный RPC URL */,
+                  nativeCurrency: {
+                    name: 'Sepolia Ether',
+                    symbol: 'ETH',
+                    decimals: 18,
+                  },
+                  blockExplorerUrls: ['https://sepolia.etherscan.io'] /* Замените на правильный Explorer URL */,
+                },
+              ],
+            });
+          } catch (addError) {
+            console.error(addError);
+          }
+        }
+        console.error(switchError);
+      }
+    };
+
+    const fetchStakes = async (address) => {
+      try {
+        console.log('Fetching stakes for address:', address);
+        const stakes = await stakingContract.getStakes(address);
+        console.log('Stakes fetched:', stakes);
+        const stakeList = document.getElementById('stakeList');
+        stakeList.innerHTML = '';
+        stakes.forEach((stake, index) => {
+          const amount = ethers.BigNumber.from(stake.amount);
+          const startTime = ethers.BigNumber.from(stake.startTime);
+          const lockPeriod = ethers.BigNumber.from(stake.lockPeriod);
+          const rewardRate = getRewardRate(amount, lockPeriod.div(24 * 60 * 60).toNumber());
+          const totalReward = calculateReward(amount, rewardRate).div(5700);
+          const currentTime = Math.floor(Date.now() / 1000);
+          const timeElapsed = Math.min(currentTime - startTime.toNumber(), lockPeriod.toNumber());
+          const amountReward = calculateReward(amount, rewardRate).mul(timeElapsed).div(lockPeriod).div(5700);
+          const stakeItem = document.createElement('div');
+          stakeItem.className = 'stake-item';
+          stakeItem.innerHTML = `
+            <p>Amount Staked: ${ethers.utils.formatUnits(amount, 18)} $ELLA</p>
+            <p>Amount Reward: ${ethers.utils.formatUnits(amountReward, 18)} $ETH (Total Reward: ${ethers.utils.formatUnits(totalReward, 18)} $ETH)</p>
+            <p>Lock Period: ${lockPeriod.div(24 * 60 * 60).toNumber()} days</p>
+            <p>Reward Rate: ${rewardRate}%</p>
+            <p>Start Time: ${new Date(startTime.toNumber() * 1000).toLocaleString()}</p>
+            <p>End Time: ${new Date((startTime.toNumber() + lockPeriod.toNumber()) * 1000).toLocaleString()}</p>
+            <button onclick="claimElla(${index})">Claim $ELLA</button>
+            <button onclick="claimEth(${index})">Claim $ETH</button>
+          `;
+          stakeList.appendChild(stakeItem);
+        });
+      } catch (error) {
+        console.error('Error fetching stakes:', error);
+      }
+    };
+
+    const calculateReward = (amount, rewardRate) => {
+      return amount.mul(rewardRate).div(100);
+    };
+
+    const getRewardRate = (amount, lockPeriodInDays) => {
+      const TOKENS_PER_DOLLAR = 5700;
+      const amountInDollars = amount.div(TOKENS_PER_DOLLAR).toNumber();
+      if (lockPeriodInDays == 7) {
+        if (amountInDollars < 500) return 5;
+        if (amountInDollars < 1000) return 6;
+        if (amountInDollars < 5000) return 7;
+        return 8;
+      } else if (lockPeriodInDays == 14) {
+        if (amountInDollars < 500) return 12;
+        if (amountInDollars < 1000) return 14;
+        if (amountInDollars < 5000) return 16;
+        return 18;
+      } else if (lockPeriodInDays == 21) {
+        if (amountInDollars < 500) return 21;
+        if (amountInDollars < 1000) return 24;
+        if (amountInDollars < 5000) return 27;
+        return 30;
+      } else if (lockPeriodInDays == 30) {
+        if (amountInDollars < 500) return 32;
+        if (amountInDollars < 1000) return 36;
+        if (amountInDollars < 5000) return 40;
+        return 44;
+      }
+      return 0;
+    };
+
+    const claimElla = async (stakeIndex) => {
+      alert(`Staking is still in progress...
+Please wait until the end of the period!`);
+    };
+
+    const claimEth = async (stakeIndex) => {
+      alert(`Staking is still in progress...
+Please wait until the end of the period!`);
+    };
+
+    document.getElementById('connectWallet').onclick = async () => {
+      if (typeof window.ethereum !== 'undefined') {
+        await window.ethereum.request({ method: 'eth_requestAccounts' });
+        await switchToSepolia();
+        provider = new ethers.providers.Web3Provider(window.ethereum);
+        signer = provider.getSigner();
+        const address = await signer.getAddress();
+        document.getElementById('connectWallet').style.display = 'none';
+        const accountElement = document.getElementById('account');
+        accountElement.innerText = `Connected: ${address}`;
+        accountElement.style.display = 'block';
+        stakingContract = new ethers.Contract(stakingContractAddress, stakingContractABI, signer);
+        tokenContract = new ethers.Contract(tokenContractAddress, tokenABI, signer);
+        await fetchStakes(address);
+      } else {
+        alert('Please install MetaMask!');
+      }
+    };
+
+    document.getElementById('approveTokens').onclick = async () => {
+      const amount = document.getElementById('amount').value;
+      if (amount && tokenContract) {
+        const amountInWei = ethers.utils.parseUnits(amount, 18);
+        try {
+          const tx = await tokenContract.approve(stakingContractAddress, amountInWei);
+          await tx.wait();
+          alert('Tokens approved successfully!');
+          document.getElementById('approveTokens').style.display = 'none';
+          document.getElementById('stakeTokens').style.display = 'block';
+        } catch (error) {
+          console.error('Error approving tokens:', error);
+          alert('Failed to approve tokens');
+        }
+      } else {
+        alert('Please enter amount to approve');
+      }
+    };
+
+    document.getElementById('stakeTokens').onclick = async () => {
+      const amount = document.getElementById('amount').value;
+      const lockPeriod = document.getElementById('lockPeriod').value;
+      if (amount && lockPeriod && stakingContract) {
+        const amountInWei = ethers.utils.parseUnits(amount, 18);
+        try {
+          const tx = await stakingContract.stakeTokens(amountInWei, parseInt(lockPeriod));
+          await tx.wait();
+          alert('Tokens staked successfully!');
+          const address = await signer.getAddress();
+          await fetchStakes(address);
+        } catch (error) {
+          console.error('Error staking tokens:', error);
+          alert('Failed to stake tokens');
+        }
+      } else {
+        alert('Please enter amount and select lock period');
+      }
+    };
+  </script>
+  <script src="script/main.js"></script>
+</body>
+</html>
