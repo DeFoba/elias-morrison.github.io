@@ -1486,7 +1486,7 @@
                 v("div", {
                   staticClass: "timer_main_block timer_2"
                }, [
-                  v("h5", {staticClass: 'timer_title'}, [v("a", {staticClass: 'timer_link', attrs: {'href': '#'}}, [m._v("$ELLA")]), m._v(" LAUNCH IN:")]),
+                  v("h5", {staticClass: 'timer_title'}, [m._v("PRESALE STARTS IN:")]),
                   v("div", {staticClass: "timer_block"}, [
                      v("div", {staticClass: "timer_el_block"}, [v("span", {staticClass: "timer_el", attrs: {"id": "timer_days2"}}, [m._v("00")]), v("span", {staticClass: "timer_el_text"}, [m._v("DAYS")])]),
                      m._v(":"),
@@ -1499,8 +1499,8 @@
                   v("div", {staticClass: 'timer_empty'}, [m._v(" ")]),
                   v("h5", {staticClass: 'timer_text timer_down_text'}, [
                      v("a", {staticClass: 'timer_link', attrs: {'href': '#'}}, [m._v("SIGN UP")]),
-                     m._v(" for our newsletter to receive a notification once the sale is live and get an exclusive "),
-                     v("a", {staticClass: 'timer_link', attrs: {'href': '#'}}, [m._v("AIRDROPS")]), m._v(' and '), v("a", {staticClass: 'timer_link', attrs: {'href': '#'}}, [m._v("BONUSES!")])
+                     m._v(" for our newsletter to receive a notification once the presale is live and a "),
+                     v("a", {staticClass: 'timer_link', attrs: {'href': '#'}}, [m._v("10% DISCOUNT!")]),
                   ]),
                   v("form", {
                      staticClass: "timer_form_main",
