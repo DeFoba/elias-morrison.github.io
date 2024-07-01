@@ -902,7 +902,7 @@
                    staticClass: "circle -last"
                 }), z._v(" "), Z("div", {
                    staticClass: "-m"
-                }, [z._v("2024 Q4: Ellaria's Inaugural Voyage")]), z._v(" "), Z("span", [z._v(z._s(null === (t = z.data) || void 0 === t || null === (e = t.list) || void 0 === e || null === (c = e[0]) || void 0 === c ? void 0 : c.text))])])]), z._v(" "), Z("div", {
+                }, [z._v("2023 Q4: Ellaria's Inaugural Voyage")]), z._v(" "), Z("span", [z._v(z._s(null === (t = z.data) || void 0 === t || null === (e = t.list) || void 0 === e || null === (c = e[0]) || void 0 === c ? void 0 : c.text))])])]), z._v(" "), Z("div", {
                    staticClass: "c-dna_item -radius-bl-tr",
                    attrs: {
                       "data-scroll": ""
